@@ -1,17 +1,15 @@
 'use strict'
 
-const Sequelize = require('sequelize');
-const db = require('../index.js');
+const Sequelize = require('sequelize')
+const db = require('../index.js')
 
 const Battlerite = db.define('battlerites', {
   name: {
-    type: Sequelize.STRING,
-    allowNull: false
+    type: Sequelize.STRING
   },
   description: {
-    type: Sequelize.TEXT,
-    allowNull: false
+    type: Sequelize.STRING
   }
 })
 
-module.exports = Battlerite;
+module.exports = Battlerite
