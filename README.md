@@ -6,7 +6,8 @@ This is a work in progress to give Battlerite players a place to create, edit, a
 
 1. ```createdb battlerite-tools```
 2. ```npm install```
-3. ```npm start```
+3. ```npm run seed```
+4. ```npm start```
 
 ## Credits
 
