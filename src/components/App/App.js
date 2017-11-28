@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import classnames from 'classnames';
-import { Link } from 'react-router-dom';
 
 class App extends Component {
 
@@ -14,13 +13,10 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
-        <Link to='about'><button>Test React Router</button></Link>
+        <button onClick={this.props.actions.dbTestNew}>Test if Battlerite models are working</button>
         <br />
         <br />
-        <button onClick={this.props.actions.expressTest}>Test if Express is working</button>
-        <br />
-        <br />
-        <button onClick={this.props.actions.dbTest}>Test if Express and Sequelize are working</button>
+        <button onClick={this.props.actions.dbTestNew2}>Test if Loadout models are working</button>
         <div style={{ padding: '30px' }}>{this.props.results}</div>
       </div>
     );

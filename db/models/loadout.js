@@ -5,10 +5,12 @@ const db = require('../index.js')
 
 const Loadout = db.define('loadouts', {
   name: {
-    type: Sequelize.STRING
+    type: Sequelize.STRING,
+    allowNull: false
   },
   description: {
-    type: Sequelize.STRING
+    type: Sequelize.TEXT,
+    allowNull: false
   }
 })
 

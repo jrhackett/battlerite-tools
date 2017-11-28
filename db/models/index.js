@@ -1,8 +1,8 @@
-'use strict' 
+'use strict'
 
 const Loadout = require('./loadout')
 const Battlerite = require('./battlerite')
 
-Loadout.hasMany(Battlerite, { as: 'battlerites' })
+Loadout.hasMany(Battlerite)
 
-module.exports = { Battlerite, Loadout }
+module.exports = {Loadout, Battlerite};

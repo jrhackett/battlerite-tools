@@ -9,10 +9,10 @@ const seedBattlerites = () => db.Promise.map([
 ], battlerite => db.model('battlerites').create(battlerite))
 
  db.didSync
-  .then(() => db.sync({force: true}))
-  .then(seedLoadouts)
-  .then(loadouts => console.log(`Seeded ${loadouts.length} loadouts OK`))
-  .then(seedBattlerites)
-  .then(battlerites => console.log(`Seeded ${battlerites.length} battlerites OK`))
-  .catch(error => console.error(error))
-  .finally(() => db.close())
+   .then(() => db.sync({force: true}))
+   .then(seedLoadouts)
+   .then(loadouts => console.log(`Seeded ${loadouts.length} loadouts OK`))
+   .then(seedBattlerites)
+   .then(battlerites => console.log(`Seeded ${battlerites.length} battlerites OK`))
+   .catch(error => console.error(error))
+   .finally(() => db.close())
