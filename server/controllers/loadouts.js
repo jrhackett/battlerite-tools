@@ -1,10 +1,9 @@
-'use strict';
+const Loadout = require('../../db/models/loadout')
+const Battlerite = require('../../db/models/battlerite')
 
-const router = require('express').Router()
-const Loadout = require('../db/models/loadout')
-const Battlerite = require('../db/models/battlerite')
+const controller = {}
 
-router.get('/', function(req, res, next) {
+controller.getLoadouts = function(req, res, next) {
   Loadout.findAll({
     include: [Battlerite]
   })
@@ -12,9 +11,9 @@ router.get('/', function(req, res, next) {
     res.status(200).send(result)
   })
   .catch(next)
-});
+}
 
-router.get('/:id', function(req, res, next) {
+controller.getLoadoutById = function(req, res, next) {
   Loadout.findOne({
     where:{id:req.params.id},
     include: [Battlerite]
@@ -23,6 +22,6 @@ router.get('/:id', function(req, res, next) {
     res.status(200).send(result)
   })
   .catch(next)
-})
+}
 
-module.exports = router
+module.exports = controller

@@ -6,7 +6,7 @@ const bodyParser = require('body-parser')
 
 const app = express();
 
-const api = require('./api')
+const routes = require('./routes')
 
 // Setup logger
 app.use(morgan(':remote-addr - :remote-user [:date[clf]] ":method :url HTTP/:http-version" :status :res[content-length] :response-time ms'));
@@ -17,7 +17,7 @@ app.use(bodyParser.json())
 // Serve static assets
 app.use(express.static(path.resolve(__dirname, '..', 'build')))
 // Serve our api
-app.use('/api', api)
+app.use('/api', routes)
 
 // Always return the main index.html, so react-router render the route in the client
 app.get('*', (req, res) => {
