@@ -20,7 +20,7 @@ const db = module.exports = new Sequelize(url, {
 })
 
 // pull in our models
-require('./models')
+require('../server/models')
 
 // sync the db, creating it if necessary
 function sync(retries=0, maxRetries=5) {

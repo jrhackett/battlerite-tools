@@ -1,5 +1,5 @@
 const db = require('../../db')
-const Loadout = require('../../db/models/loadout')
+const Loadout = require('../models/loadout')
 
 const router = require('express').Router()
 

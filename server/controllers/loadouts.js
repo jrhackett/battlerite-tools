@@ -1,5 +1,5 @@
-const Loadout = require('../../db/models/loadout')
-const Battlerite = require('../../db/models/battlerite')
+const Loadout = require('../models/loadout')
+const Battlerite = require('../models/battlerite')
 
 const controller = {}
 

@@ -1,4 +1,4 @@
-const Battlerite = require('../../db/models/battlerite')
+const Battlerite = require('../models/battlerite')
 
 const controller = {}
 
