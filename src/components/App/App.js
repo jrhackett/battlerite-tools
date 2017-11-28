@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import classnames from 'classnames';
+import React, { Component } from 'react'
+import classnames from 'classnames'
 
 class App extends Component {
 
@@ -23,4 +23,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default App
