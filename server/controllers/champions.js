@@ -1,17 +1,17 @@
-const Battlerite = require('../models/battlerite')
+const Champion = require('../models/champion')
 
 const controller = {}
 
-controller.getBattlerites = function(req, res, next) {
-  Battlerite.findAll({})
+controller.getChampions = function(req, res, next) {
+  Champion.findAll({})
     .then(result => {
       res.status(200).send(result)
     })
     .catch(next)
 }
 
-controller.getBattleriteById = function(req, res, next) {
-  Battlerite.findOne({
+controller.getChampionById = function(req, res, next) {
+  Champion.findOne({
       where: { id: req.params.id }
     })
     .then(result => {

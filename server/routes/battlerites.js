@@ -1,5 +1,4 @@
 const db = require('../../db')
-const Battlerite = require('../models/battlerite')
 
 const router = require('express').Router()
 

@@ -15,7 +15,7 @@ controller.getLoadouts = function(req, res, next) {
 
 controller.getLoadoutById = function(req, res, next) {
   Loadout.findOne({
-      where: { id:req.params.id },
+      where: { id: req.params.id },
       include: [Battlerite]
     })
     .then(result => {
