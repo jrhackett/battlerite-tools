@@ -10,6 +10,6 @@ const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose
 const store = createStore(reducers, /* preloadedState, */ composeEnhancers(middleware))
 
 ReactDOM.render(
-  <Root store={ store }/>,
+  <Root store={ store } />,
   document.getElementById('root')
 )
