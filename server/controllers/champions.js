@@ -20,4 +20,14 @@ controller.getChampionById = function(req, res, next) {
     .catch(next)
 }
 
+controller.getChampionByName = function(req, res, next) {
+  if( req.query )
+    const query = { ...Object.keys(req.query.map(key => {[key: query[key]} ) ) }
+    Champion.findAll({
+    where: query
+  })
+  else 
+    Champion.findAll({})
+}
+
 module.exports = controller

@@ -6,6 +6,10 @@ const Champion = db.define('champions', {
     type: Sequelize.STRING,
     allowNull: false
   }
+  roll: {
+  	type: sequelize.STRING,
+  	allowNull: false
+  }
 })
 
 module.exports = Champion
