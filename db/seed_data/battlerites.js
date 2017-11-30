@@ -35,39 +35,39 @@ const croak = [
 ]
 
 const freya = [
-  { name: 'Static Hammers', description: '', champion_id: 3 },
-  { name: 'Tempest', description: '', champion_id: 3 },
-  { name: 'Thunderbolt', description: '', champion_id: 3 },
-  { name: 'Twin Hammers', description: '', champion_id: 3 },
-  { name: 'Electric Conduction', description: '', champion_id: 3 },
-  { name: 'Lightning Speed', description: '', champion_id: 3 },
-  { name: 'Thundering Spring', description: '', champion_id: 3 },
-  { name: 'Hammer Time', description: '', champion_id: 3 },
-  { name: 'Overcharge', description: '', champion_id: 3 },
-  { name: 'Lightning Rod', description: '', champion_id: 3 },
-  { name: 'Rolling Thunder', description: '', champion_id: 3 },
-  { name: 'Torrent', description: '', champion_id: 3 },
-  { name: 'Surge', description: '', champion_id: 3 },
-  { name: 'Thunderstruck', description: '', champion_id: 3 },
-  { name: 'Positive Charge', description: '', champion_id: 3 }
+  { name: 'Static Hammers', description: 'Hittin an enemy with Static using Bash increases the duration of Static by 1s up to a maximum duration of 6s.', champion_id: 3 },
+  { name: 'Tempest', description: 'Landing Storm Mac increases your movement speed by 35% for 2s.', champion_id: 3 },
+  { name: 'Thunderbolt', description: 'Storm Mace deals 6 bonus damage to enemies already affected by Static and the Incapacitate duration is increased by 0.5s.', champion_id: 3 },
+  { name: 'Twin Hammers', description: 'Storm Mace gains 1 ability charge but cooldown increases by 1s.', champion_id: 3 },
+  { name: 'Electric Conduction', description: 'While the Spring effect is active, your next Bash also grants you a 14 health Shield for 3s.', champion_id: 3 },
+  { name: 'Lightning Speed', description: 'Melee attack speed increases by 30% for the next 3 swings after using Spring.', champion_id: 3 },
+  { name: 'Thundering Spring', description: 'Spring range increases by 25% and haste duration increases by 0.5s.', champion_id: 3 },
+  { name: 'Hammer Time', description: 'Countering an attack with Electric Shield reduces the remaining cooldown of Thunderclap by 2.5s.', champion_id: 3 },
+  { name: 'Overcharge', description: 'Countering an attack with Electric Shield inflicts Static on nearby enemies and applies a 16 health Shield on nearby allies.', champion_id: 3 },
+  { name: 'Lightning Rod', description: 'Each target hit by Thunderclap grants you a 12 health Shield for 3s.', champion_id: 3 },
+  { name: 'Rolling Thunder', description: 'Move forward during Thunderclap.', champion_id: 3 },
+  { name: 'Torrent', description: 'Thunderclap deals 5 bonus damage and pulls enemies towards you.', champion_id: 3 },
+  { name: 'Surge', description: 'Reduces Charged Strike cooldown by 3s and hitting at least one target grants 25% energy.', champion_id: 3 },
+  { name: 'Thunderstruck', description: 'Lightning Strike applies a Stun for 1s.', champion_id: 3 },
+  { name: 'Positive Charge', description: 'Your damage output increases by 15% when you have an active Electric Shield.', champion_id: 3 }
 ]
 
 const raigon = [
-  { name: 'Binding Light', description: '', champion_id: 4 },
-  { name: 'Headlong Rush', description: '', champion_id: 4 },
-  { name: 'Acrobatics', description: '', champion_id: 4 },
-  { name: 'Hawk Dive', description: '', champion_id: 4 },
-  { name: 'Overflowing Power', description: '', champion_id: 4 },
-  { name: 'Royal Descent', description: '', champion_id: 4 },
-  { name: 'Duelist', description: '', champion_id: 4 },
-  { name: 'Invigorate', description: '', champion_id: 4 },
-  { name: 'Riposte', description: '', champion_id: 4 },
-  { name: 'Aerial Strike', description: '', champion_id: 4 },
-  { name: 'Perilous Height', description: '', champion_id: 4 },
-  { name: 'Soaring Speed', description: '', champion_id: 4 },
-  { name: 'Dragon Mastery', description: '', champion_id: 4 },
-  { name: 'The Tiger and the Dragon', description: '', champion_id: 4 },
-  { name: 'Agility', description: '', champion_id: 4 }
+  { name: 'Binding Light', description: 'Retribution inflicts a Fading Snare for 0.5s. Each weapon charge increases the duration by 0.3s.', champion_id: 4 },
+  { name: 'Headlong Rush', description: 'The dash length of Retribution is increased by 20%.', champion_id: 4 },
+  { name: 'Acrobatics', description: 'Decrease the minimum range of Heavenly Strike by 50% and increase the maximum range by 30%.', champion_id: 4 },
+  { name: 'Hawk Dive', description: 'Heavenly Strike inflicts a 50% Weaken for 2s.', champion_id: 4 },
+  { name: 'Overflowing Power', description: 'Hitting an enemy with Heavenly Strike grants you a charge of Slicing Winds. Your Sword Slash consumes a charge to send forth a Slicing Wind that deals 10 damage and heals you for 12 health on hit.', champion_id: 4 },
+  { name: 'Royal Descent', description: 'Heavenly Strike deals 6 bonus damage and inflicts a Fading Snare for 1.2s.', champion_id: 4 },
+  { name: 'Duelist', description: 'Each deflected attack heals you for 4 health. The first attack deflected grants you a charge of Slicing Winds. Your Sword Slash consumes a charge to send forth a Slicing Wind that deals 10 damage an heals you for 12 health on hit.', champion_id: 4 },
+  { name: 'Invigorate', description: 'Move at 100% movement speed during Parry. Heal yourself and nearby allies for 8 when Parry ends.', champion_id: 4 },
+  { name: 'Riposte', description: 'Parry ends with a Spinning Slash that hits twice, dealing 8 damage and inflicting a Stun for 0.3s.', champion_id: 4 },
+  { name: 'Aerial Strike', description: 'Seismic Shock can be recast to leap to the airborne target and strike them, dealing 6damage and increasing air duration by 0.7s.', champion_id: 4 },
+  { name: 'Perilous Height', description: 'When enemies hit by Seismic Shock land, they take 10 damage and nearby enemies take 16 damage.', champion_id: 4 },
+  { name: 'Soaring Speed', description: 'Landing Seismic Shock grants you a 70% Fading Haste for 2.5s.', champion_id: 4 },
+  { name: 'Dragon Mastery', description: 'Landing Dragon Palm allows you to recast it for 1.5s.', champion_id: 4 },
+  { name: 'The Tiger and the Dragon', description: 'Wrath of the Tiger ends with a Heavenly Strike.', champion_id: 4 },
+  { name: 'Agility', description: 'Increases movement speed by 10%.', champion_id: 4 }
 ]
 
 const rook = [
