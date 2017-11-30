@@ -24,10 +24,18 @@ controller.getChampionByName = function(req, res, next) {
   if( req.query )
     const query = { ...Object.keys(req.query.map(key => {[key: query[key]} ) ) }
     Champion.findAll({
-    where: query
-  })
+      where: query
+    })
+    .then(result => {
+      res.status(200).send(result)
+    })
+    .catch(next)
   else 
     Champion.findAll({})
+    .then(result => {
+      res.status(200).send(result)
+    })
+    .catch(next)
 }
 
 module.exports = controller

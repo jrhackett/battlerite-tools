@@ -9,6 +9,10 @@ const Battlerite = db.define('battlerites', {
   description: {
     type: Sequelize.TEXT,
     allowNull: false
+  },
+  uuid: {
+  	Sequelize.UUID,
+  	allowNull: false
   }
 })
 

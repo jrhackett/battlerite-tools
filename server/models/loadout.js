@@ -6,6 +6,21 @@ const Loadout = db.define('loadouts', {
     type: Sequelize.STRING,
     allowNull: false
   }
+  user: {
+  	type: Sequelize.STRING,
+  	allowNull: false
+  }
+  champion: {
+  	type: Sequelize.STRING,
+  	allowNull: false
+  }
+  uuid: {
+  	type: Sequelize.UUID
+  }
+  build: {
+  	type: Sequelize.UUID
+  }
+
 })
 
 module.exports = Loadout
