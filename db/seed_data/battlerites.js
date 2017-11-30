@@ -71,40 +71,40 @@ const raigon = [
 ]
 
 const rook = [
-  { name: 'Pummel Rush', description: '', champion_id: 5 },
-  { name: 'Rook Smash', description: '', champion_id: 5 },
-  { name: 'Squash', description: '', champion_id: 5 },
-  { name: 'Weapon Break', description: '', champion_id: 5 },
-  { name: 'Endurance', description: '', champion_id: 5 },
-  { name: 'Frenzy', description: '', champion_id: 5 },
-  { name: 'Raging Bull', description: '', champion_id: 5 },
-  { name: 'Giant', description: '', champion_id: 5 },
-  { name: 'Madness', description: '', champion_id: 5 },
-  { name: 'War Cry', description: '', champion_id: 5 },
-  { name: 'Crag', description: '', champion_id: 5 },
-  { name: 'Crumble', description: '', champion_id: 5 },
-  { name: 'Earthquake', description: '', champion_id: 5 }
+  { name: 'Pummel Rush', description: 'Successful Pummel hits reduce the cooldown of Rush by 0.4s.', champion_id: 5 },
+  { name: 'Rook Smash', description: 'Crushing Blow deals 6 bonus damage.', champion_id: 5 },
+  { name: 'Squash', description: 'Crushing Blow inflicts a 0.5s Stun.', champion_id: 5 },
+  { name: 'Weapon Break', description: 'Crushing Blow deals 2 bonus damage and enemies affected by Armor Break deal 33% less damage.', champion_id: 5 },
+  { name: 'Endurance', description: 'Rush cooldown is reduced by 1s, using Rush without hitting an enemy reduces the cooldown by another 3s.', champion_id: 5 },
+  { name: 'Frenzy', description: 'Landing Rush causes you to enter Berserk for 1.5s.', champion_id: 5 },
+  { name: 'Raging Bull', description: 'Reduces cast time of Rush by 60% and it deals 4 bonus damage while Berserk is active.', champion_id: 5 },
+  { name: 'Giant', description: 'Damage taken during Berserk is reduces by 30%.', champion_id: 5 },
+  { name: 'Madness', description: 'Berserk movement speed bonus is increased by 30%.', champion_id: 5 },
+  { name: 'War Cry', description: 'Casting Berserk reduces the movement speed of all nearby enemies by 50% for 3s.', champion_id: 5 },
+  { name: 'Crag', description: 'Boulder Toss inflicts a 1s Fading Snare and cooldown is reduced by 1.5s.', champion_id: 5 },
+  { name: 'Crumble', description: 'Boulder Toss deals 2 bonus damage and inflicts Armor Break.', champion_id: 5 },
+  { name: 'Earthquake', description: 'Tremor inflicts Armor Break.', champion_id: 5 }
 ]
 
 const ruh_kaan = [
-  { name: 'Grim Edge', description: '', champion_id: 6 },
-  { name: 'Leech Blade', description: '', champion_id: 6 },
-  { name: 'Taint', description: '', champion_id: 6 },
-  { name: 'Wicked Strike', description: '', champion_id: 6 },
-  { name: 'Affliction', description: '', champion_id: 6 },
-  { name: 'Agony', description: '', champion_id: 6 },
-  { name: 'Demonic Hunt', description: '', champion_id: 6 },
-  { name: 'Nether Chains', description: '', champion_id: 6 },
-  { name: 'Gorge', description: '', champion_id: 6 },
-  { name: 'Shadow Fury', description: '', champion_id: 6 },
-  { name: 'Cold Touch', description: '', champion_id: 6 },
-  { name: 'Death Grip', description: '', champion_id: 6 },
-  { name: 'Death\'s Embrace', description: '', champion_id: 6 },
-  { name: 'Tenacious Demon', description: '', champion_id: 6 },
-  { name: 'Hunger', description: '', champion_id: 6 },
-  { name: 'Shadow Prowl', description: '', champion_id: 6 },
-  { name: 'Night Stalker', description: '', champion_id: 6 },
-  { name: 'Reaper', description: '', champion_id: 6 }
+  { name: 'Grim Edge', description: 'Charged Defiled Blade deals 5 bonus damage.', champion_id: 6 },
+  { name: 'Leech Blade', description: 'Charged Defiled Blade heals you for 6 bonus health.', champion_id: 6 },
+  { name: 'Taint', description: 'Striking a Cursed target heals you for 3 additional health.', champion_id: 6 },
+  { name: 'Wicked Strike', description: 'The duration of Silence inflicted when hitting enemies with Defiled Blade is increased from 0.3s to 0.8s.', champion_id: 6 },
+  { name: 'Affliction', description: 'Shadow Bolt inflicts Amplify increasing all damage the target receives by 15% for 3s.', champion_id: 6 },
+  { name: 'Agony', description: 'Shadow Bolts deal 6 bonus damage.', champion_id: 6 },
+  { name: 'Demonic Hunt', description: 'Sinister Strike gains 1 ability charge but cooldown increased by 2s.', champion_id: 6 },
+  { name: 'Nether Chains', description: 'Sinister Strike inflicts Curse.', champion_id: 6 },
+  { name: 'Gorge', description: 'Consume\'s cooldown is reduced by 1s. Consuming attacks further reduces the cooldown with 1.5/1/0.5s.', champion_id: 6 },
+  { name: 'Shadow Fury', description: 'Absorbing an attack with Consume grants Shadowbolt 2 ability charges.', champion_id: 6 },
+  { name: 'Cold Touch', description: 'Claw of the Wicked inflicts Curse.', champion_id: 6 },
+  { name: 'Death Grip', description: 'Landing Claw of the Wicked reduces its cooldown by 2s.', champion_id: 6 },
+  { name: 'Death\'s Embrace', description: 'Claw of the Wicked inflicts a 1.2s Root.', champion_id: 6 },
+  { name: 'Tenacious Demon', description: 'Claw of the Wicked drains 3 more health and range is increased by 12%.', champion_id: 6 },
+  { name: 'Hunger', description: 'Shadow Beast pulls all nearby enemies to your position when activated.', champion_id: 6 },
+  { name: 'Shadow Prowl', description: 'Shadow Beast increased movement speed by 35%.', champion_id: 6 },
+  { name: 'Night Stalker', description: 'Move 16% faster when your weapon is charged.', champion_id: 6 },
+  { name: 'Reaper', description: 'Your weapon recharged 30% faster.', champion_id: 6 }
 ]
 
 const shifu = [
