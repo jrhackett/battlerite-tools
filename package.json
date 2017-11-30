@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^3.0.0",
     "chalk": "^2.3.0",
+    "jest": "^21.2.1",
     "path": "^0.12.7",
     "react-dev-utils": "^4.2.1",
     "react-scripts": "1.0.17"
@@ -33,7 +36,7 @@
   "scripts": {
     "start": "concurrently \"react-scripts start\" \"nodemon server\"",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": "jest",
     "eject": "react-scripts eject",
     "seed": "node db/seed.js"
   },
