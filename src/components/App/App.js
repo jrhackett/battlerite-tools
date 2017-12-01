@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
 
-import styles from './App.css'
+import styles from './App.scss'
 
 class App extends Component {
 
   render() {
     return (
       <div className={styles.App} {...this.props}>
-        <div className="App-header">
+        <div className={styles.AppHeader}>
           <h2>Welcome to React - Fullstack!</h2>
         </div>
         <p className="App-intro">
