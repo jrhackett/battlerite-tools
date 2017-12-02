@@ -19,7 +19,7 @@ export const fetchChampions = () => {
   return dispatch => {
     dispatch(requestChampions());
     axios.get(`/api/champions`)
-      .then(res => dispatch(receiveChampions(JSON.stringify(res.data))))
+      .then(res => dispatch(receiveChampions(res.data)))
       .catch(err => dispatch(errorChampions(err)))
   }
 }

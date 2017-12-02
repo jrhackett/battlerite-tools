@@ -16,8 +16,11 @@ class Champions extends Component {
 
     return (
       <div>
-      {this.props.champions.toString()}
-      </div>)
+        {this.props.champions.map(champion => {
+          return <div>{champion.name}</div>
+        })}
+      </div>
+    )
   }
 }
 
