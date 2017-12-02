@@ -3,15 +3,22 @@ const chalk = require('chalk')
 const Sequelize = require('sequelize')
 const pkg = require('../package.json')
 
-const name = process.env.DATABASE_NAME || pkg.name;
+const databaseName = process.env.BATTLERITE_DATABASE_NAME || pkg.name;
+// const url = process.env.BATTLERITE_DATABASE_URL || `postgres://postgres:database@localhost:5432/battlerite-tools`;
+const userName = process.env.BATTLERITE_DATABASE_USER_NAME;
+const userPassword = process.env.BATTLERITE_DATABASE_USER_PASSWORD;
+const host = process.env.BATTLERITE_DATABASE_HOST || 'localhost';
+const port = process.env.BATTLERITE_DATABASE_PORT || 5432;
 
-const url = process.env.DATABASE_URL || `postgres://localhost:5432/${name}`;
 
-console.log(chalk.yellow(`Opening database connection to ${url}${name}`));
+console.log(chalk.yellow(`Opening database connection to ${host}${databaseName}`));
 
 // create the database instance
-const db = module.exports = new Sequelize(url, {
+const db = module.exports = new Sequelize(databaseName, userName, userPassword, {
   logging: debug, // export DEBUG=sql in the environment to get SQL queries
+  host: host,
+  port: port,
+  dialect: 'postgres',
   define: {
     underscored: true,       // use snake_case rather than camelCase column names
     freezeTableName: true,   // don't change table names from the one specified
@@ -25,7 +32,7 @@ require('../server/models')
 // sync the db, creating it if necessary
 function sync(retries=0, maxRetries=5) {
   return db.sync({force:false})
-    .then(ok => console.log(`Synced models to db ${url}`))
+    .then(ok => console.log(`Synced models to db ${host}:${databaseName}`))
     .catch(fail => {
       console.log(fail)
     })

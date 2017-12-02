@@ -4,10 +4,33 @@ This is a work in progress to give Battlerite players a place to create, edit, a
 
 ## Installation
 
-1. ```createdb battlerite-tools```
-2. ```npm install```
-3. ```npm run seed```
-4. ```npm start```
+Create database and npm install:
+```
+createdb battlerite-tools
+npm install
+```
+
+## Parameters
+Required parameters:
+```
+export BATTLERITE_DATABASE_NAME=<YOUR DATABASE NAME>
+export BATTLERITE_DATABASE_USER_NAME=<YOUR DATABASE USER NAME>
+export BATTLERITE_DATABASE_USER_PASSWORD=<YOUR DATABASE USER PASSWORD>
+```
+
+Optional parameters:
+```
+export BATTLERITE_DATABASE_HOST=<SOME URL>
+export BATTLERITE_DATABASE_PORT=<SOME PORT>
+```
+
+## Run
+
+To seed database and start server:
+```
+npm run seed
+npm start
+```
 
 ## Credits
 
