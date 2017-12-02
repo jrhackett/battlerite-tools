@@ -1,72 +1,95 @@
 const champions = [
   { name: 'Bakko',
-    roll: 'Melee' },
+    role: 'Melee' 
+  },
 
   { name: 'Croak',
-    roll: 'Melee' },
+    role: 'Melee' 
+  },
 
   { name: 'Freya',
-    roll: 'Melee' },
+    role: 'Melee' 
+  },
 
   { name: 'Raigon',
-    roll: 'Melee' },
+    role: 'Melee' 
+  },
 
   { name: 'Rook',
-    roll: 'Melee' },
+    role: 'Melee' 
+  },
 
   { name: 'Ruh Kaan',
-    roll: 'Melee' },
+    role: 'Melee' 
+  },
 
   { name: 'Shifu',
-    roll: 'Melee' },
+    role: 'Melee' 
+  },
 
   { name: 'Thorn',
-    roll: 'Melee' },
+    role: 'Melee' 
+  },
 
   { name: 'Ashka' ,
-    roll: 'Ranged'},
+    role: 'Ranged'
+  },
 
   { name: 'Destiny',
-    roll: 'Ranged' },
+    role: 'Ranged' 
+  },
 
   { name: 'Ezmo',
-    roll: 'Ranged' },
+    role: 'Ranged' 
+  },
 
   { name: 'Iva',
-    roll: 'Ranged' },
+    role: 'Ranged' 
+  },
 
   { name: 'Jade',
-    roll: 'Ranged' },
+    role: 'Ranged' 
+  },
 
   { name: 'Jumong',
-    roll: 'Ranged' },
+    role: 'Ranged' 
+  },
 
   { name: 'Taya',
-    roll: 'Ranged' },
+    role: 'Ranged' 
+  },
 
   { name: 'Varesh',
-    roll: 'Ranged' },
+    role: 'Ranged' 
+  },
 
   { name: 'Blossom',
-    roll: 'Support' },
+    role: 'Support' 
+  },
 
   { name: 'Lucie',
-    roll: 'Support' },
+    role: 'Support' 
+  },
 
   { name: 'Oldur',
-    roll: 'Support' },
+    role: 'Support' 
+  },
 
   { name: 'Pearl',
-    roll: 'Support' },
+    role: 'Support' 
+  },
 
   { name: 'Pestilus',
-    roll: 'Support' },
+    role: 'Support' 
+  },
 
   { name: 'Poloma',
-    roll: 'Support' },
+    role: 'Support' 
+  },
 
   { name: 'Sirius',
-    roll: 'Support' }
+    role: 'Support' 
+  }
 ]
 
 module.exports = champions

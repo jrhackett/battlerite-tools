@@ -6,20 +6,9 @@ const Loadout = db.define('loadouts', {
     type: Sequelize.STRING,
     allowNull: false
   },
-  user: {
-  	type: Sequelize.STRING,
-  	allowNull: false
-  },
-  owner: {
-  	type: Sequelize.STRING,
-  	allowNull: false
-  },
   uuid: {
   	type: Sequelize.UUID
   },
-  build: {
-  	type: Sequelize.UUID
-  }
 
 })
 

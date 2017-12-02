@@ -1,9 +1,13 @@
 const Loadout = require('./loadout')
 const Battlerite = require('./battlerite')
 const Champion = require('./champion')
+const Build = require('./build')
 
-Loadout.hasMany(Battlerite)
+Build.hasMany(Battlerite)
 Champion.hasMany(Battlerite)
+
+Loadout.hasOne(Build)
+
 
 Battlerite.belongsTo(Champion)
 Loadout.belongsTo(Champion)

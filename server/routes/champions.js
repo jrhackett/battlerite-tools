@@ -7,7 +7,7 @@ const controllers = {
 }
 
 router.get('/', function(req, res, next) {
-  controllers.champions.getChampions(req, res, next)
+  controllers.champions.getChampion(req, res, next)
 })
 
 router.get('/:id', function(req, res, next) {
