@@ -14,8 +14,4 @@ router.get('/:id', function(req, res, next) {
   controllers.champions.getChampionById(req, res, next)
 })
 
-router.get('/',) function(req,res,next) {
-	controllers.champions.getChampionByName(req,res,next)
-})
-
 module.exports = router

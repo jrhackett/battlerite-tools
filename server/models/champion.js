@@ -5,9 +5,9 @@ const Champion = db.define('champions', {
   name: {
     type: Sequelize.STRING,
     allowNull: false
-  }
+  },
   roll: {
-  	type: sequelize.STRING,
+  	type: Sequelize.STRING,
   	allowNull: false
   }
 })

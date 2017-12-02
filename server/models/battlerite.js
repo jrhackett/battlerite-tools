@@ -11,8 +11,7 @@ const Battlerite = db.define('battlerites', {
     allowNull: false
   },
   uuid: {
-  	Sequelize.UUID,
-  	allowNull: false
+  	type: Sequelize.UUID
   }
 })
 

@@ -5,18 +5,18 @@ const Loadout = db.define('loadouts', {
   name: {
     type: Sequelize.STRING,
     allowNull: false
-  }
+  },
   user: {
   	type: Sequelize.STRING,
   	allowNull: false
-  }
-  champion: {
+  },
+  owner: {
   	type: Sequelize.STRING,
   	allowNull: false
-  }
+  },
   uuid: {
   	type: Sequelize.UUID
-  }
+  },
   build: {
   	type: Sequelize.UUID
   }
