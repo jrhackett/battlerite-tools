@@ -1,93 +1,94 @@
 const champions = [
-  { name: 'Bakko',
+  { 
+    name: 'Bakko', 
     role: 'Melee' 
   },
-
-  { name: 'Croak',
+  { 
+    name: 'Croak', 
     role: 'Melee' 
   },
-
-  { name: 'Freya',
+  { 
+    name: 'Freya', 
     role: 'Melee' 
   },
-
-  { name: 'Raigon',
+  { 
+    name: 'Raigon', 
     role: 'Melee' 
   },
-
-  { name: 'Rook',
+  { 
+    name: 'Rook', 
     role: 'Melee' 
   },
-
-  { name: 'Ruh Kaan',
+  { 
+    name: 'Ruh Kaan', 
     role: 'Melee' 
   },
-
-  { name: 'Shifu',
+  { 
+    name: 'Shifu', 
     role: 'Melee' 
   },
-
-  { name: 'Thorn',
+  { 
+    name: 'Thorn', 
     role: 'Melee' 
   },
-
-  { name: 'Ashka' ,
-    role: 'Ranged'
-  },
-
-  { name: 'Destiny',
+  { 
+    name: 'Ashka', 
     role: 'Ranged' 
   },
-
-  { name: 'Ezmo',
+  { 
+    name: 'Destiny', 
     role: 'Ranged' 
   },
-
-  { name: 'Iva',
+  { 
+    name: 'Ezmo', 
     role: 'Ranged' 
   },
-
-  { name: 'Jade',
+  { 
+    name: 'Iva', 
     role: 'Ranged' 
   },
-
-  { name: 'Jumong',
+  { 
+    name: 'Jade', 
     role: 'Ranged' 
   },
-
-  { name: 'Taya',
+  { 
+    name: 'Jumong', 
     role: 'Ranged' 
   },
-
-  { name: 'Varesh',
+  { 
+    name: 'Taya', 
     role: 'Ranged' 
   },
-
-  { name: 'Blossom',
+  { 
+    name: 'Varesh', 
+    role: 'Ranged' 
+  },
+  { 
+    name: 'Blossom', 
     role: 'Support' 
   },
-
-  { name: 'Lucie',
+  { 
+    name: 'Lucie', 
     role: 'Support' 
   },
-
-  { name: 'Oldur',
+  { 
+    name: 'Oldur', 
     role: 'Support' 
   },
-
-  { name: 'Pearl',
+  { 
+    name: 'Pearl', 
     role: 'Support' 
   },
-
-  { name: 'Pestilus',
+  { 
+    name: 'Pestilus', 
     role: 'Support' 
   },
-
-  { name: 'Poloma',
+  { 
+    name: 'Poloma', 
     role: 'Support' 
   },
-
-  { name: 'Sirius',
+  { 
+    name: 'Sirius', 
     role: 'Support' 
   }
 ]

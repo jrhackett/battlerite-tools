@@ -17,7 +17,12 @@ class Champions extends Component {
     return (
       <div>
         {this.props.champions.map(champion => {
-          return <div>{champion.name}</div>
+          return (
+            <div>
+              <p>{champion.name}</p>
+              <p>{champion.role}</p>
+            </div>
+          )
         })}
       </div>
     )

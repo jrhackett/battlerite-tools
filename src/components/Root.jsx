@@ -1,7 +1,7 @@
 import React from 'react'
 import { Provider } from 'react-redux'
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
-import AppContainer from '../containers/AppContainer'
+import Home from './Home'
 import ChampionsContainer from '../containers/champions/ChampionsContainer'
 import TopNavigation from './navigation/TopNavigation'
 
@@ -13,7 +13,7 @@ const Root = ({ store }) => (
           <TopNavigation />
           <Switch>
             <Route path="/champions" component={ ChampionsContainer } />
-            <Route path="/" component={ AppContainer } />
+            <Route path="/" component={ Home } />
           </Switch>
         </div>
       </BrowserRouter>
