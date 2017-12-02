@@ -14,7 +14,7 @@ router.get('/:id', function(req, res, next) {
   controllers.loadouts.getLoadoutById(req, res, next)
 })
 
-router.put('/', function(req, res, next) {
+router.post('/', function(req, res, next) {
   controllers.loadouts.createLoadouts(req, res, next)
 })
 

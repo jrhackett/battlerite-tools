@@ -8,8 +8,7 @@ const Loadout = db.define('loadouts', {
   },
   uuid: {
   	type: Sequelize.UUID
-  },
-
+  }
 })
 
 module.exports = Loadout
