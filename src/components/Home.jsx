@@ -7,7 +7,7 @@ class App extends Component {
       <div>
         <h2>Welcome to Battlerite Tools!</h2>
       </div>
-    );
+    )
   }
 }
 

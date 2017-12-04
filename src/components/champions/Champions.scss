@@ -1,0 +1,14 @@
+.championsContainer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.championContainer {
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 2px;
+  background: #fff;
+}

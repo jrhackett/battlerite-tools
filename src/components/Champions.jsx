@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import styles from './champions/Champions.scss'
 
 class Champions extends Component {
   componentDidMount() {
@@ -15,10 +16,11 @@ class Champions extends Component {
     }
 
     return (
-      <div>
+      <div className={ styles.championsContainer }>
         {this.props.champions.map(champion => {
           return (
-            <div>
+            <div className={ styles.championContainer }>
+              <img src={ require(`../assets/images/${ champion.name.toLowerCase() }/icon.png`) } alt={ `${ champion.name }-icon` } />
               <p>{champion.name}</p>
               <p>{champion.role}</p>
             </div>
