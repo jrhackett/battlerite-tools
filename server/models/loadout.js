@@ -7,7 +7,9 @@ const Loadout = db.define('loadouts', {
     allowNull: false
   },
   uuid: {
-  	type: Sequelize.UUID
+  	type: Sequelize.UUID,
+  	defaultValue: Sequelize.UUIDV4,
+  	primaryKey: true
   }
 })
 

@@ -8,7 +8,7 @@ Champion.hasMany(Battlerite)
 
 Loadout.hasOne(Build)
 
-Battlerite.belongsTo(Champion)
-Loadout.belongsTo(Champion)
+Battlerite.belongsTo(Champion) 
+Build.belongsTo(Champion)
 
 module.exports = { Loadout, Battlerite, Champion, Build }

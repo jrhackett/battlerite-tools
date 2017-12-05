@@ -8,15 +8,15 @@ controller.getBattlerites = function(req, res, next) {
         Battlerite.findAll({
           where: query
         })
-        .then(result => {
-          res.status(200).send(result)
+        .then(results => {
+          res.status(200).send(results)
         })
         .catch(next)
       }
   else {
     Battlerite.findAll({})
-        .then(result => {
-          res.status(200).send(result)
+        .then(results => {
+          res.status(200).send(results)
         })
         .catch(next)
       }

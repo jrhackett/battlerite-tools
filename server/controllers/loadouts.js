@@ -24,14 +24,15 @@ controller.getLoadoutById = function(req, res, next) {
     .catch(next)
 }
 
-controller.createLoadouts = function(req, res, next) {
-  const validAttributes = {}
-  req.body.forEach(i => {
-    if(i in Object.keys(Champion.rawAttributes)) {
-      validAttributes[i] = req.body[i]
-    }
-  })
+controller.createLoadouts = function(req, res, next, build_id) {
+  const validAttributes = { ...req.body }
+  delete validAttributes['build']
+  validAttributes.build_id = build_id
+  
   Loadout.create(validAttributes)
+  .then(results => {
+    res.status(200).send(results)
+  })
 }
 
 module.exports = controller
