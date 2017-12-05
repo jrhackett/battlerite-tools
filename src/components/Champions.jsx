@@ -20,7 +20,7 @@ class Champions extends Component {
         {this.props.champions.map(champion => {
           return (
             <div className={ styles.championContainer }>
-              <img src={ require(`../assets/images/${ champion.name.toLowerCase() }/icon.png`) } alt={ `${ champion.name }-icon` } />
+              <img src={ require(`../assets/images/champions/${ champion.name.toLowerCase() }/icon.png`) } alt={ `${ champion.name }-icon` } />
               <p>{champion.name}</p>
               <p>{champion.role}</p>
             </div>
