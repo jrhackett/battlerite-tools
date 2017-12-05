@@ -22,7 +22,6 @@ class Champions extends Component {
             <div className={ styles.championContainer }>
               <img src={ require(`../assets/images/champions/${ champion.name.toLowerCase() }/icon.png`) } alt={ `${ champion.name }-icon` } />
               <p>{champion.name}</p>
-              <p>{champion.role}</p>
             </div>
           )
         })}

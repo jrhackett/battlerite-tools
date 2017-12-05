@@ -2,18 +2,21 @@
   display: flex;
   justify-content: center;
   text-align: center;
-  flex-wrap: wrap;
   width: 100%;
   margin: 1rem 0;
+  flex-wrap: wrap;
 }
 
 .championContainer {
   margin: 0.25rem;
   background: #fff;
-  width: 10%;
-  flex-basis: 10%;
+  flex-basis: calc(8.33% - 1rem);
 
   img {
     width: 100%;
+  }
+
+  p {
+    font-size: 0.75rem;
   }
 }
