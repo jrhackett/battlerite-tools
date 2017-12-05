@@ -16,9 +16,14 @@ router.get('/:id', function(req, res, next) {
 })
 
 router.post('/', function(req, res, next) {
-	controllers.builds.findOrCreateBuilds(req.body.build).then(build_id => {
-		controllers.loadouts.createLoadouts(req, res, next, build_id)
-	})
+console.log("before\n")
+	let p1 = new Promise(
+		(resolve, reject) => {
+			resolve(controllers.builds.findOrCreateBuilds(req.body.build))
+		})
+	p1.then( build_id => {
+			controllers.loadouts.createLoadouts(req, res, next, build_id)
+		})
 })
 
 module.exports = router

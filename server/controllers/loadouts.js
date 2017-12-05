@@ -28,6 +28,8 @@ controller.createLoadouts = function(req, res, next, build_id) {
   const validAttributes = { ...req.body }
   delete validAttributes['build']
   validAttributes.build_id = build_id
+
+  console.log("validAttributes: %j", validAttributes)
   
   Loadout.create(validAttributes)
   .then(results => {

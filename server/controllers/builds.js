@@ -11,20 +11,17 @@ controller.getBuilds = function(req, res, next) {
 }
 
 controller.findOrCreateBuilds = function(build) {
-  const buildPromise = new Promise( (resolve, reject) => {
-    Build.findOne({
-      where: {build: build}
-    })
+  Build.findOne({
+    where: {build: build}
+  })
+  .then(result => {
+    return result.uuid
+  })
+  .catch(err => {
+    Build.create(build)
     .then(result => {
-      resolve(result.uuid)
+      return result.uuid
     })
-    .catch(err => {
-      Build.create( build)
-      .then(result => {
-        resolve(result.uuid)
-      })
-    })
-    reject("Unable to find or create build with given build. ")
   })
 }
 
