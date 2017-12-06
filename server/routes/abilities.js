@@ -10,8 +10,4 @@ router.get('/', function(req, res, next) {
   controllers.abilities.getAbilities(req, res, next)
 })
 
-router.get('/:id', function(req, res, next) {
-  controllers.abilities.getAbilitiesByChampion(req, res, next)
-})
-
 module.exports = router

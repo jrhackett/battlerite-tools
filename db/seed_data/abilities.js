@@ -2,47 +2,56 @@ const bakko = [
   { 
     name: 'War Axe', 
     description:'',
-    key: 'LMB'
+    key: 'LMB',
+    champion_id: 1
   },
   {
     name: 'Blood Axe',
     description: '',
-    key: 'RMB'
+    key: 'RMB',
+    champion_id: 1
   },
   {
     name: 'Valiant Leap',
     description: '',
-    key: 'SPACE'
+    key: 'SPACE',
+    champion_id: 1
   },
   {
     name: 'War Stomp',
     description: '',
-    key: 'SHIFT+SPACE'
+    key: 'SHIFT+SPACE',
+    champion_id: 1
   },
   {
     name: 'Bulwark',
     description: '',
-    key: 'Q'
+    key: 'Q',
+    champion_id: 1
   },
   {
     name: 'Shield Dash',
     description: '',
-    key: 'E'
+    key: 'E',
+    champion_id: 1
   },
   {
     name: 'Shield Slam',
     description: '',
-    key: 'SHIFT+E'
+    key: 'SHIFT+E',
+    champion_id: 1
   },
   {
     name: 'War Shout',
     description: '',
-    key: 'R'
+    key: 'R',
+    champion_id: 1
   },
   {
     name: 'Heroic Charge',
     description: '',
-    key: 'F'
+    key: 'F',
+    champion_id: 1
   }
 ]
 

@@ -14,9 +14,9 @@ const updateBattlerites = () => {
 
 const seedChampions = () => db.Promise.map(champions, champion => db.model('champions').create(champion))
 
-const seedAbilities = () => db.Promise.map(champions, champion => db.model('champions').create(champion))
+const seedAbilities = () => db.Promise.map(abilities, ability => db.model('abilities').create(ability))
 
-const seedLoadouts = () => db.Promise.map(abilities, ability => db.model('abilities').create(ability))
+const seedLoadouts = () => db.Promise.map(loadouts, loadout => db.model('loadouts').create(loadout))
 
 const seedBuilds = () => db.Promise.map(builds, build => db.model('builds').create(build))
 
@@ -27,7 +27,7 @@ db.didSync
   .then(seedChampions)
   .then(champions => console.log(`Seeded ${ champions.length } champions OK`))
   .then(seedAbilities)
-  .then(abilities => console.log(`Seeded ${ abilities.length } champions OK`))
+  .then(abilities => console.log(`Seeded ${ abilities.length } abilities OK`))
   .then(seedLoadouts)
   .then(loadouts => console.log(`Seeded ${ loadouts.length } loadouts OK`))
   .then(seedBuilds)
