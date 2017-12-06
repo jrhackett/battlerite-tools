@@ -16,7 +16,8 @@ router.get('/:id', function(req, res, next) {
 })
 
 router.post('/', function(req, res, next) {
-	controllers.builds.findOrCreateBuilds(req.body.build).then(build_id => {
+	controllers.builds.findOrCreateBuilds(req.body.build)
+	.then(build_id => {
 		controllers.loadouts.createLoadouts(req, res, next, build_id)
 	})
 })

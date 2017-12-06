@@ -11,7 +11,7 @@ controller.getBuilds = function(req, res, next) {
 }
 
 controller.findOrCreateBuilds = function(build) {
-  const buildPromise = new Promise( (resolve, reject) => {
+  return new Promise( (resolve, reject) => {
     Build.findOne({
       where: {build: build}
     })
