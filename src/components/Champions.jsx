@@ -2,8 +2,21 @@ import React, { Component } from 'react'
 import styles from './champions/Champions.scss'
 
 class Champions extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      activeChampion: -1
+    }
+  }
+
   componentDidMount() {
     this.props.load()
+  }
+
+  onChampionClick(id) {
+    this.setState({
+      activeChampion: id === this.state.activeChampion ? -1 : id
+    })
   }
 
   render() {
@@ -19,8 +32,12 @@ class Champions extends Component {
       <div className={ styles.championsContainer }>
         {this.props.champions.map(champion => {
           return (
-            <div className={ styles.championContainer }>
-              <img src={ require(`../assets/images/champions/${ champion.name.toLowerCase() }/icon.png`) } alt={ `${ champion.name }-icon` } />
+            <div 
+              className={ champion.id === this.state.activeChampion ? styles.activeChampionContainer : styles.championContainer }
+              onClick={ () => this.onChampionClick(champion.id) }>
+              <img 
+                src={ require(`../assets/images/champions/${ champion.name.toLowerCase() }/icon.png`) } 
+                alt={ `${ champion.name }-icon` } />
               <p>{champion.name}</p>
             </div>
           )
