@@ -1,5 +1,5 @@
 import { connect } from 'react-redux'
-import ChampionsRoot from '../../components/ChampionsRoot'
+import LoadoutsRoot from '../../components/LoadoutsRoot'
 import { fetchChampions } from '../../actions/champions'
 
 const mapStateToProps = state => ({
@@ -14,4 +14,4 @@ const mapDispatchToProps = dispatch => ({
   }
 })
 
-export default connect(mapStateToProps, mapDispatchToProps)(ChampionsRoot)
+export default connect(mapStateToProps, mapDispatchToProps)(LoadoutsRoot)

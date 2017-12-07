@@ -1,16 +1,16 @@
 import { connect } from 'react-redux'
 import ChampionsRoot from '../../components/ChampionsRoot'
-import { fetchChampions } from '../../actions/champions'
+import { fetchAbilities } from '../../actions/abilities'
 
 const mapStateToProps = state => ({
-  isFetching: state.champions.isFetching,
-  error: state.champions.error,
-  champions: state.champions.champions
+  isFetching: state.abilities.isFetching,
+  error: state.abilities.error,
+  abilities: state.abilities.abilities
 })
 
 const mapDispatchToProps = dispatch => ({
   load: () => {
-    dispatch(fetchChampions())
+    dispatch(fetchAbilities())
   }
 })
 

@@ -17,7 +17,7 @@ export const errorAbilities = (data) => ({
 
 export const fetchAbilities = (champion_id) => {
   return dispatch => {
-    dispatch(requestAbilities());
+    dispatch(requestAbilities())
     axios.get(`/api/abilities?champion_id=${ champion_id }`)
       .then(res => dispatch(receiveAbilities(res.data)))
       .catch(err => dispatch(errorAbilities(err)))

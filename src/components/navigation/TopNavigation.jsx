@@ -8,6 +8,7 @@ const TopNavigation = () => (
     <ul className={ styles.rightNav }>
       <li><Link to='/'>Home</Link></li>
       <li><Link to='/champions'>Champions</Link></li>
+      <li><Link to='/loadouts'>Loadouts</Link></li>
     </ul>
   </div>
 )

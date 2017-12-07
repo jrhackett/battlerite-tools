@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import styles from './champions/Champions.scss'
+import styles from './Champions.scss'
 
 class Champions extends Component {
   constructor(props) {
@@ -9,10 +9,6 @@ class Champions extends Component {
     }
   }
 
-  componentDidMount() {
-    this.props.load()
-  }
-
   onChampionClick(id) {
     this.setState({
       activeChampion: id === this.state.activeChampion ? -1 : id
@@ -20,23 +16,16 @@ class Champions extends Component {
   }
 
   render() {
-    if(this.props.error.length > 0 || this.props.isFetching) {
-      return <span>Loading...</span>
-    }
-
-    if(this.props.error.length > 0) {
-      return <span>{`Error: ${this.props.error}`}</span>
-    }
-
     return (
       <div className={ styles.championsContainer }>
         {this.props.champions.map(champion => {
           return (
-            <div 
+            <div
               className={ champion.id === this.state.activeChampion ? styles.activeChampionContainer : styles.championContainer }
-              onClick={ () => this.onChampionClick(champion.id) }>
+              onClick={ () => this.onChampionClick(champion.id) }
+              key={ champion.id }>
               <img 
-                src={ require(`../assets/images/champions/${ champion.name.toLowerCase() }/icon.png`) } 
+                src={ require(`../../assets/images/champions/${ champion.name.toLowerCase() }/icon.png`) } 
                 alt={ `${ champion.name }-icon` } />
               <p>{champion.name}</p>
             </div>
