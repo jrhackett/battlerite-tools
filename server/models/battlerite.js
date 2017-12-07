@@ -13,8 +13,9 @@ const Battlerite = db.define('battlerites', {
   version: {
   	type: Sequelize.STRING
   },
-  uuid: {
-  	type: Sequelize.UUID
+  b_id: {
+    type: Sequelize.INTEGER,
+    using: 'gin'
   }
 })
 

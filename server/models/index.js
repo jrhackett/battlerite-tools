@@ -1,14 +1,11 @@
 const Loadout = require('./loadout')
 const Battlerite = require('./battlerite')
 const Champion = require('./champion')
-const Build = require('./build')
 
-Build.hasMany(Battlerite)
 Champion.hasMany(Battlerite)
 
-Loadout.hasOne(Build)
-
 Battlerite.belongsTo(Champion) 
-Build.belongsTo(Champion)
+Loadout.hasOne(Champion)
 
-module.exports = { Loadout, Battlerite, Champion, Build }
+
+module.exports = { Loadout, Battlerite, Champion }

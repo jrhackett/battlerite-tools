@@ -10,6 +10,12 @@ const Loadout = db.define('loadouts', {
   	type: Sequelize.UUID,
   	defaultValue: Sequelize.UUIDV4,
   	primaryKey: true
+  },
+  build: {
+  	type: Sequelize.STRING
+  },
+  champion_id: {
+  	type: Sequelize.INTEGER
   }
 })
 
