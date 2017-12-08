@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import Champions from './champions/Champions'
+import { Route } from 'react-router-dom'
+import ChampionsContainer from '../containers/champions/ChampionsContainer'
 
 class ChampionsRoot extends Component {
   componentDidMount() {
@@ -17,7 +18,7 @@ class ChampionsRoot extends Component {
 
     return (
       <div>
-        <Champions champions={ this.props.champions } />
+        <Route path={ `${ this.props.match.path }/:champion?` } component={ ChampionsContainer } />
       </div>
     )
   }
