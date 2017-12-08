@@ -2,18 +2,16 @@ import React, { Component } from 'react'
 import styles from './Abilities.scss'
 
 class Abilities extends Component {
-  constructor(props) {
-    super(props)
+  componentDidMount() {
+    this.props.load()
   }
 
   render() {
     return (
       <div>
-        {this.props.abilities.map(ability => {
-          return (
-            <p>{ ability }</p>
-          )
-        })}
+        {this.props.abilities.map(ability => (
+          <div>{ ability.name }</div>
+        ))}
       </div>
     )
   }

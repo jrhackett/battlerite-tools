@@ -1,17 +1,21 @@
 import { connect } from 'react-redux'
-import ChampionsRoot from '../../components/ChampionsRoot'
+import Abilities from '../../components/abilities/Abilities'
 import { fetchAbilities } from '../../actions/abilities'
 
-const mapStateToProps = state => ({
+const mapStateToProps = (state, ownProps) => ({
   isFetching: state.abilities.isFetching,
   error: state.abilities.error,
-  abilities: state.abilities.abilities
+  abilities: state.abilities.abilities,
+  key: ownProps.activeChampion
 })
 
-const mapDispatchToProps = dispatch => ({
+const mapDispatchToProps = (dispatch, ownProps) => ({
   load: () => {
-    dispatch(fetchAbilities())
+    if(ownProps.activeChampion >= 0) {
+      dispatch(fetchAbilities(ownProps.activeChampion))
+    }
+    return
   }
 })
 
-export default connect(mapStateToProps, mapDispatchToProps)(ChampionsRoot)
+export default connect(mapStateToProps, mapDispatchToProps)(Abilities)
