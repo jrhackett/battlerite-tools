@@ -9,6 +9,13 @@ const Battlerite = db.define('battlerites', {
   description: {
     type: Sequelize.TEXT,
     allowNull: false
+  },
+  version: {
+  	type: Sequelize.STRING
+  },
+  b_id: {
+    type: Sequelize.INTEGER,
+    using: 'gin'
   }
 })
 
