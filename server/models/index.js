@@ -8,6 +8,6 @@ Champion.hasMany(Ability)
 
 Battlerite.belongsTo(Champion) 
 Loadout.hasOne(Champion)
+Ability.belongsTo(Champion)
 
-
-module.exports = { Loadout, Battlerite, Champion }
+module.exports = { Loadout, Battlerite, Champion, Ability }

@@ -35,7 +35,7 @@ const croak = [
 ]
 
 const freya = [
-  { name: 'Static Hammers', description: 'Hittin an enemy with Static using Bash increases the duration of Static by 1s up to a maximum duration of 6s.', champion_id: 3 },
+  { name: 'Static Hammers', description: 'Hitting an enemy with Static using Bash increases the duration of Static by 1s up to a maximum duration of 6s.', champion_id: 3 },
   { name: 'Tempest', description: 'Landing Storm Mac increases your movement speed by 35% for 2s.', champion_id: 3 },
   { name: 'Thunderbolt', description: 'Storm Mace deals 6 bonus damage to enemies already affected by Static and the Incapacitate duration is increased by 0.5s.', champion_id: 3 },
   { name: 'Twin Hammers', description: 'Storm Mace gains 1 ability charge but cooldown increases by 1s.', champion_id: 3 },
