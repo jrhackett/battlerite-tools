@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
+import { Route } from 'react-router-dom'
+import ChampionsContainer from '../containers/champions/ChampionsContainer'
 
-class Champions extends Component {
+class ChampionsRoot extends Component {
   componentDidMount() {
     this.props.load()
   }
@@ -16,17 +18,10 @@ class Champions extends Component {
 
     return (
       <div>
-        {this.props.champions.map(champion => {
-          return (
-            <div>
-              <p>{champion.name}</p>
-              <p>{champion.role}</p>
-            </div>
-          )
-        })}
+        <Route path={ `${ this.props.match.path }/:champion?` } component={ ChampionsContainer } />
       </div>
     )
   }
 }
 
-export default Champions
+export default ChampionsRoot

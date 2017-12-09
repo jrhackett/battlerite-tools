@@ -1,17 +1,11 @@
 import { connect } from 'react-redux'
-import Champions from '../../components/Champions'
-import { fetchChampions } from '../../actions/champions'
+import { withRouter } from 'react-router-dom'
+import Champions from '../../components/champions/Champions'
 
-const mapStateToProps = state => ({
-  isFetching: state.champions.isFetching,
-  error: state.champions.error,
-  champions: state.champions.champions
+const mapStateToProps = (state, ownProps) => ({
+  champions: state.champions.champions,
+  activeChampion: parseInt(ownProps.match.params.champion, 10) || -1,
+  linkHref: ownProps.match.path.substr(0, ownProps.match.path.lastIndexOf("/"))
 })
 
-const mapDispatchToProps = dispatch => ({
-  load: () => {
-    dispatch(fetchChampions())
-  }
-})
-
-export default connect(mapStateToProps, mapDispatchToProps)(Champions)
+export default withRouter(connect(mapStateToProps)(Champions))

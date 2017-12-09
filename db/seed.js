@@ -1,5 +1,6 @@
 const db = require('../db')
 const champions = require('./seed_data/champions')
+const abilities = require('./seed_data/abilities')
 const loadouts = require('./seed_data/loadouts')
 const battlerites = require('./seed_data/battlerites')
 const uuidv4 = require('uuid/v4')
@@ -21,10 +22,11 @@ const updateBattlerites = () => {
 
 const seedChampions = () => db.Promise.map(champions, champion => db.model('champions').create(champion))
 
+const seedAbilities = () => db.Promise.map(abilities, ability => db.model('abilities').create(ability))
+
 const seedLoadouts = () => db.Promise.map(loadouts, loadout => db.model('loadouts').create(loadout))
 
 const seedBattlerites = () => db.Promise.map(battlerites, battlerite => db.model('battlerites').create(battlerite))
-
 
  db.didSync
    .then(() => db.sync({force: true}))
