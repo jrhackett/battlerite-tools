@@ -55,8 +55,66 @@ const bakko = [
   }
 ]
 
+const croak = [
+  { 
+    name: 'Blade Flurry', 
+    description:'',
+    key: 'LMB',
+    champion_id: 2
+  },
+  {
+    name: 'Toxin Muck',
+    description: '',
+    key: 'RMB',
+    champion_id: 2
+  },
+  {
+    name: 'Sludge Spit',
+    description: '',
+    key: 'SHIFT+RMB',
+    champion_id: 2
+  },
+  {
+    name: 'Frog Leap',
+    description: '',
+    key: 'SPACE',
+    champion_id: 2
+  },
+  {
+    name: 'Camouflage',
+    description: '',
+    key: 'Q',
+    champion_id: 2
+  },
+  {
+    name: 'Deceit',
+    description: '',
+    key: 'SHIFT+Q',
+    champion_id: 2
+  },
+  {
+    name: 'Noxious Lunge',
+    description: '',
+    key: 'E',
+    champion_id: 2
+  },
+  {
+    name: 'Toxin Blades',
+    description: '',
+    key: 'R',
+    champion_id: 2
+  },
+  {
+    name: 'Venom Wind',
+    description: '',
+    key: 'F',
+    champion_id: 2
+  }
+]
+
 const abilities = [
-  ...bakko
+  ...bakko,
+  ...croak
 ]
 
 module.exports = abilities
