@@ -6,16 +6,16 @@ const controllers = {
   loadouts: require('../controllers/loadouts')
 }
 
-router.get('/', function(req, res, next) {
-  controllers.loadouts.getLoadouts(req, res, next)
+router.get('/', function(req, res) {
+  controllers.loadouts.getLoadouts(req, res)
 })
 
-router.get('/:id', function(req, res, next) {
-  controllers.loadouts.getLoadoutById(req, res, next)
+router.get('/:id', function(req, res) {
+  controllers.loadouts.getLoadoutById(req, res)
 })
 
-router.post('/', function(req, res, next) {
-  controllers.loadouts.createLoadout(req, res, next)
+router.post('/', function(req, res) {
+  controllers.loadouts.createLoadout(req, res)
 })
 
 module.exports = router
