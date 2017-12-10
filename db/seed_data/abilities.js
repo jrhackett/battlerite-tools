@@ -112,9 +112,67 @@ const croak = [
   }
 ]
 
+const freya = [
+  {
+    name: 'Bash',
+    description: 'LMB',
+    key: '',
+    champion_id: 3
+  },
+  {
+    name: 'Storm Mace',
+    description: 'RMB',
+    key: '',
+    champion_id: 3
+  },
+  {
+    name: 'Spring',
+    description: 'SPACE',
+    key: '',
+    champion_id: 3
+  },
+  {
+    name: 'Shock Vault',
+    description: 'SHIFT+SPACE',
+    key: '',
+    champion_id: 3
+  },
+  {
+    name: 'Electric Shield',
+    description: 'Q',
+    key: '',
+    champion_id: 3
+  },
+  {
+    name: 'Thunderclap',
+    description: 'E',
+    key: '',
+    champion_id: 3
+  },
+  {
+    name: 'Thunderslam',
+    description: 'SHIFT+E',
+    key: '',
+    champion_id: 3
+  },
+  {
+    name: 'Charged Strike',
+    description: 'R',
+    key: '',
+    champion_id: 3
+  },
+  {
+    name: 'Lightning Strike',
+    description: 'F',
+    key: '',
+    champion_id: 3
+  }
+]
+
 const abilities = [
   ...bakko,
-  ...croak
+  ...croak,
+  ...freya
 ]
 
 module.exports = abilities

@@ -15,7 +15,6 @@ const updateBattlerites = () => {
     }
     battlerite.b_id=count
     count += 1
-    console.log(battlerite)
   })
 }
 
