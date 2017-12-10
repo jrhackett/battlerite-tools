@@ -15,7 +15,7 @@ router.get('/:id', function(req, res, next) {
 })
 
 router.post('/', function(req, res, next) {
-  controllers.loadouts.createLoadouts(req, res, next)
+  controllers.loadouts.createLoadout(req, res, next)
 })
 
 module.exports = router

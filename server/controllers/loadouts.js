@@ -25,11 +25,9 @@ controller.getLoadoutById = function(req, res, next) {
     .catch(next)
 }
 
-controller.createLoadouts = function(req, res, next) {
-  const sortedArray = req.body.build.sort()
-  let buildString = ""
-  sortedArray.map(num=>buildString+=(num+"-"))
-  buildString=buildString.slice(0,-1)
+controller.createLoadout = function(req, res, next) {
+  let buildString = req.body.build.sort().reduce((acc, i) => acc += `${ i }-`)
+  buildString = buildString.slice(0, -1)
 
   Loadout.findOrCreate({
     where: {
