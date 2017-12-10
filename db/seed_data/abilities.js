@@ -2,55 +2,55 @@ const bakko = [
   { 
     name: 'War Axe', 
     description:'',
-    key: 'LMB',
+    key: 'lmb',
     champion_id: 1
   },
   {
     name: 'Blood Axe',
     description: '',
-    key: 'RMB',
+    key: 'rmb',
     champion_id: 1
   },
   {
     name: 'Valiant Leap',
     description: '',
-    key: 'SPACE',
+    key: 'space',
     champion_id: 1
   },
   {
     name: 'War Stomp',
     description: '',
-    key: 'SHIFT+SPACE',
+    key: 'ex-space',
     champion_id: 1
   },
   {
     name: 'Bulwark',
     description: '',
-    key: 'Q',
+    key: 'q',
     champion_id: 1
   },
   {
     name: 'Shield Dash',
     description: '',
-    key: 'E',
+    key: 'e',
     champion_id: 1
   },
   {
     name: 'Shield Slam',
     description: '',
-    key: 'SHIFT+E',
+    key: 'ex-e',
     champion_id: 1
   },
   {
     name: 'War Shout',
     description: '',
-    key: 'R',
+    key: 'r',
     champion_id: 1
   },
   {
     name: 'Heroic Charge',
     description: '',
-    key: 'F',
+    key: 'f',
     champion_id: 1
   }
 ]
@@ -59,55 +59,55 @@ const croak = [
   { 
     name: 'Blade Flurry', 
     description:'',
-    key: 'LMB',
+    key: 'lmb',
     champion_id: 2
   },
   {
     name: 'Toxin Muck',
     description: '',
-    key: 'RMB',
+    key: 'rmb',
     champion_id: 2
   },
   {
     name: 'Sludge Spit',
     description: '',
-    key: 'SHIFT+RMB',
+    key: 'ex-rmb',
     champion_id: 2
   },
   {
     name: 'Frog Leap',
     description: '',
-    key: 'SPACE',
+    key: 'space',
     champion_id: 2
   },
   {
     name: 'Camouflage',
     description: '',
-    key: 'Q',
+    key: 'q',
     champion_id: 2
   },
   {
     name: 'Deceit',
     description: '',
-    key: 'SHIFT+Q',
+    key: 'ex-q',
     champion_id: 2
   },
   {
     name: 'Noxious Lunge',
     description: '',
-    key: 'E',
+    key: 'e',
     champion_id: 2
   },
   {
     name: 'Toxin Blades',
     description: '',
-    key: 'R',
+    key: 'r',
     champion_id: 2
   },
   {
     name: 'Venom Wind',
     description: '',
-    key: 'F',
+    key: 'f',
     champion_id: 2
   }
 ]
@@ -115,56 +115,56 @@ const croak = [
 const freya = [
   {
     name: 'Bash',
-    description: 'LMB',
-    key: '',
+    description: '',
+    key: 'lmb',
     champion_id: 3
   },
   {
     name: 'Storm Mace',
-    description: 'RMB',
-    key: '',
+    description: '',
+    key: 'rmb',
     champion_id: 3
   },
   {
     name: 'Spring',
-    description: 'SPACE',
-    key: '',
+    description: '',
+    key: 'space',
     champion_id: 3
   },
   {
     name: 'Shock Vault',
-    description: 'SHIFT+SPACE',
-    key: '',
+    description: '',
+    key: 'ex-space',
     champion_id: 3
   },
   {
     name: 'Electric Shield',
-    description: 'Q',
-    key: '',
+    description: '',
+    key: 'q',
     champion_id: 3
   },
   {
     name: 'Thunderclap',
-    description: 'E',
-    key: '',
+    description: '',
+    key: 'e',
     champion_id: 3
   },
   {
     name: 'Thunderslam',
-    description: 'SHIFT+E',
-    key: '',
+    description: '',
+    key: 'ex-e',
     champion_id: 3
   },
   {
     name: 'Charged Strike',
-    description: 'R',
-    key: '',
+    description: '',
+    key: 'r',
     champion_id: 3
   },
   {
     name: 'Lightning Strike',
-    description: 'F',
-    key: '',
+    description: 'f',
+    key: 'f',
     champion_id: 3
   }
 ]

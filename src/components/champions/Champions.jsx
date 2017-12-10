@@ -21,7 +21,7 @@ class Champions extends Component {
             )
           })}
         </div>
-        <AbilitiesContainer activeChampion={ this.props.activeChampion } />
+        <AbilitiesContainer activeChampion={ this.props.activeChampion } activeChampionName={ this.props.activeChampionName } />
       </div>
     )
   }

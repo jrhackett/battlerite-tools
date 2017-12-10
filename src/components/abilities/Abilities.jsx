@@ -7,13 +7,21 @@ class Abilities extends Component {
   }
 
   render() {
-    return (
-      <div>
-        {this.props.abilities.map(ability => (
-          <div>{ ability.name }</div>
-        ))}
-      </div>
-    )
+    if(this.props.activeChampionName !== '') {
+      return (
+        <div>
+          {this.props.abilities.map(ability => (
+            <div>
+              <p>{ ability.name }</p>
+              <img 
+                src={ require(`../../assets/images/champions/${ this.props.activeChampionName }/${ ability.key.replace('ex-', '') }.png`) } 
+                alt={ `${ ability.name }-icon` } />
+            </div>
+          ))}
+        </div>
+      )
+    }
+    return null
   }
 }
 

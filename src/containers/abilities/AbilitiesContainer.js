@@ -6,6 +6,7 @@ const mapStateToProps = (state, ownProps) => ({
   isFetching: state.abilities.isFetching,
   error: state.abilities.error,
   abilities: state.abilities.abilities,
+  activeChampionName: ownProps.activeChampionName,
   key: ownProps.activeChampion
 })
 
