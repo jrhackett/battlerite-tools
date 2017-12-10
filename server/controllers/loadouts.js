@@ -30,7 +30,7 @@ controller.getLoadoutById = function(req, res) {
 }
 
 controller.createLoadout = function(req, res) {
-  const buildString = req.body.build.sort().reduce((acc, i) => acc += `${ i }-`).slice(0, -1)
+  const buildString = req.body.build.sort().join('-')
 
   Loadout.findOrCreate({
     where: {
