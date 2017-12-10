@@ -171,45 +171,285 @@ const freya = [
 
 const raigon = [
   {
-    name: '',
+    name: 'Sword Slash',
     description: '',
     key: 'lmb',
+    champion_id: 4
+  },
+  {
+    name: 'Slicing Winds',
+    description: '',
+    key: 'ex-lmb',
+    champion_id: 4
+  },
+  {
+    name: 'Retribution',
+    description: '',
+    key: 'rmb',
+    champion_id: 4
+  },
+  {
+    name: 'Heavenly Strike',
+    description: '',
+    key: 'space',
+    champion_id: 4
+  },
+  {
+    name: 'Parry',
+    description: '',
+    key: 'q',
+    champion_id: 4
+  },
+  {
+    name: 'Seismic Shock',
+    description: '',
+    key: 'e',
+    champion_id: 4
+  },
+  {
+    name: 'Tectonic Shock',
+    description: '',
+    key: 'ex-e',
+    champion_id: 4
+  },
+  {
+    name: 'Dragon Palm',
+    description: '',
+    key: 'r',
+    champion_id: 4
+  },
+  {
+    name: 'Wrath of the Tiger',
+    description: '',
+    key: 'f',
     champion_id: 4
   }
 ]
 
 const rook = [
   {
-    name: '',
+    name: 'Pummel',
     description: '',
     key: 'lmb',
+    champion_id: 5
+  },
+  {
+    name: 'Eat',
+    description: '',
+    key: 'ex-lmb',
+    champion_id: 5
+  },
+  {
+    name: 'Crushing Blow',
+    description: '',
+    key: 'rmb',
+    champion_id: 5
+  },
+  {
+    name: 'Meat Bolt',
+    description: '',
+    key: 'ex-rmb',
+    champion_id: 5
+  },
+  {
+    name: 'Rush',
+    description: '',
+    key: 'space',
+    champion_id: 5
+  },
+  {
+    name: 'Beserk',
+    description: '',
+    key: 'q',
+    champion_id: 5
+  },
+  {
+    name: 'Boulder Toss',
+    description: '',
+    key: 'e',
+    champion_id: 5
+  },
+  {
+    name: 'Smack',
+    description: '',
+    key: 'r',
+    champion_id: 5
+  },
+  {
+    name: 'Tremor',
+    description: '',
+    key: 'f',
     champion_id: 5
   }
 ]
 
 const ruh_kaan = [
   {
-    name: '',
+    name: 'Defiled Blade',
     description: '',
     key: 'lmb',
+    champion_id: 6
+  },
+  {
+    name: 'Shadowbolt',
+    description: '',
+    key: 'rmb',
+    champion_id: 6
+  },
+  {
+    name: 'Sinister Strike',
+    description: '',
+    key: 'space',
+    champion_id: 6
+  },
+  {
+    name: 'Reaping Scythe',
+    description: '',
+    key: 'ex-space',
+    champion_id: 6
+  },
+  {
+    name: 'Consume',
+    description: '',
+    key: 'q',
+    champion_id: 6
+  },
+  {
+    name: 'Claw of the Wicked',
+    description: '',
+    key: 'e',
+    champion_id: 6
+  },
+  {
+    name: 'Claw of the Undying',
+    description: '',
+    key: 'ex-e',
+    champion_id: 6
+  },
+  {
+    name: 'Nether Void',
+    description: '',
+    key: 'r',
+    champion_id: 6
+  },
+  {
+    name: 'Shadow Beast',
+    description: '',
+    key: 'f',
     champion_id: 6
   }
 ]
 
 const shifu = [
   {
-    name: '',
+    name: 'Spear Slash',
     description: '',
     key: 'lmb',
+    champion_id: 7
+  },
+  {
+    name: 'Impale',
+    description: '',
+    key: 'rmb',
+    champion_id: 7
+  },
+  {
+    name: 'Fleetfoot',
+    description: '',
+    key: 'space',
+    champion_id: 7
+  },
+  {
+    name: 'Tempest Rush',
+    description: '',
+    key: 'ex-space',
+    champion_id: 7
+  },
+  {
+    name: 'Kunju',
+    description: '',
+    key: 'q',
+    champion_id: 7
+  },
+  {
+    name: 'Javelin',
+    description: '',
+    key: 'e',
+    champion_id: 7
+  },
+  {
+    name: 'Harpoon',
+    description: '',
+    key: 'ex-e',
+    champion_id: 7
+  },
+  {
+    name: 'Tendon Swing',
+    description: '',
+    key: 'r',
+    champion_id: 7
+  },
+  {
+    name: 'Whirlwind',
+    description: '',
+    key: 'f',
     champion_id: 7
   }
 ]
 
 const thorn = [
   {
-    name: '',
+    name: 'Root Claw',
     description: '',
     key: 'lmb',
+    champion_id: 8
+  },
+  {
+    name: 'Leeching Thorns',
+    description: '',
+    key: 'rmb',
+    champion_id: 8
+  },
+  {
+    name: 'Thorn Barrage',
+    description: '',
+    key: 'ex-rmb',
+    champion_id: 8
+  },
+  {
+    name: 'Burrow',
+    description: '',
+    key: 'space',
+    champion_id: 8
+  },
+  {
+    name: 'Root Network',
+    description: '',
+    key: 'ex-space',
+    champion_id: 8
+  },
+  {
+    name: 'Evil Clutch',
+    description: '',
+    key: 'q',
+    champion_id: 8
+  },
+  {
+    name: 'Entangling Roots',
+    description: '',
+    key: 'e',
+    champion_id: 8
+  },
+  {
+    name: 'Barbed Husk',
+    description: '',
+    key: 'r',
+    champion_id: 8
+  },
+  {
+    name: 'Dead Roots',
+    description: '',
+    key: 'f',
     champion_id: 8
   }
 ]
