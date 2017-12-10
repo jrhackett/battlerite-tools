@@ -9,13 +9,15 @@ class Abilities extends Component {
   render() {
     if(this.props.activeChampionName !== '') {
       return (
-        <div>
+        <div className={ styles.abilitiesContainer }>
           {this.props.abilities.map(ability => (
-            <div key={ ability.name }>
-              <p>{ ability.name }</p>
-              <img 
-                src={ require(`../../assets/images/champions/${ this.props.activeChampionName }/${ ability.key.replace('ex-', '') }.png`) } 
-                alt={ `${ ability.name }-icon` } />
+            <div className={ styles.abilityContainer } key={ ability.name }>
+              <div>
+                <img 
+                  src={ require(`../../assets/images/champions/${ this.props.activeChampionName }/${ ability.key.replace('ex-', '') }.png`) } 
+                  alt={ `${ ability.name }-icon` } />
+                <p>{ ability.name }</p>
+              </div>
             </div>
           ))}
         </div>

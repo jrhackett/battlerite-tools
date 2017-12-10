@@ -13,7 +13,7 @@ class ChampionsRoot extends Component {
     }
 
     if(this.props.error.length > 0) {
-      return <span>{`Error: ${this.props.error}`}</span>
+      return <span>{`Error: ${ this.props.error }`}</span>
     }
 
     return (

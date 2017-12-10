@@ -1,0 +1,18 @@
+.abilitiesContainer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.abilityContainer {
+  max-width: 10%;
+
+  div {
+    padding: 1rem;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
