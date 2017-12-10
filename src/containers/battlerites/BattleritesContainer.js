@@ -4,7 +4,8 @@ import { fetchBattlerites } from '../../actions/battlerites'
 
 const mapStateToProps = state => ({
   isFetching: state.battlerites.battlerites,
-  battlerites: state.battlerites.battlerites
+  battlerites: state.battlerites.battlerites,
+  key: ownProps.activeChampion
 })
 
 const mapDispatchToProps = (dispatch, ownProps) => ({
