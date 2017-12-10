@@ -169,10 +169,210 @@ const freya = [
   }
 ]
 
+const raigon = [
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 4
+  }
+]
+
+const rook = [
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 5
+  }
+]
+
+const ruh_kaan = [
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 6
+  }
+]
+
+const shifu = [
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 7
+  }
+]
+
+const thorn = [
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 8
+  }
+]
+
+const ashka = [
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 9
+  }
+]
+
+const destiny = [
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 10
+  }
+]
+
+const ezmo = [
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 11
+  }
+]
+
+const iva = [
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 12
+  }
+]
+
+const jade = [
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 13
+  }
+]
+
+const jumong = [
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 14
+  }
+]
+
+const taya = [
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 15
+  }
+]
+
+const varesh = [
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 16
+  }
+]
+
+const blossom = [
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 17
+  }
+]
+
+const lucie = [
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 18
+  }
+]
+
+const oldur = [
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 19
+  }
+]
+
+const pearl = [
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 20
+  }
+]
+
+const pestilus = [
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 21
+  }
+]
+
+const poloma = [
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 22
+  }
+]
+
+const sirius = [
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 23
+  }
+]
+
 const abilities = [
   ...bakko,
   ...croak,
-  ...freya
+  ...freya,
+  ...raigon,
+  ...rook,
+  ...ruh_kaan,
+  ...shifu,
+  ...thorn,
+  ...ashka,
+  ...destiny,
+  ...ezmo,
+  ...iva,
+  ...jade,
+  ...jumong,
+  ...taya,
+  ...varesh,
+  ...blossom,
+  ...lucie,
+  ...oldur,
+  ...pearl,
+  ...pestilus,
+  ...poloma,
+  ...sirius
 ]
 
 module.exports = abilities

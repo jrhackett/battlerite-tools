@@ -11,7 +11,7 @@ class Abilities extends Component {
       return (
         <div>
           {this.props.abilities.map(ability => (
-            <div>
+            <div key={ ability.name }>
               <p>{ ability.name }</p>
               <img 
                 src={ require(`../../assets/images/champions/${ this.props.activeChampionName }/${ ability.key.replace('ex-', '') }.png`) } 
