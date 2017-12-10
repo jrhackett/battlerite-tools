@@ -30,12 +30,10 @@ controller.getLoadoutById = function(req, res) {
 }
 
 controller.createLoadout = function(req, res) {
-  const buildString = req.body.build.sort().join('-')
-
   Loadout.findOrCreate({
     where: {
       name: req.body.name,
-      build: buildString,
+      build: req.body.build.sort().join('-'),
       champion_id: req.body.champion_id
     }
   })
