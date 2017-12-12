@@ -460,10 +460,106 @@ const ashka = [
     description: '',
     key: 'lmb',
     champion_id: 9
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 9
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 9
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 9
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 9
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 9
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 9
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 9
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 9
   }
 ]
 
 const destiny = [
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 10
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 10
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 10
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 10
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 10
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 10
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 10
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 10
+  },
   {
     name: '',
     description: '',
@@ -478,10 +574,106 @@ const ezmo = [
     description: '',
     key: 'lmb',
     champion_id: 11
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 11
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 11
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 11
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 11
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 11
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 11
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 11
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 11
   }
 ]
 
 const iva = [
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 12
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 12
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 12
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 12
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 12
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 12
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 12
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 12
+  },
   {
     name: '',
     description: '',
@@ -496,10 +688,106 @@ const jade = [
     description: '',
     key: 'lmb',
     champion_id: 13
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 13
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 13
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 13
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 13
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 13
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 13
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 13
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 13
   }
 ]
 
 const jumong = [
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 14
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 14
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 14
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 14
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 14
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 14
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 14
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 14
+  },
   {
     name: '',
     description: '',
@@ -514,10 +802,106 @@ const taya = [
     description: '',
     key: 'lmb',
     champion_id: 15
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 15
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 15
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 15
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 15
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 15
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 15
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 15
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 15
   }
 ]
 
 const varesh = [
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 16
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 16
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 16
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 16
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 16
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 16
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 16
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 16
+  },
   {
     name: '',
     description: '',
@@ -532,10 +916,106 @@ const blossom = [
     description: '',
     key: 'lmb',
     champion_id: 17
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 17
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 17
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 17
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 17
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 17
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 17
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 17
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 17
   }
 ]
 
 const lucie = [
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 18
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 18
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 18
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 18
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 18
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 18
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 18
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 18
+  },
   {
     name: '',
     description: '',
@@ -550,10 +1030,106 @@ const oldur = [
     description: '',
     key: 'lmb',
     champion_id: 19
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 19
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 19
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 19
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 19
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 19
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 19
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 19
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 19
   }
 ]
 
 const pearl = [
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 20
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 20
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 20
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 20
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 20
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 20
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 20
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 20
+  },
   {
     name: '',
     description: '',
@@ -568,6 +1144,54 @@ const pestilus = [
     description: '',
     key: 'lmb',
     champion_id: 21
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 21
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 21
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 21
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 21
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 21
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 21
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 21
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 21
   }
 ]
 
@@ -577,10 +1201,106 @@ const poloma = [
     description: '',
     key: 'lmb',
     champion_id: 22
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 22
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 22
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 22
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 22
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 22
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 22
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 22
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 22
   }
 ]
 
 const sirius = [
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 23
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 23
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 23
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 23
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 23
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 23
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 23
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 23
+  },
   {
     name: '',
     description: '',
