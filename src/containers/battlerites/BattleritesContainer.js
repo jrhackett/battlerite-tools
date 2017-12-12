@@ -2,7 +2,7 @@ import { connect } from 'react-redux'
 import Battlerites from '../../components/battlerites/Battlerites'
 import { fetchBattlerites } from '../../actions/battlerites'
 
-const mapStateToProps = state => ({
+const mapStateToProps = (state, ownProps) => ({
   isFetching: state.battlerites.battlerites,
   battlerites: state.battlerites.battlerites,
   key: ownProps.activeChampion
