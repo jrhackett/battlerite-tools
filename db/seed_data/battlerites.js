@@ -414,6 +414,24 @@ const sirius = [
   { name: 'Gravity', description: 'Astral Beam inflcits a 35% Snare on targets.', champion_id: 23 }
 ]
 
+const alysia = [
+  { name: '', description: '', champion_id: 24 },
+  { name: '', description: '', champion_id: 24 },
+  { name: '', description: '', champion_id: 24 },
+  { name: '', description: '', champion_id: 24 },
+  { name: '', description: '', champion_id: 24 },
+  { name: '', description: '', champion_id: 24 },
+  { name: '', description: '', champion_id: 24 },
+  { name: '', description: '', champion_id: 24 },
+  { name: '', description: '', champion_id: 24 },
+  { name: '', description: '', champion_id: 24 },
+  { name: '', description: '', champion_id: 24 },
+  { name: '', description: '', champion_id: 24 },
+  { name: '', description: '', champion_id: 24 },
+  { name: '', description: '', champion_id: 24 },
+  { name: '', description: '', champion_id: 24 }
+]
+
 const battlerites = [
   ...bakko,
   ...croak,
@@ -424,6 +442,7 @@ const battlerites = [
   ...shifu,
   ...thorn,
   ...ashka,
+  ...alysia,
   ...destiny,
   ...ezmo,
   ...iva,

@@ -35,6 +35,10 @@ const champions = [
     name: 'Ashka', 
     role: 'Ranged' 
   },
+  {
+    name: 'Alysia',
+    role: 'Ranged'
+  },
   { 
     name: 'Destiny', 
     role: 'Ranged' 

@@ -1309,6 +1309,63 @@ const sirius = [
   }
 ]
 
+const alysia = [
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 24
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 24
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 24
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 24
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 24
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 24
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 24
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 24
+  },
+  {
+    name: '',
+    description: '',
+    key: 'lmb',
+    champion_id: 24
+  }
+]
+
 const abilities = [
   ...bakko,
   ...croak,
@@ -1319,6 +1376,7 @@ const abilities = [
   ...shifu,
   ...thorn,
   ...ashka,
+  ...alysia,
   ...destiny,
   ...ezmo,
   ...iva,
