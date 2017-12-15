@@ -146,25 +146,25 @@ const freya = [
   },
   {
     name: 'Thunderclap',
-    description: '',
+    description: 'Jump into air and slam your mace into the ground. Deals 10 damage and inflicts Static in an area. Deals 6 bonus damage to enemies with Static.',
     key: 'e',
     champion_id: 3
   },
   {
     name: 'Thunderslam',
-    description: '',
+    description: 'Jump into the air and slam your mace into the ground. Deals 12 dmagae, inflicts Static and Fading Snare in a line. Deals 6 bonus damage to enemies with Static.',
     key: 'ex-e',
     champion_id: 3
   },
   {
     name: 'Charged Strike',
-    description: '',
+    description: 'Melee attack that deals 14 damage and grants a Shield. Consumes Static from enemies, increasing the power of the Shield for each Static consumed.',
     key: 'r',
     champion_id: 3
   },
   {
     name: 'Lightning Strike',
-    description: 'f',
+    description: 'Leap high into the air and strike down upon your enemies. Deals 45 damage and inflicts Static. Deals 15 damage if the enemy is already affected by Static.',
     key: 'f',
     champion_id: 3
   }
@@ -457,57 +457,57 @@ const thorn = [
 
 const ashka = [
   {
-    name: '',
-    description: '',
+    name: 'Fireball',
+    description: 'Launch a Fireball that deals 15 damage. Reapplies Ignite on impact.',
     key: 'lmb',
     champion_id: 9
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Fire Storm',
+    description: 'Launch 3 Fire Storm projectiles. Each projectile deals 16 damage and inflicts Ignite to enemies.',
+    key: 'rmb',
     champion_id: 9
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Searing Flight',
+    description: 'Transform into fire and fly to target location dealing 10 damage to nearby enemies.',
+    key: 'space',
     champion_id: 9
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Searing Fire',
+    description: 'Transform into Pure Fire and travel to target location dealing 10 damage to nearby enemies.',
+    key: 'ex-space',
     champion_id: 9
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Flamestrike',
+    description: 'Engulf an area in flames dealing 20 area damage and inflicting Stun to the enemies in the area.',
+    key: 'q',
     champion_id: 9
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Molten Chains',
+    description: 'Give rise to a lava stream, inflicting Petrify to nearby enemies.',
+    key: 'ex-q',
     champion_id: 9
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Molten Fist',
+    description: 'Turn into a fist of magma and dash forward. Inflicts Snare and knocks the enemy back.',
+    key: 'e',
     champion_id: 9
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Firewall',
+    description: 'Summon a firewall at target location. The wall blocks projectiles and inflicts Ignite to enemies that pass through it.',
+    key: 'r',
     champion_id: 9
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Infernal Scorch',
+    description: 'Transform into a fire elemental and dash forward dealing 36 damage and inflicts Ignite and Stun to enemies hit. The ground below becomes scorched, delaing 3 damage every 0.5s.',
+    key: 'f',
     champion_id: 9
   }
 ]
