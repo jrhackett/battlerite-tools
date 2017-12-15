@@ -38,4 +38,6 @@ Jake Hackett
 
 James Grippo
 
+Lumbini Parnas
+
 All Battlerite content is property of Stunlock Studios
