@@ -10,6 +10,10 @@ const Ability = db.define('abilities', {
     type: Sequelize.TEXT,
     allowNull: false
   },
+  sub_description: {
+    type: Sequelize.TEXT,
+    allowNull: true
+  },
   key: {
     type: Sequelize.STRING,
     allowNull: false
