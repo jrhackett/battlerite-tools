@@ -415,21 +415,22 @@ const sirius = [
 ]
 
 const alysia = [
-  { name: '', description: '', champion_id: 24 },
-  { name: '', description: '', champion_id: 24 },
-  { name: '', description: '', champion_id: 24 },
-  { name: '', description: '', champion_id: 24 },
-  { name: '', description: '', champion_id: 24 },
-  { name: '', description: '', champion_id: 24 },
-  { name: '', description: '', champion_id: 24 },
-  { name: '', description: '', champion_id: 24 },
-  { name: '', description: '', champion_id: 24 },
-  { name: '', description: '', champion_id: 24 },
-  { name: '', description: '', champion_id: 24 },
-  { name: '', description: '', champion_id: 24 },
-  { name: '', description: '', champion_id: 24 },
-  { name: '', description: '', champion_id: 24 },
-  { name: '', description: '', champion_id: 24 }
+  { name: 'Frozen Muse', type: 'Control', description: 'Whenever you inflict Freeze, your Frost Bolts are empowered for 3s. They deal 4 bonus damage and inflict Chill even on targets without Chill.', champion_id: 24 },
+  { name: 'Frigid Lance', type: 'Control', description: 'Ice Lance Chill duration increased by 1s and explodes on impact or reaching max range, inflicting Chill for 2s on nearby enemies.', champion_id: 24 },
+  { name: 'Ice Breaker', type: 'Offense', description: 'Ice Lance deals 3 bonus damage and breaks Freeze before dealing damage.', champion_id: 24 },
+  { name: 'Piercing Cold', type: 'Offense', description: 'Ice Lance pierces through enemies and range increases by 10%. Deals 30% reduced damage after each pierce.', champion_id: 24 },
+  { name: 'Frost Nova', type: 'Control', description: 'Arctic Wind blasts nearby enemies with a frost nova as you leap, inflicting Chill for 1.6s.', champion_id: 24 },
+  { name: 'Twirl', type: 'Mobility', description: 'Recast Arctic Wind to perform a short leap.', champion_id: 24 },
+  { name: 'Figure Skating', type: 'Mobility', description: 'Glacial Prism grants the target a 60% Fading Haste for 1.4s.', champion_id: 24 },
+  { name: 'Wintry Blast', type: 'Offense', description: 'Glacial Prism deals 10 damage to nearby enemies when it explodes.', champion_id: 24 },
+  { name: 'Crystalline Lattice', type: 'Support', description: 'Glacial Prism absorbs up to 12 more damage and its explosion range reaches 20% further.', champion_id: 24 },
+  { name: 'Snowstorm', type: 'Offense', description: 'Flash Freeze leaves a snowstorm on impact, dealing 15 damage and inflicting Chill over 2.5s. The damage affects targets with Freeze directly.', champion_id: 24 },
+  { name: 'Blizzard', type: 'Utility', description: 'The radius of Flash Freeze is increased by 20% and cooldown is reduced by 1s.', champion_id: 24 },
+  { name: 'Arctic Cloak', type: 'Survival', description: 'Hitting yourself with Flash Freeze grants you a Lesser Glacial Prism.', champion_id: 24 },
+  { name: 'Vandalism', type: 'Offense', description: 'You can break your own Ice Crown instantly with a single Frost Bolt, consuming it in the process to launch the cone of icicles.', champion_id: 24 },
+  { name: 'Permafrost', type: 'Control', description: 'Frozen Gallery inflicts Chill for 4s to all enemies in the area after cast and Freeze is increased from 3s to 4s.', champion_id: 24 },
+  { name: 'Agility', type: 'Mobility', description: 'Increases movement speed by 10%.', champion_id: 24 }
+  { name: 'Inspiration', type: 'Utility', description: 'Increases your maximum energy by 25% and energy gained from abilities increased by 10%.', champion_id: 24 }
 ]
 
 const battlerites = [

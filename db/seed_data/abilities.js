@@ -1,55 +1,55 @@
 const bakko = [
   { 
     name: 'War Axe', 
-    description:'',
+    description:'Swing your axe to deal 9 damage. Successful hits charges your axe and reduces the cooldown of Blood Axe by 0.6s. Each charge increases the power of Blood Axe.',
     key: 'lmb',
     champion_id: 1
   },
   {
     name: 'Blood Axe',
-    description: '',
+    description: 'Throw an axe that deals 16 damage. Deals 4 bonus damage for each weapon charge.',
     key: 'rmb',
     champion_id: 1
   },
   {
     name: 'Valiant Leap',
-    description: '',
+    description: 'Leap into the air and strike down upon your enemies dealing 22 damage and inflicting Snare',
     key: 'space',
     champion_id: 1
   },
   {
     name: 'War Stomp',
-    description: '',
+    description: 'Leap into the air and strike down upon your enemies dealing 8 damage and inflicting Incapacitate.',
     key: 'ex-space',
     champion_id: 1
   },
   {
     name: 'Bulwark',
-    description: '',
+    description: 'Put up your shield and block incoming attacks. Reflects enemy projectiles and inflicts Stun on enemy melee attackers.',
     key: 'q',
     champion_id: 1
   },
   {
     name: 'Shield Dash',
-    description: '',
+    description: 'Dash forward and push an enemy in front of you. Pushing an enemy into a wall deals 16 damage.',
     key: 'e',
     champion_id: 1
   },
   {
     name: 'Shield Slam',
-    description: '',
+    description: 'Dash forward and slam an enemy dealing 12 damage, knocking it back and inflicting Fading Snare.',
     key: 'ex-e',
     champion_id: 1
   },
   {
     name: 'War Shout',
-    description: '',
+    description: 'Let loose a War Shout that shields all nearby allies absorbing up to 40 damage.',
     key: 'r',
     champion_id: 1
   },
   {
     name: 'Heroic Charge',
-    description: '',
+    description: 'Rush forward and grab an enemy dealing 35 damage and pushing it in front of you. Deals 28 area damage and inflicts Stun when reaching max distance or when colliding with a wall or another enemy.',
     key: 'f',
     champion_id: 1
   }
@@ -58,55 +58,55 @@ const bakko = [
 const croak = [
   { 
     name: 'Blade Flurry', 
-    description:'',
+    description:'Strike with your blades to deal 8 damage. Frog Leap and Camouflage increase the attack speed for a limited amount of strikes.',
     key: 'lmb',
     champion_id: 2
   },
   {
     name: 'Toxin Muck',
-    description: '',
+    description: 'Spit toxin muck at target location. Deals 6 damage, inflicts Toxin and heals you for 6 health.',
     key: 'rmb',
     champion_id: 2
   },
   {
     name: 'Sludge Spit',
-    description: '',
+    description: 'Spit a vicious sludge projectile that deals 10 damage and inflicts Toxin and Blind.',
     key: 'ex-rmb',
     champion_id: 2
   },
   {
     name: 'Frog Leap',
-    description: '',
+    description: 'Leap attack and strike with your blades to deal 20 damage in front of you. Can be recast.',
     key: 'space',
     champion_id: 2
   },
   {
     name: 'Camouflage',
-    description: '',
+    description: 'Turn invisible, remove negative effects and gain Fading Haste. Using Blade Flurry while invisible inflicts Stun. Camouflage fades when an ability is used.',
     key: 'q',
     champion_id: 2
   },
   {
     name: 'Deceit',
-    description: '',
+    description: 'Turn invisible, remove negative effects and gain Fading Haste. Using Blade Flurry while invisible inflicts Incapacitate and causes you to enter Camouflage. Deceit fades when and ability is used.',
     key: 'ex-q',
     champion_id: 2
   },
   {
     name: 'Noxious Lunge',
-    description: '',
+    description: 'Lunge forward, piercing through enemies dealing 12 damage.',
     key: 'e',
     champion_id: 2
   },
   {
     name: 'Toxin Blades',
-    description: '',
+    description: 'When activated your Blade Flurry attacks deal 2 bonus damage, heal you for 2 health, and inflicts Toxin.',
     key: 'r',
     champion_id: 2
   },
   {
     name: 'Venom Wind',
-    description: '',
+    description: 'Dash forward in the shape of a venomous wind, piercing through enemies inflicting Venom.',
     key: 'f',
     champion_id: 2
   }
@@ -115,31 +115,32 @@ const croak = [
 const freya = [
   {
     name: 'Bash',
-    description: '',
+    description: 'Strike with your maces to deal 10/10/16 damage. Deals 2 bonus damage if target is affected by Static.',
     key: 'lmb',
     champion_id: 3
   },
   {
     name: 'Storm Mace',
-    description: '',
+    description: 'Throw a mace that deals 10 damage and inflicts Static. Consumes Static instead if the enemy is already affected by Static, knocking them back and inflicting Incapacitate if knocked into a wall',
     key: 'rmb',
     champion_id: 3
   },
   {
     name: 'Spring',
-    description: '',
+    description: 'Leap towards target and gain Spring. Spring: Movement speed is increased by 100% and then fades over 1.5s. Your next Bash hit consumes this effect to deal 6 bonus damage.',
     key: 'space',
     champion_id: 3
   },
   {
     name: 'Shock Vault',
-    description: '',
+    description: 'Leap towards target location and gain Shock Vault. Shock Vault: Movement speed is increased by 100% and then fades over 1.5s. Your next Bash hit consumes this effect to deal 6 bonus damage. \ 
+                  Fading Snare: Target\'s Movement speed is reduced to 0% and gradually restores overtime.',
     key: 'ex-space',
     champion_id: 3
   },
   {
     name: 'Electric Shield',
-    description: '',
+    description: 'Counter incoming melee and projectile attacks. Countering any attack pulls that enemy towards you and inflicts Static. You gain a shield when you counter the first attack. Static: Target is vulnerable to Freya\'s attacks for 3s',
     key: 'q',
     champion_id: 3
   },
@@ -1311,59 +1312,60 @@ const sirius = [
 
 const alysia = [
   {
-    name: '',
-    description: '',
+    name: 'Frost Bolt',
+    description: 'Launch a cold bolt that deals 15 damage. Deals 2 bonus damage and adds Chill duration to enemies affected by Chill.',
     key: 'lmb',
     champion_id: 24
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Ice Lance',
+    description: 'Projectile attack that deals 22 damage and inflicts Chill. Deals 6 bonus damage to enemies already affected by Chill.',
+    key: 'rmb',
     champion_id: 24
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Arctic Wind',
+    description: 'Soar gracefully to target location.',
+    key: 'space',
     champion_id: 24
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Glacial Prism',
+    description: 'Shield a target ally. Glacial Prism absorbs up to 24 damage for 1.4s. When it breaks, it explodes to inflict Chill on nearby enemies.',
+    key: 'q',
     champion_id: 24
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Ice Block',
+    description: 'Freeze target ally for 3.5s, making them immune to disables and blocking up to 40 damage. Ally cannot move or use abilities while frozen and heal for 30. Knocks back enemies and inflicts Chill when it expires.',
+    key: 'ex-q',
     champion_id: 24
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Flash Freeze',
+    description: 'Call down a frozen star at target location. After a 0.9s delay, it deals 15 damage and inflicts Chill to enemies in the area. Inflicts Freeze to enemies already affected by Chill.',
+    key: 'e',
     champion_id: 24
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Snow Cone',
+    description: 'Channel a cone of snow that deals 24 damage and inflicts Chill over 0.9s. Inflicts Freeze when you hit a Chilled target.',
+    key: 'ex-e',
     champion_id: 24
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Ice Crown',
+    description: 'Launch a fragile sculpture that knocks enemies back and blocks enemy attacks for 1.5s. When it breaks, it launches a cone of icicles that deals 20 damage and inflicts Chill.',
+    key: 'r',
     champion_id: 24
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Frozen Gallery',
+    description: 'Mark a path of frost in front of you. After a 0.9s delay, the patch deals 35 damage and inflicts Freeze to enemies hit, turning them into beautiful statues.',
+    key: 'f',
     champion_id: 24
-  }
+  },
+
 ]
 
 const abilities = [
