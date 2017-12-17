@@ -913,57 +913,57 @@ const varesh = [
 
 const blossom = [
   {
-    name: '',
-    description: '',
+    name: 'Thwack!',
+    description: 'Throw an infused acorn that deals 10 damage. Deals 20 damage and inflicts Snare if weapon is fully charged.',
     key: 'lmb',
     champion_id: 17
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Nourish',
+    description: 'Summon the vitalizing powers of nature to heal nearest ally for 12 health. Applies Butterflies.',
+    key: 'rmb',
+    champion_id: 17
+  },
+  {
+    name: 'Hop',
+    description: 'Hop towards target location and avoid incoming attacks. Grants invisibility, 20% increased movement speed and removes movement impairing effects upon landing. Invisibility fades when an ability is used.',
+    key: 'space',
     champion_id: 17
   },
   {
     name: '',
-    description: '',
-    key: 'lmb',
+    description: 'Dash forward and avoid incoming attacks. Hitting an enemy deals 25 damage and knocks them back. Grants invisibility, 20% increased movement speed and removes movement impairing effects upon landing. Invisibility fades when an ability is used.',
+    key: 'ex-space',
     champion_id: 17
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Tree of Life',
+    description: 'Summon an immovable Tree of Life sapling that heals nearby allies for 12 health and an additional 30 health over 5s.',
+    key: 'q',
     champion_id: 17
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Forest Sanctuary',
+    description: 'Summon an immovable Forest Guardian sapling that absorbs all the damage taken by nearby allies over 6s.',
+    key: 'ex-q',
     champion_id: 17
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Boom Bloom',
+    description: 'Launch a Boom Bloom seed that deals 15 damage. The seed will take root and bloom after a short delay to inflict Stun on all nearby enemies.',
+    key: 'e',
     champion_id: 17
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Gust',
+    description: 'Summon a barrier of wind that pushes enemies away, and reflects projectiles.',
+    key: 'r',
     champion_id: 17
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
-    champion_id: 17
-  },
-  {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Dance of the Dryads',
+    description: 'Launch into the air and unleash 3 waves of energy upon landing. Each wave deals 20 damage and inflicts Weaken to enemies struck.',
+    key: 'f',
     champion_id: 17
   }
 ]
