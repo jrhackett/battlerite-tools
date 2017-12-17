@@ -856,57 +856,57 @@ const taya = [
 
 const varesh = [
   {
-    name: '',
-    description: '',
+    name: 'Hand of Corruption',
+    description: 'Fire a projectile that deals 14 damage, heals self for 2 health and inflicts Corruption.',
     key: 'lmb',
     champion_id: 16
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Hand of Judgement',
+    description: 'Fire a projectile that deals 22 damage and inflicts Judgement(Increases damage taken by 15% for 5s.',
+    key: 'rmb',
     champion_id: 16
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Hand of Punishment',
+    description: 'Fire a projectile that deals 14 damage, and heals you for 6 health and inflicts both Judgement and Corruption.',
+    key: 'ex-rmb',
     champion_id: 16
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Inhibitors Guard',
+    description: 'Shield a target ally. Shield absorbs up to 28 damage.',
+    key: 'space',
     champion_id: 16
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Wuju',
+    description: 'Counter the next melee or projectile attack. Countering an attack teleports you to a new location and knocks away enemies. Consumes Judgement to deal 8 bonus damage and to Silence the target. Consumes Corruption to heal you for 8 health and to Snare the target.',
+    key: 'q',
     champion_id: 16
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Shatter',
+    description: 'Spawn an exploding shard at target location dealing 12 area damage. Consumes Corruption to heal you for 8 health and to Snare the target. Consumes Judgement to deal 8 bonus damage and to Silence the target.',
+    key: 'e',
     champion_id: 16
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Crush',
+    description: 'Spawn an exploding shard at the target location dealing 12 area damage and knocking enemies back. Consumes Judgement to deal 8 bonus damage and to Silence the target. Consumes Corruption to heal you for 8 health and to Snare the target.',
+    key: 'ex-e',
     champion_id: 16
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Kinetic Energy',
+    description: 'Turn immaterial and dash forward to a target location. Spawns a Shatter shard at each enemy you pass through.',
+    key: 'r',
     champion_id: 16
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Powers Combined',
+    description: 'Dash forward in target direction dealing 24 damage and inflicting both Judgement and Corruption on all enemies hit. This effect repeats itself up to 3 times as long as an enemy is hit.',
+    key: 'f',
     champion_id: 16
   }
 ]
