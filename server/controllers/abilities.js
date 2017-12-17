@@ -3,9 +3,8 @@ const Ability = require('../models/ability')
 const controller = {}
 
 controller.getAbilities = function(req, res) {
-  Ability.findAll({
-    where: req.query
-  })
+  const query = req.query ? { where: req.query } : {}
+  Ability.findAll(query)
   .then(result => {
     res.status(200).send(result)
   })
