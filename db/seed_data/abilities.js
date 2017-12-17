@@ -1027,57 +1027,57 @@ const lucie = [
 
 const oldur = [
   {
-    name: '',
-    description: '',
+    name: 'Sands of Time',
+    description: 'Launch a projectile that deals 12 damage and inflicts Time Bomb. Target takes 8 additional damage after 3.5s.',
     key: 'lmb',
     champion_id: 19
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Chrono Bolt',
+    description: 'Launch a projectile that deals 16 damage and knocks target back. Consumes TIme Bomb, dealing all damage instantly.',
+    key: 'ex-lmb',
     champion_id: 19
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Rejuvenating Sand',
+    description: 'Throw rejuvenating sand that heals the nearest ally for 14 health. Recharges faster for each nearby ally.',
+    key: 'rmb',
     champion_id: 19
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Shifting Sands',
+    description: 'Turn into sand and travel in target direction. Allies passed through are healed for 12 health and enemies are dealt 8 damage.',
+    key: 'space',
     champion_id: 19
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Time Bender',
+    description: 'Negate projectile and melee attacks in front of you. Enemy melee attackers are knocked back and the first negated projectile will linger on within your hourglass, which you can launch by recasting this ability.',
+    key: 'q',
     champion_id: 19
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Chronoflux',
+    description: 'Place a time rift at target location. The rift reduces movement speed and reflects projectiles.',
+    key: 'ex-q',
     champion_id: 19
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Quicksand',
+    description: 'Throw an Hourglass to target location that explodes, dealing 16 damage and inflicting Fading Snare. Consumes Time Bomb, dealing all damage instantly.',
+    key: 'e',
     champion_id: 19
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Stone Glass',
+    description: 'Area attack that inflicts Stone Glass (inflicts petrify after 1s) and knocks the enemies back.',
+    key: 'r',
     champion_id: 19
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Time Travel',
+    description: 'Target ally\'s cooldowns are accelerated by 25%. Target is removed from the fight for a short duration before reappearing at target location, inflicting Stun on all nearby enemies for 2s.',
+    key: 'f',
     champion_id: 19
   }
 ]
