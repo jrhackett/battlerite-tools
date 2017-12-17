@@ -1141,57 +1141,57 @@ const pearl = [
 
 const pestilus = [
   {
-    name: '',
-    description: '',
+    name: 'Moth',
+    description: 'Projectile Attack that deals 10 damage on enemy hit and heals 7 health on ally hit. Inflicts Moth and heals you for 3 health.',
     key: 'lmb',
     champion_id: 21
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Bloodsucker',
+    description: 'Projectile attack that deals 30 damage on enemy hit, heals 30 health on ally hit and deals 15 damage to self. Cannot deal lethal damage to self. Hitting a Queen with Bloodsucker kills it, without dealing any damage to self.',
+    key: 'rmb',
     champion_id: 21
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Vomit',
+    description: 'Vomit upon enemies in front of you, dealing 8 damage and knocking enemies back. Inflicts Moth and Root.',
+    key: 'ex-rmb',
     champion_id: 21
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Infest',
+    description: 'Lunge at enemies or allies to Infest them for up to 2s. Heals allies and self for 8 health. Infested enemies take 25% more damage and infested allies absorb 75% damage. Can be recasted to cancel the effect.',
+    key: 'space',
     champion_id: 21
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Queen',
+    description: 'Summon a Queen that heals nearby allies for 16 health and 18 additional health over 5s. The Queen explodes after the duration, dealing 18 damage and Panic to nearby enemies. This effect does not occur if the Queen is killed by an enemy.',
+    key: 'q',
     champion_id: 21
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Arachnophobia',
+    description: 'Throw a spider egg that breaks on impact inflicting Panic on all nearby enemies.',
+    key: 'e',
     champion_id: 21
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Brain Bug',
+    description: 'Throw a Brain Bug that infests the enemy allowing you to control it\'s movement. ',
+    key: 'ex-e',
     champion_id: 21
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Swarm',
+    description: 'Shield a target ally. Swarm absorbs up to 28 damage and spreads Moth to nearby enemies if destroyed by damage.',
+    key: 'r',
     champion_id: 21
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Scarab Pack',
+    description: 'Summon and command 3 Scarabs to attack enemies or aid allies. A Scarab deals 26 damage on enemy hit and heals 26 health on ally hit. Scarabs stick to their target for a short duration. Deals 24 damage to enemy and heals 24 health to ally over 4s. Damage and healing done heals self for 24 health.',
+    key: 'f',
     champion_id: 21
   }
 ]
