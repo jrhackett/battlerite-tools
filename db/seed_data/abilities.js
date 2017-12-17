@@ -970,57 +970,57 @@ const blossom = [
 
 const lucie = [
   {
-    name: '',
-    description: '',
+    name: 'Toxic Bolt',
+    description: 'Projectile attack that deals 12 damage and inflicts Toxic.',
     key: 'lmb',
     champion_id: 18
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Deadly Injection',
+    description: 'Fire a bolt inflicting Deadly Injection (Reduces movement speed by 15% for 2s. Explodes dealing 24 damage to nearby enemies when the effect ends) on an enemy hit',
+    key: 'ex-lmb',
     champion_id: 18
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Healing Potion',
+    description: 'Throw a potion that heals the nearest ally for 14 health and applies Revitalize. Recharges faster for each nearby ally.',
+    key: 'rmb',
     champion_id: 18
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Barrier',
+    description: 'Shield a target ally. Barrier absorbs up to 50 damage.',
+    key: 'space',
     champion_id: 18
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Clarity Potion',
+    description: 'Throw a Clarity Potion to target location knocking nearby enemies away. The impact also removes positive effects from enemies and negative effects from allies.',
+    key: 'q',
     champion_id: 18
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Panic Flask',
+    description: 'Throw a flask dealing 12 damage and cause target to Panic.',
+    key: 'e',
     champion_id: 18
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Petrify Bolt',
+    description: 'Fire an exploding bolt that inflicts Petrify on enemies in the area.',
+    key: 'ex-e',
     champion_id: 18
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Roll',
+    description: 'Roll forward and avoid incoming attacks.',
+    key: 'r',
     champion_id: 18
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Crippling Goo',
+    description: 'Throw a vial of mixed chemicals to target location dealing 18 impact damage and Snaring enemies. Covers the ground in a crippling goo that deals 80 damage over a short duration.',
+    key: 'f',
     champion_id: 18
   }
 ]
