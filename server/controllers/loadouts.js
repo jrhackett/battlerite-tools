@@ -31,6 +31,17 @@ controller.createLoadout = function(req, res) {
     })
 }
 
+controller.updateLoadout = function(req, res) {
+  // TODO filter out values in req.body that shouldn't be there, especially uuid
+  Loadout.update(req.body, { where: { uuid: req.body.uuid } })
+    .then(result => {
+      res.status(200).send(result)
+    })
+    .catch(err => {
+      res.status(500).send(err)
+    })
+}
+
 controller.deleteLoadout = function(req, res) {
   Loadout.destroy({
       where: { uuid: req.body.uuid }
