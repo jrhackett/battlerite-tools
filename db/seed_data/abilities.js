@@ -1084,57 +1084,57 @@ const oldur = [
 
 const pearl = [
   {
-    name: '',
-    description: '',
+    name: 'Volatile Water',
+    description: 'Launch a projectile that deals 15 damage. Deals 22 damage and Silences the enemy if your staff is fully charged.',
     key: 'lmb',
     champion_id: 20
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Overflow',
+    description: 'Recharges your weapon.',
+    key: 'ex-lmb',
     champion_id: 20
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Healing Wave',
+    description: 'Channel a healing wave that heals the nearest ally for 21 health over 0.3s. Recharges faster for each nearby ally.',
+    key: 'rmb',
     champion_id: 20
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Dive',
+    description: 'Dive into a pool of water and travel to target location. Recharges your staff.',
+    key: 'space',
     champion_id: 20
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Tidal Wave',
+    description: 'Counter the next melee or projectile attack causing a tidal wave that deals 15 damage and knocks nearby enemies back. The wave also heals you for 12 health.',
+    key: 'q',
     champion_id: 20
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Bubble Barrier',
+    description: 'Spawn a bubble barrier at target location that slows enemy projectiles and enemies that enter the space.',
+    key: 'e',
     champion_id: 20
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Unstable Bubble',
+    description: 'Spawn a bubble barrier at target location that slows enemy projectiles and anyone that enters the space. Explodes when the effect ends dealing 26 damage and knocking enemies back.',
+    key: 'ex-e',
     champion_id: 20
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Bubble Shield',
+    description: 'Shield target ally removing all negative effects. Shield absorbs up to 26 damage.',
+    key: 'r',
     champion_id: 20
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Jaws',
+    description: 'Summon Jaws from the depths to devour enemies dealing 20 area damage. Devoured enemies are removed from battle until Jaws spews them out, dealing 20 damage to all enemies near the landing site. Can be recasted to redirect the landing site.',
+    key: 'f',
     champion_id: 20
   }
 ]
