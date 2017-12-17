@@ -1198,114 +1198,114 @@ const pestilus = [
 
 const poloma = [
   {
-    name: '',
-    description: '',
+    name: 'Soul Bolt',
+    description: 'Fire a Soul Bolt that deals 10 damage and inflicts Soul Bind on enemy hit. Heals 8 health and applies Spirit Link on ally hit.',
     key: 'lmb',
     champion_id: 22
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Other Side',
+    description: 'Send target ally into the spirit realm making them invulnerable and increases their movement speed by 40%. Heals self and nearby allies for 12 health when the effect ends.',
+    key: 'rmb',
     champion_id: 22
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Spirit Guide',
+    description: 'Summon a Spirit Guide that heals an ally for 16 health or deals 12 damage and knocks an enemy back. Can be cast again to teleport to the spirit.',
+    key: 'space',
     champion_id: 22
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Soul Transfer',
+    description: 'Summon a spirit that does 16 damage to enemies or heals 20 health to allies. You and the target swap locations on impact. Can be recast again to teleport to the spirit if no target is hit.',
+    key: 'ex-space',
     champion_id: 22
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Spirit Rift',
+    description: 'Open a rift that inflicts Spell Block to nearby enemies. The SPell Block inflicts Panic when triggered.',
+    key: 'q',
     champion_id: 22
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Soul Drain',
+    description: 'Opens a rift that drains 15 health and inflicts Spell Block. The Spell block inflicts Panic when triggered.',
+    key: 'ex-q',
     champion_id: 22
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Ghost Wolf',
+    description: 'Summon a Ghost Wolf that strikes up to 3 targets. Deals 20/16/12 damage and inflicts Soul Bind on each hit.',
+    key: 'e',
     champion_id: 22
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Pixie',
+    description: 'Summon a Pixie that follows you and mimics your Soul Bolt casts. Mimicked Soul Bolts deals reduced damage and healing.',
+    key: 'r',
     champion_id: 22
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Ancestral Spirit',
+    description: 'Become immaterial for 0.7s while summoning an Ancestral Spirit at target location. Deals 12 damage and inflicts Fading Snare to enemies and heals allies for 16 health. The spirit releases a second wave of energy after 2s that deals 36 damage and heals 24 health.',
+    key: 'f',
     champion_id: 22
   }
 ]
 
 const sirius = [
   {
-    name: '',
-    description: '',
+    name: 'Crescent Strike',
+    description: 'Strike to deal 8 damage to an enemy. Deals 22 damage and inflicts Weaken if weapon is fully charged. Your weapon charges over time.',
     key: 'lmb',
     champion_id: 23
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Crescent Gale',
+    description: 'Launch a Crescent Gale that deals 24 damage and inflicts Snare.',
+    key: 'ex-lmb',
     champion_id: 23
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Sunlight',
+    description: 'Call down a beam of sunlight that heals the nearest ally for 14 health. Recharges faster for each nearby ally.',
+    key: 'rmb',
     champion_id: 23
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Celestial Split',
+    description: 'Teleport to the target location dealing 10 damage to nearby enemies and healing nearby allies for 10 health.',
+    key: 'space',
     champion_id: 23
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Celestial Rift',
+    description: 'Teleport to target location dealing 14 damage to nearby enemies, pulling them towards you and healing nearby allies for 14 health. Recharges your weapon.',
+    key: 'ex-space',
     champion_id: 23
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Lunar Strike',
+    description: 'Petrifies all enemies at target location. Enemies gain a shield that absorbs up to 20 damage and is unable to move or use abilities for 3.4s. This effect breaks when the shield breaks.',
+    key: 'e',
     champion_id: 23
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Sunrise',
+    description: 'Counter the next melee or projectile attack. Countering an attack teleports you to a new location, healing nearby allies for 12 health. Your weapon is also recharged.',
+    key: 'q',
     champion_id: 23
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Astral Beam',
+    description: 'Channel a beam of light that deals 100 damage to enemies, heals allies for 100 health, and heals self for 50 health.',
+    key: 'f',
     champion_id: 23
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Prismatic Strike',
+    description: 'Dash forward and strike. Deals 18 damage and inflicts Fading Snare.',
+    key: 'r',
     champion_id: 23
   }
 ]
