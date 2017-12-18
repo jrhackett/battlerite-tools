@@ -627,57 +627,57 @@ const ezmo = [
 
 const iva = [
   {
-    name: '',
-    description: '',
+    name: 'Boomstick',
+    description: 'Fire 4 bullets in a cone, each dealing 4 damage.',
     key: 'lmb',
     champion_id: 12
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Flame Thrower',
+    description: 'Channel a flame thrower that deals 50 damage and Ignites enemies affected by Oil.',
+    key: 'ex-lmb',
     champion_id: 12
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'ROCKET X-67',
+    description: 'Launch a rocket that deals 26 damage on impact and 12 area damage. The explosion Ignites enemies affected by Oil.',
+    key: 'rmb',
     champion_id: 12
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Jet Pack',
+    description: 'Fire up your Jet Pack and travel towards target location. Inflicts Oil on enemies below you.',
+    key: 'space',
     champion_id: 12
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Zap',
+    description: 'Remove all negative effects and Shield a target ally. Shield absorbs up to 28 damage and increases movement speed by 30%.',
+    key: 'q',
     champion_id: 12
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Tazer',
+    description: 'Fire a shot that interrupts the next ability cast and dispels all positive effects. Inflicts Stun when an ability is interrupted.',
+    key: 'e',
     champion_id: 12
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Concussion Shot',
+    description: 'Fire a shock shell that deals 10 damage and inflicts Incapacitate.',
+    key: 'ex-e',
     champion_id: 12
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Tractor Beam',
+    description: 'Channel a beam that drags enemies towards your position while rendering you immune to melee and projectile attacks from that direction.',
+    key: 'r',
     champion_id: 12
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Machine Gun',
+    description: 'Fire a series of piercing projectiles dealing a total of 140 damage.',
+    key: 'f',
     champion_id: 12
   }
 ]
