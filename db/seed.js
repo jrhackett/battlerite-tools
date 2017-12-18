@@ -16,12 +16,11 @@ const updateBattlerites = () => {
   let count = 1
   let change = 1
   battlerites.map(battlerite => {
-    if(change !== battlerite.champion_id)
-    {
+    if(change !== battlerite.champion_id) {
       count = 1
       change = battlerite.champion_id
     }
-    battlerite.b_id=count
+    battlerite.b_id = count
     count += 1
   })
 }
