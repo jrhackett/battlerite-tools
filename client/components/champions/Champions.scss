@@ -5,6 +5,11 @@
 
   img {
     width: 100%;
+    opacity: 0.3;
+
+    &:hover {
+      opacity: 1.0;
+    }
   }
 
   p {
@@ -27,6 +32,8 @@
 
 .activeChampionContainer {
   @include championContainerMixin;
-  box-shadow: -3px 5px 10px -4px #ccc;
-  flex-grow: 0.5;
+
+  img {
+    opacity: 1.0;
+  }
 }
