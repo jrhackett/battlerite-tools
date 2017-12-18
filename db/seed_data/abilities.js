@@ -684,56 +684,56 @@ const iva = [
 
 const jade = [
   {
-    name: '',
-    description: '',
+    name: 'Revolver Shot',
+    description: 'Fire a revolver shot dealing 6 damage.',
     key: 'lmb',
     champion_id: 13
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Snipe',
+    description: 'Fire a piercing bullet that deals 38 damage and inflicts Stun.',
+    key: 'rmb',
     champion_id: 13
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Snap Shot',
+    description: 'Fire a piercing bullet that deals 12 damage and inflicts Root.',
+    key: 'ex-rmb',
     champion_id: 13
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Blast Vault',
+    description: 'Detonate a grenade that launches you into the air. The explosion deals 12 damage and inflicts Stun on nearby enemies.',
+    key: 'space',
     champion_id: 13
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Stealth',
+    description: 'Turn invisible and gain Fading Haste. Removes movement impairing effects.',
+    key: 'q',
     champion_id: 13
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Smoke Veil',
+    description: 'Enter Stealth, gain a Fading Haste and grant all nearby allies a Shield that absorbs up to 32 damage.',
+    key: 'ex-q',
     champion_id: 13
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Disabling Shot',
+    description: 'Fire a shot that inflicts Snare and interrupts the next ability cast. Inflicts Silence when an ability is interrupted.',
+    key: 'e',
     champion_id: 13
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Junk Shot',
+    description: 'Fire piercing bullets in a cone dealing 18 damage and knocking enemies back.',
+    key: 'r',
     champion_id: 13
   },
   {
-    name: '',
-    description: '',
+    name: 'Explosive Shells',
+    description: 'Fire 4 explosive shells dealing a total of 112 impact damage and 64 area damage.',
     key: 'lmb',
     champion_id: 13
   }
