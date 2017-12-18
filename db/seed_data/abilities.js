@@ -741,57 +741,57 @@ const jade = [
 
 const jumong = [
   {
-    name: '',
-    description: '',
+    name: 'Hunting Arrow',
+    description: 'Fire an arrow that deals 16 damage. Successful hits charges your bow. A fully charged bow enables you to recast Steady Shot, Black Arrow or Rain Of Arrows.',
     key: 'lmb',
     champion_id: 14
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Guided Arrow',
+    description: 'Fire an arrow that bounces up to 3 times. Deals 6/6/6 damage, heals self for 6/6/6 health and inflicts Seeker\'s Mark on each hit.',
+    key: 'ex-lmb',
     champion_id: 14
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Steady Shot',
+    description: 'Projectile attack that deals 28 damage.',
+    key: 'rmb',
     champion_id: 14
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Seekers Arrow',
+    description: 'Fire a piercing arrow that turns to hit the same target again after impact dealing 12/12/12 damage. Each hit charges your weapon.',
+    key: 'ex-rmb',
     champion_id: 14
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Black Arrow',
+    description: 'Dash towards move direction and fire an arrow that deals 8 damage.',
+    key: 'space',
     champion_id: 14
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Rain Of Arrows',
+    description: 'Fire arrows that rain down at target location dealing 20 damage over 2s and Snaring enemies. The first hit inflicts Seeker\'s Mark.',
+    key: 'q',
     champion_id: 14
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Bear Trap',
+    description: 'Place a trap that inflicts Root on all nearby enemies when the trap is triggered.',
+    key: 'e',
     champion_id: 14
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Prowl',
+    description: 'You become immaterial, movement speed increases by 100% and all movement impairing effects are removed. Running into an enemy inflicts Seeker\'s Mark.',
+    key: 'r',
     champion_id: 14
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Dragon Slayer',
+    description: 'Hold to charge an arrow for up to 2s to increase its damage and travel distance. The arrow deals 45-60 damage and pulls the target hit with it. Pulling a target into an enemy or into a wall deals 30 damage to the enemy hit and stuns both targets for 1.2s.',
+    key: 'f',
     champion_id: 14
   }
 ]
