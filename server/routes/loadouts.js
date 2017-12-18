@@ -10,12 +10,16 @@ router.get('/', function(req, res) {
   controllers.loadouts.getLoadouts(req, res)
 })
 
-router.get('/:id', function(req, res) {
-  controllers.loadouts.getLoadoutById(req, res)
-})
-
 router.post('/', function(req, res) {
   controllers.loadouts.createLoadout(req, res)
+})
+
+router.put('/', function(req, res) {
+  controllers.loadouts.updateLoadout(req, res)
+})
+
+router.delete('/', function(req, res) {
+  controllers.loadouts.deleteLoadout(req, res)
 })
 
 module.exports = router
