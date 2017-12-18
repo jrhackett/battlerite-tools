@@ -4,6 +4,14 @@ const abilities = require('./seed_data/abilities')
 const loadouts = require('./seed_data/loadouts')
 const battlerites = require('./seed_data/battlerites')
 
+const sortedChampions = champions.sort((a, b) => {
+  const nameA = a.name.toLowerCase()
+  const nameB = b.name.toLowerCase()
+  if(nameA === nameB)
+    return 0
+  return nameA > nameB ? 1 : -1
+})
+
 const updateBattlerites = () => {
   let count = 1
   let change = 1
@@ -18,7 +26,7 @@ const updateBattlerites = () => {
   })
 }
 
-const seedChampions = () => db.Promise.map(champions, champion => db.model('champions').create(champion))
+const seedChampions = () => db.Promise.map(sortedChampions, champion => db.model('champions').create(champion))
 
 const seedAbilities = () => db.Promise.map(abilities, ability => db.model('abilities').create(ability))
 
@@ -29,7 +37,7 @@ const seedBattlerites = () => db.Promise.map(battlerites, battlerite => db.model
 db.didSync
   .then(() => db.sync({force: true}))
   .then(seedChampions)
-  .then(champions => console.log(`Seeded ${ champions.length } champions OK`))
+  .then(sortedChampions => console.log(`Seeded ${ champions.length } champions OK`))
   .then(seedAbilities)
   .then(abilities => console.log(`Seeded ${ abilities.length } abilities OK`))
   .then(seedLoadouts)
