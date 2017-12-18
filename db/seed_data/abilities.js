@@ -798,57 +798,57 @@ const jumong = [
 
 const taya = [
   {
-    name: '',
-    description: '',
+    name: 'Razor Boomerang',
+    description: 'Throws a piercing boomerang that deals 14 damage and returns upon reaching maximum distance.',
     key: 'lmb',
     champion_id: 15
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'X Strike',
+    description: 'Throw two boomerangs in arc. Each boomerang deals 14 damage. Inflicts Stun on the way out and deals 6 bonus damage if you hit both boomerangs at max range.',
+    key: 'rmb',
     champion_id: 15
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Spinning Boomerang',
+    description: 'Throw a boomerang that deals 16 damage. The boomerang returns after a short delay dealing 24 damage and inflicting Stun on enemies hit.',
+    key: 'ex-rmb',
     champion_id: 15
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Haste',
+    description: 'Removes all movement impairing effects and increases movement speed by 80%. Razor Boomerang deals increases damage when Haste is active.',
+    key: 'space',
     champion_id: 15
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Wind Strike',
+    description: 'Spinning attack that deals 12 damage and knocks nearby enemies away.',
+    key: 'q',
     champion_id: 15
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Zephyr',
+    description: 'Dash forward and perform a spin attack that deals 16 damage and knocks nearby enemies away.',
+    key: 'ex-q',
     champion_id: 15
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Wind Bomb',
+    description: 'Throw a Wind Bomb to target location that pulls nearby enemies towards the center of the impact and inflicts Fading Snare.',
+    key: 'e',
     champion_id: 15
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Tornado',
+    description: 'Target ally is swept up into the air and becomes unhittable. Ally is tossed out of the Tornado when the effect ends.',
+    key: 'r',
     champion_id: 15
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Companion Call',
+    description: 'Your mount rushes towards you from target location dealing 26 damage to enemies in its path. You are granted a shield and instantly mount when it reaches you. As long as the shield holds you cannot be demounted and you can throw empowered Razor Boomerangs.',
+    key: 'f',
     champion_id: 15
   }
 ]
