@@ -429,7 +429,7 @@ const alysia = [
   { name: 'Arctic Cloak', type: 'Survival', description: 'Hitting yourself with Flash Freeze grants you a Lesser Glacial Prism.', champion_id: 24, version: '1.2.0' },
   { name: 'Vandalism', type: 'Offense', description: 'You can break your own Ice Crown instantly with a single Frost Bolt, consuming it in the process to launch the cone of icicles.', champion_id: 24, version: '1.2.0' },
   { name: 'Permafrost', type: 'Control', description: 'Frozen Gallery inflicts Chill for 4s to all enemies in the area after cast and Freeze is increased from 3s to 4s.', champion_id: 24, version: '1.2.0' },
-  { name: 'Agility', type: 'Mobility', description: 'Increases movement speed by 10%.', champion_id: 24, version: '1.2.0' }
+  { name: 'Agility', type: 'Mobility', description: 'Increases movement speed by 10%.', champion_id: 24, version: '1.2.0' },
   { name: 'Inspiration', type: 'Utility', description: 'Increases your maximum energy by 25% and energy gained from abilities increased by 10%.', champion_id: 24, version: '1.2.0' }
 ]
 

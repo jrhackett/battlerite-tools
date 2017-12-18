@@ -133,8 +133,7 @@ const freya = [
   },
   {
     name: 'Shock Vault',
-    description: 'Leap towards target location and gain Shock Vault. Shock Vault: Movement speed is increased by 100% and then fades over 1.5s. Your next Bash hit consumes this effect to deal 6 bonus damage. \ 
-                  Fading Snare: Target\'s Movement speed is reduced to 0% and gradually restores overtime.',
+    description: 'Leap towards target location and gain Shock Vault. Shock Vault: Movement speed is increased by 100% and then fades over 1.5s. Your next Bash hit consumes this effect to deal 6 bonus damage. Fading Snare: Target\'s Movement speed is reduced to 0% and gradually restores overtime.',
     key: 'ex-space',
     champion_id: 3
   },

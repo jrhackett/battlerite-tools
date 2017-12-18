@@ -15,8 +15,7 @@ const Battlerite = db.define('battlerites', {
     allowNull: false
   },
   type: {
-    type: Sequelize.STRING,
-    allowNull: false
+    type: Sequelize.STRING
   },
   b_id: {
     type: Sequelize.INTEGER,
