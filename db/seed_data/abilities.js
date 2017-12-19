@@ -172,55 +172,55 @@ const freya = [
 const raigon = [
   {
     name: 'Sword Slash',
-    description: '',
+    description: 'Strike with your sword to deal 10 damage. Successful hits charges your weapon and reduces the cooldown of Retribution by 1s. Each charge increases the power of Retribution.',
     key: 'lmb',
     champion_id: 4
   },
   {
     name: 'Slicing Winds',
-    description: '',
+    description: 'Infuse your blade with determination, causing your next 2 Sword Slashes to send forth Slicing Winds. Deals 10 damage to enemies and heals you for 14 health.',
     key: 'ex-lmb',
     champion_id: 4
   },
   {
     name: 'Retribution',
-    description: '',
+    description: 'Dash forward and strike to deal 11 damage and leech 9 health. Deals 3 bonus damage and leeches 2 bonus health per weapon charge.',
     key: 'rmb',
     champion_id: 4
   },
   {
     name: 'Heavenly Strike',
-    description: '',
+    description: 'Leap and strike with your sword to deal 20 damage in front of you upon landing.',
     key: 'space',
     champion_id: 4
   },
   {
     name: 'Parry',
-    description: '',
+    description: 'Deflect up to 5 attacks. Melee attacks trigger a Counterattack and projectiles are redirected towards your aim direction.',
     key: 'q',
     champion_id: 4
   },
   {
     name: 'Seismic Shock',
-    description: '',
+    description: 'Sunder the earth with your blade in a forward slash, dealing 10 and launching struck enemy up in the air for 1.4s.',
     key: 'e',
     champion_id: 4
   },
   {
     name: 'Tectonic Shock',
-    description: '',
+    description: 'Cleave the earth with your blade in a forward slash, dealing 10 damage and launching struck enemy up in the air for 1s. Inflicts Incapacitate for 2s upon landing.',
     key: 'ex-e',
     champion_id: 4
   },
   {
     name: 'Dragon Palm',
-    description: '',
+    description: 'Dash forward and palm strike an enemy. Deals 8 damage and knocks the enemy back, inflicting a Fading Snare. Knocking an enemy into a wall inflicts 10 additional damage.',
     key: 'r',
     champion_id: 4
   },
   {
     name: 'Wrath of the Tiger',
-    description: '',
+    description: 'Dash and strike an enemy, dealing 20 damage. Upon hit, slash all enemies in an area around you, dealing up to 84 damage over 3s. When the duration ends or upon Recast, dash towards your aim direction.',
     key: 'f',
     champion_id: 4
   }
@@ -229,55 +229,55 @@ const raigon = [
 const rook = [
   {
     name: 'Pummel',
-    description: '',
+    description: 'Strike in melee to deal 10 damage. Successful hits reduces the cooldown of Crushing Blow by 0.5s.',
     key: 'lmb',
     champion_id: 5
   },
   {
     name: 'Eat',
-    description: '',
+    description: 'Eat your meat and restore 16 health plus 24 health over 4s. Nomnomnomnom',
     key: 'ex-lmb',
     champion_id: 5
   },
   {
     name: 'Crushing Blow',
-    description: '',
+    description: 'Jump into the air and slam your mace into the ground. Deals 16 damage and inflicts Armor Break to enemies in the area.',
     key: 'rmb',
     champion_id: 5
   },
   {
     name: 'Meat Bolt',
-    description: '',
+    description: 'Throw a Meat Bolt that deals 24 damage and inflicts Snare.',
     key: 'ex-rmb',
     champion_id: 5
   },
   {
     name: 'Rush',
-    description: '',
+    description: 'Rush forward and slam into an enemy. Deals 12-24 damage and inflicts Stun. Damage increases with travel distance.',
     key: 'space',
     champion_id: 5
   },
   {
     name: 'Beserk',
-    description: '',
+    description: 'Counter the next melee or projectile attack. Enter a berserk rage when you successfully counter an attack increasing your attack speed, movement speed and making you temporarily invulnerable.',
     key: 'q',
     champion_id: 5
   },
   {
     name: 'Boulder Toss',
-    description: '',
+    description: 'Toss a boulder that deals 16 area damage and knocks enemies hit back.',
     key: 'e',
     champion_id: 5
   },
   {
     name: 'Smack',
-    description: '',
+    description: 'Smack enemies with your meat to deal 12 damage and knock them back. Knocking an enemy into a wall inflicts Incapacitate.',
     key: 'r',
     champion_id: 5
   },
   {
     name: 'Tremor',
-    description: '',
+    description: 'Jump into the air and slam your hammer into the ground 3 times. The shockwave deals 24/30/36 damage.',
     key: 'f',
     champion_id: 5
   }
@@ -286,55 +286,55 @@ const rook = [
 const ruh_kaan = [
   {
     name: 'Defiled Blade',
-    description: '',
+    description: 'Strike to deal damage to an enemy. Deals 6 bonus damage, heals self for 12 health and inflicts Curse if weapon is charged. Your weapon charges over time.',
     key: 'lmb',
     champion_id: 6
   },
   {
     name: 'Shadowbolt',
-    description: '',
+    description: 'Launch a shadowy bolt of energy that deals 30 damage.',
     key: 'rmb',
     champion_id: 6
   },
   {
     name: 'Sinister Strike',
-    description: '',
+    description: 'Dash attack that deals 16 area damage.',
     key: 'space',
     champion_id: 6
   },
   {
     name: 'Reaping Scythe',
-    description: '',
+    description: 'Consume the life force of nearby enemies dealing 30 damage and leeching 30 health over 1.8s.',
     key: 'ex-space',
     champion_id: 6
   },
   {
     name: 'Consume',
-    description: '',
+    description: 'Negate projectile and melee attacks in front of you inflicting Snare on enemy melee attackers. Negating an attack charges your weapon and resets the cooldown of Shadowbolt.',
     key: 'q',
     champion_id: 6
   },
   {
     name: 'Claw of the Wicked',
-    description: '',
+    description: 'Launch a claw that drains 10 health and pulls an enemy towards you',
     key: 'e',
     champion_id: 6
   },
   {
     name: 'Claw of the Undying',
-    description: '',
+    description: 'Launch a claw that heals an ally for 24 health and pulls it towards you.',
     key: 'ex-e',
     champion_id: 6
   },
   {
     name: 'Nether Void',
-    description: '',
+    description: 'Warp to target location and unleash a shadow blast that inflicts Curse on all nearby enemies.',
     key: 'r',
     champion_id: 6
   },
   {
     name: 'Shadow Beast',
-    description: '',
+    description: 'Transform into a shadow beast. Replaces Defiled Blade with Fang of the Faceless (Swing your fangs in a direction, deals 20 damage and leeches 16 health.) and Shadowbolt with Shadow Claw (Lauch a claw that deals 20 damage, leeches 16 health and pulls an enemy towards you). Your other abilities, except Sinister Strike, are disabled when shapeshifting.',
     key: 'f',
     champion_id: 6
   }
@@ -343,55 +343,55 @@ const ruh_kaan = [
 const shifu = [
   {
     name: 'Spear Slash',
-    description: '',
+    description: 'Strike with your spear to deal 10 damage. Successful hits charges your weapon. Each charge increases the damage of Impale.',
     key: 'lmb',
     champion_id: 7
   },
   {
     name: 'Impale',
-    description: '',
+    description: 'Thrust your spear in a line to deal 9 damage to all enemies hit and 5 bonus damage per weapon charge. Deals less damage to multiple enemies.',
     key: 'rmb',
     champion_id: 7
   },
   {
     name: 'Fleetfoot',
-    description: '',
+    description: 'You become temporarily immaterial and your movement speed is increased by 35%. Removes negative effects.',
     key: 'space',
     champion_id: 7
   },
   {
     name: 'Tempest Rush',
-    description: '',
+    description: 'You become temporarily immaterial, your movement speed is increased by 50%, and your Spear Slash hits heal you for a flat amount. You also deal less damage during this effect.',
     key: 'ex-space',
     champion_id: 7
   },
   {
     name: 'Kunju',
-    description: '',
+    description: 'Counter the next melee or projectile attack. Heal yourself for 16 health, you become Immaterial and teleport behind your enemy when you counter an attack. Your next Spear Slash deals bonus damage.',
     key: 'q',
     champion_id: 7
   },
   {
     name: 'Javelin',
-    description: '',
+    description: 'Throw a javelin that deals 10 damage and leap towards the enemy. Javelin can be used to pull yourself to a wall.',
     key: 'e',
     champion_id: 7
   },
   {
     name: 'Harpoon',
-    description: '',
+    description: 'Throw a harpoon that deals damage and drags the enemy towards you and inflicts Snare. Harpoon can be used to pull yourself to a wall.',
     key: 'ex-e',
     champion_id: 7
   },
   {
     name: 'Tendon Swing',
-    description: '',
+    description: 'Swing your spear in a cone to deal 12 damage and inflict Incapacitate on all enemies in the area.',
     key: 'r',
     champion_id: 7
   },
   {
     name: 'Whirlwind',
-    description: '',
+    description: 'Spin into a whirlwind dance that deals 112 damage over 3s to nearby enemies, as well as granting you a Shield.',
     key: 'f',
     champion_id: 7
   }
@@ -400,55 +400,55 @@ const shifu = [
 const thorn = [
   {
     name: 'Root Claw',
-    description: '',
+    description: 'Swing your claws to deal 12 damage. Every third hit is a Root Grip that heals you for 8 health and pulls enemies closer.',
     key: 'lmb',
     champion_id: 8
   },
   {
     name: 'Leeching Thorns',
-    description: '',
+    description: 'Launch 2 leeching thorns, each dealing 12 damage and inflicting Thorns.',
     key: 'rmb',
     champion_id: 8
   },
   {
     name: 'Thorn Barrage',
-    description: '',
+    description: 'Launch 4 thorns, each dealing 10 damage and inflicting Thorns.',
     key: 'ex-rmb',
     champion_id: 8
   },
   {
     name: 'Burrow',
-    description: '',
+    description: 'Burrow into the ground and emerge from beneath after duration or upon recast, dealing 14 damage and inflicting Stun to enemies hit. Increases movement speed by 100% and removes any movement impairing effects.',
     key: 'space',
     champion_id: 8
   },
   {
     name: 'Root Network',
-    description: '',
+    description: 'Burrow yourself and nearby allies into the ground and emerge beneath your enemies dealing 14 and inflicting Stun.',
     key: 'ex-space',
     champion_id: 8
   },
   {
     name: 'Evil Clutch',
-    description: '',
+    description: 'Grow roots from the ground and pull them towards you, dragging along any enemies in their path and dealing 12 damage.',
     key: 'q',
     champion_id: 8
   },
   {
     name: 'Entangling Roots',
-    description: '',
+    description: 'Send whirling roots forward, dealing 8 damage and entangling target enemy, healing you for 16 health over 2.5s. Entangled target is granted a shield and is unable to move or cast abilities. Breaking the shield ends the effect.',
     key: 'e',
     champion_id: 8
   },
   {
     name: 'Barbed Husk',
-    description: '',
+    description: 'Shield a target ally, guarding them from damage and disables. Projectile and melee attacks absorbed by Barbed Husk trigger a volley of thorns that deals 12 damage to nearby enemies. While shielded, the target is unable to move or use abilities.',
     key: 'r',
     champion_id: 8
   },
   {
     name: 'Dead Roots',
-    description: '',
+    description: 'Burrow yourself and nearby allies into the ground and emerge beneath your enemies dealing 14 and inflicting Stun.',
     key: 'f',
     champion_id: 8
   }
