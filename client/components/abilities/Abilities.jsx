@@ -2,10 +2,6 @@ import React, { Component } from 'react'
 import styles from './Abilities.scss'
 
 class Abilities extends Component {
-  constructor(props) {
-    super(props)
-  }
-
   componentDidMount() {
     this.props.load()
   }

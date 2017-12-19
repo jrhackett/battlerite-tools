@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import AbilitiesContainer from '../../containers/abilities/AbilitiesContainer'
-import BattleritesContainer from '../../containers/battlerites/BattleritesContainer'
 import styles from './Champions.scss'
 
 class Champions extends Component {
