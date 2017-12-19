@@ -1,99 +1,123 @@
 const champions = [
   { 
     name: 'Bakko', 
-    role: 'Melee' 
+    role: 'Melee',
+    id: 1
   },
   { 
     name: 'Croak', 
-    role: 'Melee' 
+    role: 'Melee',
+    id: 2
   },
   { 
     name: 'Freya', 
-    role: 'Melee' 
+    role: 'Melee',
+    id: 3 
   },
   { 
     name: 'Raigon', 
-    role: 'Melee' 
+    role: 'Melee',
+    id: 4 
   },
   { 
     name: 'Rook', 
-    role: 'Melee' 
+    role: 'Melee',
+    id: 5 
   },
   { 
     name: 'Ruh Kaan', 
-    role: 'Melee' 
+    role: 'Melee',
+    id: 6 
   },
   { 
     name: 'Shifu', 
-    role: 'Melee' 
+    role: 'Melee',
+    id: 7 
   },
   { 
     name: 'Thorn', 
-    role: 'Melee' 
+    role: 'Melee',
+    id: 8 
   },
   { 
     name: 'Ashka', 
-    role: 'Ranged' 
+    role: 'Ranged',
+    id: 9 
   },
   {
     name: 'Alysia',
-    role: 'Ranged'
+    role: 'Ranged',
+    id: 24
   },
   { 
     name: 'Destiny', 
-    role: 'Ranged' 
+    role: 'Ranged',
+    id: 10 
   },
   { 
     name: 'Ezmo', 
-    role: 'Ranged' 
+    role: 'Ranged',
+    id: 11 
   },
   { 
     name: 'Iva', 
-    role: 'Ranged' 
+    role: 'Ranged',
+    id: 12 
   },
   { 
     name: 'Jade', 
-    role: 'Ranged' 
+    role: 'Ranged',
+    id: 13 
   },
   { 
     name: 'Jumong', 
-    role: 'Ranged' 
+    role: 'Ranged',
+    id: 14 
   },
   { 
     name: 'Taya', 
-    role: 'Ranged' 
+    role: 'Ranged',
+    id: 15 
   },
   { 
     name: 'Varesh', 
-    role: 'Ranged' 
+    role: 'Ranged',
+    id: 16 
   },
   { 
     name: 'Blossom', 
-    role: 'Support' 
+    role: 'Support',
+    id: 17 
   },
   { 
     name: 'Lucie', 
-    role: 'Support' 
+    role: 'Support',
+    id: 18 
   },
   { 
     name: 'Oldur', 
-    role: 'Support' 
+    role: 'Support',
+    id: 19 
   },
   { 
     name: 'Pearl', 
-    role: 'Support' 
+    role: 'Support',
+    id: 20 
   },
   { 
     name: 'Pestilus', 
-    role: 'Support' 
+    role: 'Support',
+    id: 21
   },
   { 
     name: 'Poloma', 
-    role: 'Support' 
+    role: 'Support',
+    id: 22
   },
   { 
     name: 'Sirius', 
-    role: 'Support' 
+    role: 'Support',
+    id: 23
   }
 ]
 
