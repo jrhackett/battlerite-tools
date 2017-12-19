@@ -1,10 +1,16 @@
+const sequelize = require('sequelize')
 const Ability = require('../models/ability')
 
 const controller = {}
 
 controller.getAbilities = function(req, res) {
-  const query = req.query ? { where: req.query } : {}
-  Ability.findAll(query)
+  let params = {
+    order: sequelize.col('id')
+  }
+
+  if(req.query)
+    params = { ...params, where: req.query }
+  Ability.findAll(params)
     .then(result => {
       res.status(200).send(result)
     })

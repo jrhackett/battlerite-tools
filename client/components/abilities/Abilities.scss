@@ -2,12 +2,13 @@
   flex-basis: 20%;
 
   div {
-    padding: 1rem;
+    padding: 0.5rem;
 
     img {
       width: 100%;
       height: auto;
       opacity: 0.75;
+      margin-bottom: 0.25rem;
 
       &:hover {
         opacity: 1.0;
@@ -18,13 +19,14 @@
 
 .abilitiesContainer {
   display: flex;
+  margin: 0 2rem;
 }
 
 .abilities {
   display: flex;
   justify-content: flex-start;
   text-align: center;
-  width: 33%;
+  flex-basis: 33%;
   flex-wrap: wrap;
 }
 
@@ -41,5 +43,13 @@
 }
 
 .abilityDetails {
-  width: 67%;
+  flex-basis: 67%;
+
+  p {
+    margin: 0 1rem;
+  }
+
+  h3 {
+    margin: 0.25rem 1rem;
+  }
 }
