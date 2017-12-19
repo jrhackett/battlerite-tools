@@ -513,227 +513,227 @@ const ashka = [
 
 const destiny = [
   {
-    name: '',
-    description: '',
+    name: 'Power Blaster',
+    description: 'Projectile attack dealing 16 damage. Successful hits reduces the cooldown of Charged Bolt by 1s.',
     key: 'lmb',
     champion_id: 10
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Transform Weapon',
+    description: 'Toggle defensive weapon mode, granting a shield that absorbs 6 damage. Blaster deals 6 damage on enemy hit and applies a shield absorbing 10 damage on ally hit. Shields self for the same amount on both enemy and ally hits. Max shield value: 40.',
+    key: 'ex-lmb',
     champion_id: 10
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Charged Bolt',
+    description: 'Hold to charge a projectile for up to 1.2s to increase damage and distance. The projectile deals 8-32 damage and inflicts Spell Block.',
+    key: 'rmb',
     champion_id: 10
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Magnetic Orb',
+    description: 'Compress yourself into an orb to dispel movement impairing effects and to increase movement speed by 125%. Deals 16 damage and knocks the first enemy you bump into back.',
+    key: 'space',
     champion_id: 10
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Sky Strike',
+    description: 'Counter the next melee or projectile attack. Countering an attack vaults you into the air and fires a plasma blast that deals 22 damage and knocks enemies back.',
+    key: 'q',
     champion_id: 10
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Plasma Wall',
+    description: 'Deploy a Plasma Wall at target location. The barrier reduces projectile speed and snares enemies that pass through it.',
+    key: 'e',
     champion_id: 10
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Lockdown',
+    description: 'Summon a plasma prison at target location that stuns enemies that pass through it.',
+    key: 'ex-e',
     champion_id: 10
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Mega Sphere',
+    description: 'Fire a colossal sphere of volatile energies forward towards target position. Firing Power Blaster or Charged Bolt at Mega Sphere causes an explosion, dealing the fired projectile’s effects to all nearby targets along with 14 bonus damage and inflicting Fading Snare to enemies hit.',
+    key: 'r',
     champion_id: 10
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Pinball',
+    description: 'Compress yourself into an orb and dash forward at high speed. Deals 40 damage and throws enemies into the air for 0.6s. Bounces on walls up to a total of three times.',
+    key: 'f',
     champion_id: 10
   }
 ]
 
 const ezmo = [
   {
-    name: '',
-    description: '',
+    name: 'Arcane Fire',
+    description: 'Launch a bolt of arcane fire that deals 8 damage.',
     key: 'lmb',
     champion_id: 11
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Chaos Grip',
+    description: 'Channel a beam that deals 32 damage and drains 32 health.',
+    key: 'ex-lmb',
     champion_id: 11
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Chaos Grip',
+    description: 'Hold to charge a projectile for up to 1.3s to increase damage and distance. The projectile deals 12-20 damage, knocks nearby enemies back and pulls enemies far away towards you.',
+    key: 'rmb',
     champion_id: 11
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Displace',
+    description: 'Turn into arcane energy, travel to target location and recharge Arcane Fire. Can be recasted.',
+    key: 'space',
     champion_id: 11
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Arcane Barrier',
+    description: 'Negate projectile and melee attacks in front of you. Negating attacks recharges Arcane Fire. You receive 1 charge per 10 damage absorbed or 1 charge for each none damaging source.',
+    key: 'q',
     champion_id: 11
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Arcane Ward',
+    description: 'Shield a target ally. Shield absorbs up to 24 damage and restores up to 6 weapon charges if destroyed by damage.',
+    key: 'ex-q',
     champion_id: 11
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Shackle',
+    description: 'Strike an area to deal 8 area damage and Root enemies in place.',
+    key: 'e',
     champion_id: 11
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Tome of Destruction',
+    description: 'Summon the Tome of Destruction at target location. The tome mimics your Arcane Fire attacks.',
+    key: 'r',
     champion_id: 11
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Grimoire of Chaos',
+    description: 'Throw the Grimoire of Chaos to target location. The power of the grimoire draws nearby enemies towards it. It explodes after 2s dealing 55 damage.',
+    key: 'f',
     champion_id: 11
   }
 ]
 
 const iva = [
   {
-    name: '',
-    description: '',
+    name: 'Boomstick',
+    description: 'Fire 4 bullets in a cone, each dealing 4 damage.',
     key: 'lmb',
     champion_id: 12
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Flame Thrower',
+    description: 'Channel a flame thrower that deals 50 damage and Ignites enemies affected by Oil.',
+    key: 'ex-lmb',
     champion_id: 12
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'ROCKET X-67',
+    description: 'Launch a rocket that deals 26 damage on impact and 12 area damage. The explosion Ignites enemies affected by Oil.',
+    key: 'rmb',
     champion_id: 12
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Jet Pack',
+    description: 'Fire up your Jet Pack and travel towards target location. Inflicts Oil on enemies below you.',
+    key: 'space',
     champion_id: 12
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Zap',
+    description: 'Remove all negative effects and Shield a target ally. Shield absorbs up to 28 damage and increases movement speed by 30%.',
+    key: 'q',
     champion_id: 12
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Tazer',
+    description: 'Fire a shot that interrupts the next ability cast and dispels all positive effects. Inflicts Stun when an ability is interrupted.',
+    key: 'e',
     champion_id: 12
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Concussion Shot',
+    description: 'Fire a shock shell that deals 10 damage and inflicts Incapacitate.',
+    key: 'ex-e',
     champion_id: 12
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Tractor Beam',
+    description: 'Channel a beam that drags enemies towards your position while rendering you immune to melee and projectile attacks from that direction.',
+    key: 'r',
     champion_id: 12
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Machine Gun',
+    description: 'Fire a series of piercing projectiles dealing a total of 140 damage.',
+    key: 'f',
     champion_id: 12
   }
 ]
 
 const jade = [
   {
-    name: '',
-    description: '',
+    name: 'Revolver Shot',
+    description: 'Fire a revolver shot dealing 6 damage.',
     key: 'lmb',
     champion_id: 13
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Snipe',
+    description: 'Fire a piercing bullet that deals 38 damage and inflicts Stun.',
+    key: 'rmb',
     champion_id: 13
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Snap Shot',
+    description: 'Fire a piercing bullet that deals 12 damage and inflicts Root.',
+    key: 'ex-rmb',
     champion_id: 13
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Blast Vault',
+    description: 'Detonate a grenade that launches you into the air. The explosion deals 12 damage and inflicts Stun on nearby enemies.',
+    key: 'space',
     champion_id: 13
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Stealth',
+    description: 'Turn invisible and gain Fading Haste. Removes movement impairing effects.',
+    key: 'q',
     champion_id: 13
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Smoke Veil',
+    description: 'Enter Stealth, gain a Fading Haste and grant all nearby allies a Shield that absorbs up to 32 damage.',
+    key: 'ex-q',
     champion_id: 13
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Disabling Shot',
+    description: 'Fire a shot that inflicts Snare and interrupts the next ability cast. Inflicts Silence when an ability is interrupted.',
+    key: 'e',
     champion_id: 13
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Junk Shot',
+    description: 'Fire piercing bullets in a cone dealing 18 damage and knocking enemies back.',
+    key: 'r',
     champion_id: 13
   },
   {
-    name: '',
-    description: '',
+    name: 'Explosive Shells',
+    description: 'Fire 4 explosive shells dealing a total of 112 impact damage and 64 area damage.',
     key: 'lmb',
     champion_id: 13
   }
@@ -741,114 +741,114 @@ const jade = [
 
 const jumong = [
   {
-    name: '',
-    description: '',
+    name: 'Hunting Arrow',
+    description: 'Fire an arrow that deals 16 damage. Successful hits charges your bow. A fully charged bow enables you to recast Steady Shot, Black Arrow or Rain Of Arrows.',
     key: 'lmb',
     champion_id: 14
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Guided Arrow',
+    description: 'Fire an arrow that bounces up to 3 times. Deals 6/6/6 damage, heals self for 6/6/6 health and inflicts Seeker\'s Mark on each hit.',
+    key: 'ex-lmb',
     champion_id: 14
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Steady Shot',
+    description: 'Projectile attack that deals 28 damage.',
+    key: 'rmb',
     champion_id: 14
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Seekers Arrow',
+    description: 'Fire a piercing arrow that turns to hit the same target again after impact dealing 12/12/12 damage. Each hit charges your weapon.',
+    key: 'ex-rmb',
     champion_id: 14
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Black Arrow',
+    description: 'Dash towards move direction and fire an arrow that deals 8 damage.',
+    key: 'space',
     champion_id: 14
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Rain Of Arrows',
+    description: 'Fire arrows that rain down at target location dealing 20 damage over 2s and Snaring enemies. The first hit inflicts Seeker\'s Mark.',
+    key: 'q',
     champion_id: 14
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Bear Trap',
+    description: 'Place a trap that inflicts Root on all nearby enemies when the trap is triggered.',
+    key: 'e',
     champion_id: 14
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Prowl',
+    description: 'You become immaterial, movement speed increases by 100% and all movement impairing effects are removed. Running into an enemy inflicts Seeker\'s Mark.',
+    key: 'r',
     champion_id: 14
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Dragon Slayer',
+    description: 'Hold to charge an arrow for up to 2s to increase its damage and travel distance. The arrow deals 45-60 damage and pulls the target hit with it. Pulling a target into an enemy or into a wall deals 30 damage to the enemy hit and stuns both targets for 1.2s.',
+    key: 'f',
     champion_id: 14
   }
 ]
 
 const taya = [
   {
-    name: '',
-    description: '',
+    name: 'Razor Boomerang',
+    description: 'Throws a piercing boomerang that deals 14 damage and returns upon reaching maximum distance.',
     key: 'lmb',
     champion_id: 15
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'X Strike',
+    description: 'Throw two boomerangs in arc. Each boomerang deals 14 damage. Inflicts Stun on the way out and deals 6 bonus damage if you hit both boomerangs at max range.',
+    key: 'rmb',
     champion_id: 15
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Spinning Boomerang',
+    description: 'Throw a boomerang that deals 16 damage. The boomerang returns after a short delay dealing 24 damage and inflicting Stun on enemies hit.',
+    key: 'ex-rmb',
     champion_id: 15
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Haste',
+    description: 'Removes all movement impairing effects and increases movement speed by 80%. Razor Boomerang deals increases damage when Haste is active.',
+    key: 'space',
     champion_id: 15
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Wind Strike',
+    description: 'Spinning attack that deals 12 damage and knocks nearby enemies away.',
+    key: 'q',
     champion_id: 15
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Zephyr',
+    description: 'Dash forward and perform a spin attack that deals 16 damage and knocks nearby enemies away.',
+    key: 'ex-q',
     champion_id: 15
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Wind Bomb',
+    description: 'Throw a Wind Bomb to target location that pulls nearby enemies towards the center of the impact and inflicts Fading Snare.',
+    key: 'e',
     champion_id: 15
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Tornado',
+    description: 'Target ally is swept up into the air and becomes unhittable. Ally is tossed out of the Tornado when the effect ends.',
+    key: 'r',
     champion_id: 15
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Companion Call',
+    description: 'Your mount rushes towards you from target location dealing 26 damage to enemies in its path. You are granted a shield and instantly mount when it reaches you. As long as the shield holds you cannot be demounted and you can throw empowered Razor Boomerangs.',
+    key: 'f',
     champion_id: 15
   }
 ]
