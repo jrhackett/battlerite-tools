@@ -5,17 +5,17 @@ export const requestAbilities = () => ({
   type: actionTypes.REQUEST_ABILITIES
 })
 
-export const receiveAbilities = (data) => ({
+export const receiveAbilities = data => ({
   type: actionTypes.RECEIVE_ABILITIES,
   abilities: data
 })
 
-export const errorAbilities = (data) => ({
+export const errorAbilities = data => ({
   type: actionTypes.ERROR_ABILITIES,
   error: data
 })
 
-export const fetchAbilities = (champion_id) => {
+export const fetchAbilities = champion_id => {
   return dispatch => {
     dispatch(requestAbilities())
     axios.get(`/api/abilities?champion_id=${ champion_id }`)
@@ -23,3 +23,8 @@ export const fetchAbilities = (champion_id) => {
       .catch(err => dispatch(errorAbilities(err)))
   }
 }
+
+export const setActiveAbility = id => ({
+  type: actionTypes.SET_ACTIVE_ABILITY,
+  id: id
+})

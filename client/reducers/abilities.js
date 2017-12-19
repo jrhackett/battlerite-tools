@@ -3,7 +3,8 @@ import * as actionTypes from '../actionTypes'
 const initialState = {
   isFetching: false,
   error: '',
-  abilities: []
+  abilities: [],
+  activeAbility: -1
 }
 
 const abilities = (state = initialState, action) => {
@@ -24,6 +25,11 @@ const abilities = (state = initialState, action) => {
         ...state,
         isFetching: false,
         abilities: action.abilities
+      }
+    case actionTypes.SET_ACTIVE_ABILITY:
+      return {
+        ...state,
+        activeAbility: action.id
       }
     default:
       return state

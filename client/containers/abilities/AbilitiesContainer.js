@@ -1,13 +1,19 @@
 import { connect } from 'react-redux'
 import Abilities from '../../components/abilities/Abilities'
-import { fetchAbilities } from '../../actions/abilities'
+import { fetchAbilities, setActiveAbility } from '../../actions/abilities'
+
+const getAbilityDescription = (abilitiesState, activeChampion) => {
+  const ability = abilitiesState.abilities.find(ability => ability.id === abilitiesState.activeAbility)
+  return ability && ability.description ? ability.description : ''
+}
 
 const mapStateToProps = (state, ownProps) => ({
   isFetching: state.abilities.isFetching,
   error: state.abilities.error,
   abilities: state.abilities.abilities,
   activeChampionName: ownProps.activeChampionName,
-  key: ownProps.activeChampion
+  key: ownProps.activeChampion,
+  abilityDescription: getAbilityDescription(state.abilities, ownProps.activeChampion)
 })
 
 const mapDispatchToProps = (dispatch, ownProps) => ({
@@ -16,6 +22,9 @@ const mapDispatchToProps = (dispatch, ownProps) => ({
       dispatch(fetchAbilities(ownProps.activeChampion))
     }
     return
+  },
+  onClick: (id) => {
+    dispatch(setActiveAbility(id))
   }
 })
 
