@@ -570,57 +570,57 @@ const destiny = [
 
 const ezmo = [
   {
-    name: '',
-    description: '',
+    name: 'Arcane Fire',
+    description: 'Launch a bolt of arcane fire that deals 8 damage.',
     key: 'lmb',
     champion_id: 11
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Chaos Grip',
+    description: 'Channel a beam that deals 32 damage and drains 32 health.',
+    key: 'ex-lmb',
     champion_id: 11
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Chaos Grip',
+    description: 'Hold to charge a projectile for up to 1.3s to increase damage and distance. The projectile deals 12-20 damage, knocks nearby enemies back and pulls enemies far away towards you.',
+    key: 'rmb',
     champion_id: 11
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Displace',
+    description: 'Turn into arcane energy, travel to target location and recharge Arcane Fire. Can be recasted.',
+    key: 'space',
     champion_id: 11
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Arcane Barrier',
+    description: 'Negate projectile and melee attacks in front of you. Negating attacks recharges Arcane Fire. You receive 1 charge per 10 damage absorbed or 1 charge for each none damaging source.',
+    key: 'q',
     champion_id: 11
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Arcane Ward',
+    description: 'Shield a target ally. Shield absorbs up to 24 damage and restores up to 6 weapon charges if destroyed by damage.',
+    key: 'ex-q',
     champion_id: 11
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Shackle',
+    description: 'Strike an area to deal 8 area damage and Root enemies in place.',
+    key: 'e',
     champion_id: 11
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Tome of Destruction',
+    description: 'Summon the Tome of Destruction at target location. The tome mimics your Arcane Fire attacks.',
+    key: 'r',
     champion_id: 11
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Grimoire of Chaos',
+    description: 'Throw the Grimoire of Chaos to target location. The power of the grimoire draws nearby enemies towards it. It explodes after 2s dealing 55 damage.',
+    key: 'f',
     champion_id: 11
   }
 ]
