@@ -513,57 +513,57 @@ const ashka = [
 
 const destiny = [
   {
-    name: '',
-    description: '',
+    name: 'Power Blaster',
+    description: 'Projectile attack dealing 16 damage. Successful hits reduces the cooldown of Charged Bolt by 1s.',
     key: 'lmb',
     champion_id: 10
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Transform Weapon',
+    description: 'Toggle defensive weapon mode, granting a shield that absorbs 6 damage. Blaster deals 6 damage on enemy hit and applies a shield absorbing 10 damage on ally hit. Shields self for the same amount on both enemy and ally hits. Max shield value: 40.',
+    key: 'ex-lmb',
     champion_id: 10
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Charged Bolt',
+    description: 'Hold to charge a projectile for up to 1.2s to increase damage and distance. The projectile deals 8-32 damage and inflicts Spell Block.',
+    key: 'rmb',
     champion_id: 10
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Magnetic Orb',
+    description: 'Compress yourself into an orb to dispel movement impairing effects and to increase movement speed by 125%. Deals 16 damage and knocks the first enemy you bump into back.',
+    key: 'space',
     champion_id: 10
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Sky Strike',
+    description: 'Counter the next melee or projectile attack. Countering an attack vaults you into the air and fires a plasma blast that deals 22 damage and knocks enemies back.',
+    key: 'q',
     champion_id: 10
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Plasma Wall',
+    description: 'Deploy a Plasma Wall at target location. The barrier reduces projectile speed and snares enemies that pass through it.',
+    key: 'e',
     champion_id: 10
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Lockdown',
+    description: 'Summon a plasma prison at target location that stuns enemies that pass through it.',
+    key: 'ex-e',
     champion_id: 10
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Mega Sphere',
+    description: 'Fire a colossal sphere of volatile energies forward towards target position. Firing Power Blaster or Charged Bolt at Mega Sphere causes an explosion, dealing the fired projectile’s effects to all nearby targets along with 14 bonus damage and inflicting Fading Snare to enemies hit.',
+    key: 'r',
     champion_id: 10
   },
   {
-    name: '',
-    description: '',
-    key: 'lmb',
+    name: 'Pinball',
+    description: 'Compress yourself into an orb and dash forward at high speed. Deals 40 damage and throws enemies into the air for 0.6s. Bounces on walls up to a total of three times.',
+    key: 'f',
     champion_id: 10
   }
 ]
