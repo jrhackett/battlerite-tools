@@ -1,11 +1,5 @@
-.abilitiesContainer {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-}
-
-.abilityContainer {
-  max-width: 10%;
+@mixin abilityContainerMixin {
+  flex-basis: 20%;
 
   div {
     padding: 1rem;
@@ -20,4 +14,32 @@
       }
     }
   }
+}
+
+.abilitiesContainer {
+  display: flex;
+}
+
+.abilities {
+  display: flex;
+  justify-content: flex-start;
+  text-align: center;
+  width: 33%;
+  flex-wrap: wrap;
+}
+
+.abilityContainer {
+  @include abilityContainerMixin;
+}
+
+.activeAbilityContainer {
+  @include abilityContainerMixin;
+
+  div > img {
+    opacity: 1.0;
+  }
+}
+
+.abilityDetails {
+  width: 67%;
 }

@@ -2,9 +2,9 @@ import { connect } from 'react-redux'
 import Abilities from '../../components/abilities/Abilities'
 import { fetchAbilities, setActiveAbility } from '../../actions/abilities'
 
-const getAbilityDescription = (abilitiesState, activeChampion) => {
+const getActiveAbility = (abilitiesState) => {
   const ability = abilitiesState.abilities.find(ability => ability.id === abilitiesState.activeAbility)
-  return ability && ability.description ? ability.description : ''
+  return ability ? ability : null
 }
 
 const mapStateToProps = (state, ownProps) => ({
@@ -13,7 +13,7 @@ const mapStateToProps = (state, ownProps) => ({
   abilities: state.abilities.abilities,
   activeChampionName: ownProps.activeChampionName,
   key: ownProps.activeChampion,
-  abilityDescription: getAbilityDescription(state.abilities, ownProps.activeChampion)
+  activeAbility: getActiveAbility(state.abilities)
 })
 
 const mapDispatchToProps = (dispatch, ownProps) => ({
