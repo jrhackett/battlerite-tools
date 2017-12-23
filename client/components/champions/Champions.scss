@@ -2,10 +2,16 @@
   margin: 0.25rem;
   background: transparent;
   flex-basis: calc(8.33% - 1rem);
+  background: #031e2f;
+  border-radius: 2px;
+  padding-bottom: 0.25rem;
+
+  a {
+    text-decoration: none;
+  }
 
   img {
     width: 100%;
-    opacity: 0.4;
 
     &:hover {
       opacity: 0.8;
@@ -14,6 +20,7 @@
 
   p {
     font-size: 0.75rem;
+    color: #dedede;
   }
 }
 
@@ -24,6 +31,12 @@
   width: 100%;
   margin: 1rem 0;
   flex-wrap: wrap;
+
+  h3 {
+    color: #dedede;
+    flex-basis: 100%;
+    margin-bottom: 0.5rem;
+  }
 }
 
 .championContainer {
