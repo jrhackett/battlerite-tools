@@ -576,7 +576,7 @@ const ezmo = [
     champion_id: 11
   },
   {
-    name: 'Chaos Grip',
+    name: 'Siphon Life',
     description: 'Channel a beam that deals 32 damage and drains 32 health.',
     key: 'ex-lmb',
     champion_id: 11

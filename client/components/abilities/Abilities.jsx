@@ -12,7 +12,7 @@ class Abilities extends Component {
 
   render() {
     const { activeAbility } = this.props
-    if(this.props.activeChampionName !== '') {
+    if(this.props.shouldRender) {
       return (
         <div className={ styles.abilitiesContainer }>
           <div className={ styles.abilities }>
@@ -20,7 +20,7 @@ class Abilities extends Component {
               <div className={ activeAbility && activeAbility.id === ability.id ? styles.activeAbilityContainer : styles.abilityContainer } key={ ability.name }>
                 <div>
                   <img 
-                    src={ require(`../../assets/images/champions/${ this.props.activeChampionName }/${ ability.key.replace('ex-', '') }.png`) } 
+                    src={ require(`../../assets/images/champions/${ this.props.activeChampionName }/${ ability.key }.png`) } 
                     alt={ `${ ability.name }-icon` } 
                     onClick={ () => this.onAbilityClick(ability.id) }/>
                   <p>{ ability.key.toUpperCase() }</p>

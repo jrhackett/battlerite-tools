@@ -12,14 +12,21 @@ const getActiveChampionName = (id, champions) => {
   return champion ? champion.name.toLowerCase() : ''
 }
 
-const mapStateToProps = (state, ownProps) => ({
-  isFetching: state.abilities.isFetching,
-  error: state.abilities.error,
-  abilities: state.abilities.abilities,
-  activeChampionName: getActiveChampionName(ownProps.activeChampion, state.champions.champions),
-  key: ownProps.activeChampion,
-  activeAbility: getActiveAbility(state.abilities)
-})
+const mapStateToProps = (state, ownProps) => {
+  const abilities = state.abilities.abilities
+  const activeChampionName = getActiveChampionName(ownProps.activeChampion, state.champions.champions)
+  // TODO fix render so we don't have to check if abilities are for this champion
+  // should be done through loading new abilities at appropriate time and just checking isFetching
+  return {
+    shouldRender: !state.abilities.isFetching && activeChampionName !== '' && abilities.length > 0 && abilities[0].champion_id === parseInt(ownProps.activeChampion, 10),
+    error: state.abilities.error,
+    abilities: state.abilities.abilities,
+    activeChampionName: getActiveChampionName(ownProps.activeChampion, state.champions.champions),
+    key: ownProps.activeChampion,
+    activeChampion: ownProps.activeChampion,
+    activeAbility: getActiveAbility(state.abilities)
+  }
+}
 
 const mapDispatchToProps = (dispatch, ownProps) => ({
   load: () => {

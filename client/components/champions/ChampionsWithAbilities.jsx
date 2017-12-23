@@ -6,7 +6,7 @@ import AbilitiesContainer from '../../containers/abilities/AbilitiesContainer'
 const ChampionsWithAbilities = ({ match }) => (
   <div>
     <ChampionsContainer />
-    <AbilitiesContainer activeChampion={ parseInt(match.params.champion, 10) } />
+    <AbilitiesContainer activeChampion={ match.params.champion } />
   </div>
 )
 
