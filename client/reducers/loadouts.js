@@ -23,7 +23,12 @@ const loadouts = (state = initialState, action) => {
       return  {
         ...state,
         isFetching: false,
-        loadouts: action.loadouts
+        loadouts: action.loadouts.map(loadout => {
+          return {
+            ...loadout,
+            build: loadout.build.split('-').map(i => parseInt(i, 10))
+          }
+        })
       }
     default:
       return state

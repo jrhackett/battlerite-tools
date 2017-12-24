@@ -1,0 +1,20 @@
+.loadoutsContainer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  margin: 1rem 0;
+  flex-wrap: wrap;
+
+  h3 {
+    color: #dedede;
+    flex-basis: 100%;
+    margin-bottom: 0.5rem;
+  }
+}
+
+.loadoutContainer {
+  display: flex;
+  justify-content: center;
+  flex-basis: 100%;
+}
