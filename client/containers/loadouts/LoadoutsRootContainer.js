@@ -1,5 +1,4 @@
 import { connect } from 'react-redux'
-import { withRouter } from 'react-router-dom'
 import { fetchLoadouts } from '../../actions/loadouts'
 import LoadoutsRoot from '../../components/LoadoutsRoot'
 

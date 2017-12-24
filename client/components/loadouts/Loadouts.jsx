@@ -1,7 +1,9 @@
 import React from 'react'
 
-const Loadouts = ({}) => (
- <div></div>
+const Loadouts = () => (
+  <div>
+    Loadouts
+  </div>
 )
 
 export default Loadouts

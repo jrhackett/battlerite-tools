@@ -1,7 +1,9 @@
 import React from 'react'
 
-const LoadoutForm = ({}) => (
- <div></div>
+const LoadoutForm = () => (
+  <div>
+    LoadoutForm
+  </div>
 )
 
 export default LoadoutForm
