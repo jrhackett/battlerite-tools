@@ -8,7 +8,7 @@
 
   h3 {
     color: #dedede;
-    flex-basis: 100%;
+    flex-basis: 50%;
     margin-bottom: 0.5rem;
   }
 }
@@ -17,4 +17,9 @@
   display: flex;
   justify-content: center;
   flex-basis: 100%;
+}
+
+.createLink {
+  color: #dedede;
+  flex-basis: 50%;
 }
