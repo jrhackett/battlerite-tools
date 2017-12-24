@@ -6,10 +6,9 @@ const PORT = process.env.PORT || 8000
 
 const app = express()
 
-app.use(morgan(':remote-addr - :remote-user [:date[clf]] ":method :url HTTP/:http-version" :status :res[content-length] :response-time ms'));
+app.use(morgan(':remote-addr - :remote-user [:date[clf]] ":method :url HTTP/:http-version" :status :res[content-length] :response-time ms'))
 
 app.use(bodyParser.urlencoded({ extended: false }))
-
 app.use(bodyParser.json())
 
 app.use(express.static(path.resolve(__dirname, '..', 'build')))
@@ -23,7 +22,7 @@ app.get('*', (req, res) => {
 })
 
 app.listen(PORT, () => {
-  console.log(`App listening on port ${PORT}!`)
+  console.log(`App listening on port ${ PORT }!`)
 })
 
 module.exports = app
