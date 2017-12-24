@@ -1,8 +1,11 @@
 import React from 'react'
+import ChampionsContainer from '../../containers/champions/ChampionsContainer'
+
 
 const LoadoutForm = () => (
   <div>
-    LoadoutForm
+    <h2>Create a Loadout</h2>
+    <ChampionsContainer />
   </div>
 )
 

@@ -16,9 +16,12 @@ export const errorBattlerites = data => ({
 })
 
 export const fetchBattlerites = id => {
+  let url = '/api/battlerites'
+  if(id)
+    url += `?champion_id=${ id }`
   return dispatch => {
     dispatch(requestBattlerites());
-    axios.get(`/api/battlerites?champion_id=${ id }`)
+    axios.get(url)
       .then(res => dispatch(receiveBattlerites(res.data)))
       .catch(err => dispatch(errorBattlerites(err)))
   }

@@ -22,9 +22,9 @@ class LoadoutsRoot extends Component {
     return (
       <div>
         <Switch>
+          <Route path={ `${ this.props.match.path }/new/:champion?` } component={ CreateLoadoutContainer } />
           <Route path={ `${ this.props.match.path }/:loadout` } component={ LoadoutContainer } />
           <Route path={ `${ this.props.match.path }/:loadout/edit` } component={ EditLoadoutContainer } />
-          <Route path={ `${ this.props.match.path }/new` } component={ CreateLoadoutContainer } />
           <Route path={ `${ this.props.match.path }` } component={ LoadoutsContainer } />
         </Switch>
       </div>
