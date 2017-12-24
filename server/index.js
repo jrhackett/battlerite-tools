@@ -2,7 +2,10 @@ const express = require('express')
 const morgan = require('morgan')
 const path = require('path')
 const bodyParser = require('body-parser')
-const PORT = process.env.PORT || 8000
+
+require('dotenv').config()
+
+const PORT = process.env.NODE_ENV === 'test' ? process.env.SERVER_TEST_PORT : process.env.SERVER_PORT
 
 const app = express()
 

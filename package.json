@@ -6,6 +6,7 @@
     "chai": "^4.1.2",
     "chai-http": "^3.0.0",
     "chalk": "^2.3.0",
+    "dotenv": "^4.0.0",
     "jest": "^21.2.1",
     "path": "^0.12.7",
     "react-dev-utils": "^4.2.1"
@@ -81,14 +82,14 @@
   "proxy": "http://localhost:8000",
   "jest": {
     "collectCoverageFrom": [
-      "src/**/*.{js,jsx,mjs}"
+      "test/**/*.{js,jsx,mjs}"
     ],
     "setupFiles": [
       "<rootDir>/config/polyfills.js"
     ],
     "testMatch": [
-      "<rootDir>/src/**/__tests__/**/*.{js,jsx,mjs}",
-      "<rootDir>/src/**/?(*.)(spec|test).{js,jsx,mjs}"
+      "<rootDir>/test/**/__tests__/**/*.{js,jsx,mjs}",
+      "<rootDir>/test/**/?(*.)(spec|test).{js,jsx,mjs}"
     ],
     "testEnvironment": "node",
     "testURL": "http://localhost",
