@@ -6,17 +6,20 @@ class Battlerites extends Component {
   }
 
   render() {
-    return (
-      <div>
-        {this.props.battlerites.map(battlerite => (
-          <div key={ battlerite.name }>
-            <div>
-              <p>{ battlerite.name }</p>
+    if(!this.props.isFetching) {
+      return (
+        <div>
+          {this.props.battlerites.map(battlerite => (
+            <div key={ battlerite.name }>
+              <div>
+                <p>{ battlerite.name }</p>
+              </div>
             </div>
-          </div>
-        ))}
-      </div>
-    )
+          ))}
+        </div>
+      )
+    }
+    return null
   }
 }
 

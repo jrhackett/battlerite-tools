@@ -3,7 +3,7 @@ import Battlerites from '../../components/battlerites/Battlerites'
 import { fetchBattlerites } from '../../actions/battlerites'
 
 const mapStateToProps = (state, ownProps) => ({
-  isFetching: state.battlerites.battlerites,
+  isFetching: state.battlerites.isFetching,
   battlerites: state.battlerites.battlerites,
   key: ownProps.activeChampion
 })
@@ -13,7 +13,6 @@ const mapDispatchToProps = (dispatch, ownProps) => ({
     if(ownProps.activeChampion >= 0) {
       dispatch(fetchBattlerites(ownProps.activeChampion))
     }
-    return
   }
 })
 

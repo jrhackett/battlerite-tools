@@ -15,4 +15,6 @@ const mapStateToProps = state => ({
   loadouts: augmentLoadouts(state.loadouts.loadouts, state.champions.champions)
 })
 
+// TODO add load function here to get all battlerites
+
 export default connect(mapStateToProps)(Loadouts)
