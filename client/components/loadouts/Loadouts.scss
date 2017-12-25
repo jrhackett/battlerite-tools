@@ -1,10 +1,7 @@
-@mixin loadoutsContainerMixin {
-  display: flex;
-  justify-content: flex-start;
-  flex-basis: 100%;
-  padding: 0.5rem 0;
-  text-align: left;
+@import '../../styles/flex.scss';
+@import '../../styles/colors.scss';
 
+@mixin loadoutContainerMixin {
   h3, p {
     flex-basis: 10%;
     overflow: hidden;
@@ -13,35 +10,34 @@
 }
 
 .loadoutsContainer {
-  display: flex;
-  width: 100%;
-  margin: 1rem 0;
-  flex-wrap: wrap;
+  @include outerFlexContainer;
+
+  h2, h3 {
+    color: $offWhite;
+  }
 
   h2 {
-    color: #dedede;
     flex-basis: 90%;
     padding-left: 1rem;
   }
 
   h3 {
-    color: #dedede;
-    justify-self: flex-start;
     margin-bottom: 0.5rem;
   }
 }
 
 .loadoutContainer, .tableHeader {
-  @include loadoutsContainerMixin;
-  margin: 0 2rem;
+  @include innerFlexContainer;
+  @include loadoutContainerMixin;
 }
 
 .header {
-  @include loadoutsContainerMixin;
+  @include innerFlexHeader;
+  @include loadoutContainerMixin;
 }
 
 .createLink {
-  color: #dedede;
+  color: $offWhite;
   justify-self: flex-end;
   padding: 0.25rem 0;
 }

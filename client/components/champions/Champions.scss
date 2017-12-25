@@ -1,8 +1,11 @@
+@import '../../styles/flex.scss';
+@import '../../styles/colors.scss';
+
 @mixin championContainerMixin {
   margin: 0.25rem;
   background: transparent;
   flex-basis: calc(8.33% - 1rem);
-  background: #031e2f;
+  background: $darkBlue;
   border-radius: 2px;
   padding-bottom: 0.25rem;
 
@@ -25,15 +28,12 @@
 }
 
 .championsContainer {
-  display: flex;
+  @include outerFlexContainer;
   justify-content: center;
   text-align: center;
-  width: 100%;
-  margin: 1rem 0;
-  flex-wrap: wrap;
 
   h3 {
-    color: #dedede;
+    color: $offWhite;
     flex-basis: 100%;
     margin-bottom: 0.5rem;
   }
