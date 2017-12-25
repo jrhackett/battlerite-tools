@@ -16,7 +16,7 @@ controller.getLoadouts = function(req, res) {
 }
 
 controller.createLoadout = function(req, res) {
-  Loadout.findOrCreate({
+  Loadout.findCreateFind({
       where: {
         name: req.body.name,
         build: req.body.build.sort().join('-'),
