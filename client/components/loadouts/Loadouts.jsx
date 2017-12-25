@@ -14,15 +14,15 @@ const Loadouts = ({ loadouts, match }) => {
         <Link to={ `${ match.path }/new` } className={ styles.createLink }>Create a Loadout</Link>
       </div>
       <div className={ styles.tableHeader }>
-        <h3>Name</h3>
-        <h3>Build</h3>
-        <h3>Champion</h3>
+        <h3 className={ styles.flexTable4 }>Name</h3>
+        <h3 className={ styles.flexTable6 }>Build</h3>
+        <h3 className={ styles.flexTable2 }>Champion</h3>
       </div>
       {loadouts.map(loadout => (
         <div className={ styles.loadoutContainer } key={ `loadout-${ loadout.uuid }` }>
-          <p>{ loadout.name }</p>
-          <p>{ loadout.build.join(', ') }</p>
-          <p>{ loadout.champion_name }</p>
+          <p className={ styles.flexTable4 }>{ loadout.name }</p>
+          <p className={ styles.flexTable6 }>{ loadout.build.join(', ') }</p>
+          <p className={ styles.flexTable2 }>{ loadout.champion_name }</p>
         </div>
       ))}
     </div>

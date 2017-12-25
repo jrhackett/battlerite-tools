@@ -1,14 +1,6 @@
 @import '../../styles/flex.scss';
 @import '../../styles/colors.scss';
 
-@mixin loadoutContainerMixin {
-  h3, p {
-    flex-basis: 10%;
-    overflow: hidden;
-    padding: 0 1rem;
-  }
-}
-
 .loadoutsContainer {
   @include outerFlexContainer;
 
@@ -28,12 +20,12 @@
 
 .loadoutContainer, .tableHeader {
   @include innerFlexContainer;
-  @include loadoutContainerMixin;
+  @include innerFlexTable;
 }
 
 .header {
   @include innerFlexHeader;
-  @include loadoutContainerMixin;
+  @include innerFlexTable;
 }
 
 .createLink {
