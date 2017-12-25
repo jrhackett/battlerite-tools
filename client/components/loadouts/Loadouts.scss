@@ -13,10 +13,18 @@
   }
 }
 
-.loadoutContainer {
+.loadoutContainer, .header {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   flex-basis: 100%;
+  padding: 0.5rem 0;
+  text-align: left;
+
+  h3, p {
+    flex-basis: 10%;
+    overflow: hidden;
+    padding: 0 1rem;
+  }
 }
 
 .createLink {

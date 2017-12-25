@@ -9,11 +9,17 @@ const Loadouts = ({ loadouts, match }) => {
 
   return (
     <div className={ styles.loadoutsContainer }>
-      <h3>Loadouts</h3>
+      <h2>Loadouts</h2>
       <Link to={ `${ match.path }/new` } className={ styles.createLink }>Create a Loadout</Link>
+      <div className={ styles.header }>
+        <h3>Name</h3>
+        <h3>Build</h3>
+        <h3>Champion</h3>
+      </div>
       {loadouts.map(loadout => (
         <div className={ styles.loadoutContainer } key={ `loadout-${ loadout.uuid }` }>
           <p>{ loadout.name }</p>
+          <p>{ loadout.build.join(', ') }</p>
           <p>{ loadout.champion_name }</p>
         </div>
       ))}
