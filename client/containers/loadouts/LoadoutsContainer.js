@@ -1,4 +1,5 @@
 import { connect } from 'react-redux'
+import { fetchLoadouts } from '../../actions/loadouts'
 import Loadouts from '../../components/loadouts/Loadouts'
 
 const augmentLoadouts = (loadouts, champions) => {
@@ -12,9 +13,14 @@ const augmentLoadouts = (loadouts, champions) => {
 }
 
 const mapStateToProps = state => ({
+  isFetching: state.loadouts.isFetching,
   loadouts: augmentLoadouts(state.loadouts.loadouts, state.champions.champions)
 })
 
-// TODO add load function here to get all battlerites
+const mapDispatchToProps = (dispatch, ownProps) => ({
+  load: () => {
+    dispatch(fetchLoadouts())
+  }
+})
 
-export default connect(mapStateToProps)(Loadouts)
+export default connect(mapStateToProps, mapDispatchToProps)(Loadouts)

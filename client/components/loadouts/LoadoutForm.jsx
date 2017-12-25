@@ -6,15 +6,21 @@ class LoadoutForm extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      name: 'test',
+      name: '',
       champion_id: this.props.activeChampion,
       build: []
     }
   }
 
-  handleChange(value, id) {
+  handleSelectedBattleritesChange(value, id) {
     this.setState({
       build: value ? [ ...this.state.build, id ] : this.state.build.filter(i => i !== id)
+    })
+  }
+
+  handleNameChange(value) {
+    this.setState({
+      name: value
     })
   }
 
@@ -24,11 +30,14 @@ class LoadoutForm extends Component {
   }
 
   render() {
+    if(this.props.isFetching)
+      return null
     return (
       <div>
         <h2>Create a Loadout</h2>
         <ChampionsContainer />
-        <BattleritesFormContainer activeChampion={ this.props.activeChampion } onChange={ (value, id) => this.handleChange(value, id) } />
+        <input type="text" onChange={ e => this.handleNameChange(e.target.value) } placeholder="Enter loadout name..." />
+        <BattleritesFormContainer activeChampion={ this.props.activeChampion } onChange={ (value, id) => this.handleSelectedBattleritesChange(value, id) } />
         <a onClick={ () => this.handleFormSubmit() }>Save</a>
       </div>
     )
