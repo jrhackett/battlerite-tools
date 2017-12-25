@@ -1,19 +1,4 @@
-.loadoutsContainer {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  width: 100%;
-  margin: 1rem 0;
-  flex-wrap: wrap;
-
-  h3 {
-    color: #dedede;
-    flex-basis: 50%;
-    margin-bottom: 0.5rem;
-  }
-}
-
-.loadoutContainer, .header {
+@mixin loadoutsContainerMixin {
   display: flex;
   justify-content: flex-start;
   flex-basis: 100%;
@@ -27,7 +12,36 @@
   }
 }
 
+.loadoutsContainer {
+  display: flex;
+  width: 100%;
+  margin: 1rem 0;
+  flex-wrap: wrap;
+
+  h2 {
+    color: #dedede;
+    flex-basis: 90%;
+    padding-left: 1rem;
+  }
+
+  h3 {
+    color: #dedede;
+    justify-self: flex-start;
+    margin-bottom: 0.5rem;
+  }
+}
+
+.loadoutContainer, .tableHeader {
+  @include loadoutsContainerMixin;
+  margin: 0 2rem;
+}
+
+.header {
+  @include loadoutsContainerMixin;
+}
+
 .createLink {
   color: #dedede;
-  flex-basis: 50%;
+  justify-self: flex-end;
+  padding: 0.25rem 0;
 }

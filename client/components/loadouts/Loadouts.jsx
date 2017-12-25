@@ -9,9 +9,11 @@ const Loadouts = ({ loadouts, match }) => {
 
   return (
     <div className={ styles.loadoutsContainer }>
-      <h2>Loadouts</h2>
-      <Link to={ `${ match.path }/new` } className={ styles.createLink }>Create a Loadout</Link>
       <div className={ styles.header }>
+        <h2>Loadouts</h2>
+        <Link to={ `${ match.path }/new` } className={ styles.createLink }>Create a Loadout</Link>
+      </div>
+      <div className={ styles.tableHeader }>
         <h3>Name</h3>
         <h3>Build</h3>
         <h3>Champion</h3>
