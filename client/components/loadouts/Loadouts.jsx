@@ -22,12 +22,14 @@ class Loadouts extends Component {
           <h3 className={ styles.flexTable4 }>Name</h3>
           <h3 className={ styles.flexTable6 }>Build</h3>
           <h3 className={ styles.flexTable2 }>Champion</h3>
+          <div className={ styles.divider }></div>
         </div>
         {this.props.loadouts.map(loadout => (
           <div className={ styles.loadoutContainer } key={ `loadout-${ loadout.uuid }` }>
             <p className={ styles.flexTable4 }>{ loadout.name }</p>
             <p className={ styles.flexTable6 }>{ loadout.build.join(', ') }</p>
             <p className={ styles.flexTable2 }>{ loadout.champion_name }</p>
+            <div className={ styles.divider }></div>
           </div>
         ))}
       </div>
