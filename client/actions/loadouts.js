@@ -23,11 +23,3 @@ export const fetchLoadouts = () => {
       .catch(err => dispatch(errorLoadouts(err)))
   }
 }
-
-export const createLoadout = (formValues) => {
-  return dispacth => {
-    axios.post(`/api/loadouts`, formValues)
-      .then(res => console.log(res))
-      .catch(err => console.log(err))
-  }
-}
