@@ -1579,8 +1579,7 @@ const alysia = [
     key: 'f',
     champion_id: 24,
     version: '1.2.0'
-  },
-
+  }
 ]
 
 const abilities = [
