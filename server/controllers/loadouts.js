@@ -1,11 +1,12 @@
 const Loadout = require('../models/loadout')
 const Battlerite = require('../models/battlerite')
 const uuidv4 = require('uuid/v4')
+const helpers = require('../helpers')
 
 const controller = {}
 
 controller.getLoadouts = function(req, res) {
-  const query = req.query ? { where: req.query } : {}
+  const query = helpers.queryToParams(req.query)
   Loadout.findAll(query)
     .then(result => {
       res.status(200).send(result)
