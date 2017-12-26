@@ -4,16 +4,14 @@ const helpers = {}
 helpers.queryToParams = query => {
   if(!query)
     return {}
-  let params = {}
-  const fields = ['limit', 'offset']
-  fields.forEach(field => {
-    if(query[field]) {
-      params[field] = query[field]
-      delete query[field]
-    }
-  })
-  params['where'] = query
-  return params
+
+  const { offset, limit, ...where } = query
+  
+  return {
+    where: where,
+    offset: offset,
+    limit: limit
+  }
 }
 
 module.exports = helpers
