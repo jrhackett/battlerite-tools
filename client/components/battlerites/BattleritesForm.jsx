@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import styles from './Battlerites.scss'
 
 class BattleritesForm extends Component {
   componentDidMount() {
@@ -12,12 +13,13 @@ class BattleritesForm extends Component {
   render() {
     if(!this.props.isFetching) {
       return (
-        <div>
+        <div className={ styles.battleritesFormContainer }>
           {this.props.battlerites.map(battlerite => (
-            <div key={ battlerite.name }>
+            <div className={ styles.battleriteContainer } key={ battlerite.name }>
               <div>
                 <input type="checkbox" onChange={ e => this.handleCheckboxChange(e.target.checked, battlerite.b_id) } />
                 <p>{ battlerite.name }</p>
+                <p>{ battlerite.description }</p>
               </div>
             </div>
           ))}

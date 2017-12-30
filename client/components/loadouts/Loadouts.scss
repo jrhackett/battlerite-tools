@@ -8,25 +8,30 @@
   background: $darkBlue;
 }
 
-.loadoutsContainer {
-  @include outerFlexContainer;
-
-  h2, h3 {
-    color: $offWhite;
-  }
-
+@mixin loadoutTitleMixin {
   h2 {
-    flex-basis: 10%;
+    color: $offWhite;
+    margin-right: 1rem;
     padding-left: 1rem;
   }
+}
+
+.loadoutsContainer {
+  @include outerFlexContainer;
+  @include loadoutTitleMixin;
 
   h3 {
+    color: $offWhite;
     margin-bottom: 0.5rem;
   }
 
   & > div:last-of-type {
     border-radius: 0 0 2px 2px;
   }
+}
+
+.loadoutsFormContainer {
+  @include loadoutTitleMixin;
 }
 
 .loadoutContainer {
@@ -72,4 +77,14 @@
   border-bottom: 1px solid $lightBlueText;
   flex-basis: calc(100% - 2rem);
   padding-bottom: 1rem;
+}
+
+.nameInput {
+  display: flex;
+  justify-content: center;
+
+  input {
+    flex-basis: 50%;
+    padding: 0.75rem;
+  }
 }
