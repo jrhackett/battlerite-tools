@@ -1,0 +1,22 @@
+@import './colors.scss';
+
+@mixin btnMixin {
+  padding: 0.5rem 1rem;
+  border-radius: 2px;
+  margin-right: 0.5rem;
+  text-decoration: none;
+}
+
+.btn.primary {
+  @include btnMixin;
+
+  background: $orange;
+  color: $actuallyWhite;
+}
+
+.btn.default {
+  @include btnMixin;
+
+  background: $offWhite;
+  color: $offBlack;
+}
