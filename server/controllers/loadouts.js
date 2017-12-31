@@ -20,7 +20,7 @@ controller.createLoadout = function(req, res) {
   Loadout.findCreateFind({
       where: {
         name: req.body.name,
-        build: req.body.build.sort().join('-'),
+        build: req.body.build.sort((a, b) => a - b).join('-'),
         champion_id: req.body.champion_id
       }
     })
