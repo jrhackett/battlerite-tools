@@ -77,12 +77,14 @@
     "start": "concurrently \"node scripts/start.js\" \"BABEL_ENV='development' nodemon server/server --exec babel-node\"",
     "build": "node scripts/build.js",
     "test": "jest",
+    "coverage": "jest --coverage",
     "seed": "node db/seed.js"
   },
   "proxy": "http://localhost:8000",
   "jest": {
     "collectCoverageFrom": [
-      "test/**/*.{js,jsx,mjs}"
+      "server/**/*.{js}",
+      "client/**/*.{js,jsx}"
     ],
     "setupFiles": [
       "<rootDir>/config/polyfills.js"
