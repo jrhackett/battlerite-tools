@@ -14,6 +14,7 @@ class BattleritesForm extends Component {
     if(!this.props.isFetching) {
       return (
         <div className={ styles.battleritesFormContainer }>
+          <h3>Choose Battlerites</h3>
           {this.props.battlerites.map(battlerite => (
             <div className={ styles.battleriteContainer } key={ battlerite.name }>
               <div>

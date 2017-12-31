@@ -4,10 +4,11 @@
 @mixin championContainerMixin {
   margin: 0.25rem;
   background: transparent;
-  flex-basis: calc(8.33% - 1rem);
+  flex-basis: calc(8.33% - 0.5rem);
   background: $darkBlue;
   border-radius: 2px;
   padding-bottom: 0.25rem;
+  text-align: center;
 
   a {
     text-decoration: none;
@@ -29,13 +30,13 @@
 
 .championsContainer {
   @include outerFlexContainer;
-  justify-content: center;
-  text-align: center;
+  margin: 0.5rem 3.75rem;
 
   h3 {
     color: $offWhite;
     flex-basis: 100%;
     margin-bottom: 0.5rem;
+    margin-left: 0.25rem;
   }
 }
 

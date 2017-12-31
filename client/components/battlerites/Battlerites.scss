@@ -4,20 +4,27 @@
 .battleritesFormContainer {
   @include outerFlexContainer;
 
-  margin: 1rem 2rem;
+  margin: 1rem 3.75rem;
+
+  h3 {
+    color: $offWhite;
+    flex-basis: 100%;
+    margin-bottom: 0.5rem;
+    margin-left: 0.25rem;
+  }
 }
 
 .battleriteContainer {
   @include innerFlexHeader;
   @include innerFlexTable;
 
-  flex-basis: calc(25% - 2rem);
-  padding: 1rem;
+  flex-basis: calc(25% - 0.5rem);
+  padding: 0.25rem;
 
   & > div {
     background-color: $darkBlue;
     border-radius: 2px;
     width: 100%;
-    padding: 1rem; 
+    padding: 0.5rem; 
   }
 }
