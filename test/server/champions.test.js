@@ -8,11 +8,11 @@ process.env.NODE_ENV = 'test'
 
 chai.use(chaiHttp)
 
-describe('GET /api/battlerites', () => {
+describe('GET /api/champions', () => {
 
-  it('can get all battlerites', (done) => {
+  it('can get all champions', (done) => {
     chai.request(app)
-      .get('/api/battlerites')
+      .get('/api/champions')
       .end( (err, res) => {
         expect(res).to.have.status(200)
         expect(res.body).to.be.a('array')
@@ -21,14 +21,14 @@ describe('GET /api/battlerites', () => {
       })
   })
 
-  it('can query based on champion_id', (done) => {
+  it('can query based on id', (done) => {
     chai.request(app)
-      .get('/api/battlerites?champion_id=1')
+      .get('/api/champions?id=1')
       .end( (err, res) => {
         expect(res).to.have.status(200)
         expect(res.body).to.be.a('array')
-        res.body.map(battlerite => {
-          expect(battlerite.champion_id).to.equal(1)
+        res.body.map(champion => {
+          expect(champion.id).to.equal(1)
         })
         done()
       })

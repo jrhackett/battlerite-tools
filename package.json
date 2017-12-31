@@ -74,7 +74,7 @@
     "yargs": "^10.0.3"
   },
   "scripts": {
-    "start": "concurrently \"node scripts/start.js\" \"BABEL_ENV='development' nodemon server --exec babel-node\"",
+    "start": "concurrently \"node scripts/start.js\" \"BABEL_ENV='development' nodemon server/server --exec babel-node\"",
     "build": "node scripts/build.js",
     "test": "jest",
     "seed": "node db/seed.js"
