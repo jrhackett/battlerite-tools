@@ -15,7 +15,7 @@ process.env.NODE_ENV = 'test'
 
 describe('champions reducer', () => {
 
-  it('REQUEST_CHAMPIONS with initialState', (done) => {
+  it('REQUEST_CHAMPIONS with initialState', done => {
     const payload = {
       type: actionTypes.REQUEST_CHAMPIONS
     }

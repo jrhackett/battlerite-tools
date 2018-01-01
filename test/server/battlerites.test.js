@@ -10,10 +10,10 @@ chai.use(chaiHttp)
 
 describe('GET /api/battlerites', () => {
 
-  it('can get all battlerites', (done) => {
+  it('can get all battlerites', done => {
     chai.request(app)
       .get('/api/battlerites')
-      .end( (err, res) => {
+      .end((err, res) => {
         expect(res).to.have.status(200)
         expect(res.body).to.be.a('array')
         // TODO test res.body here
@@ -21,10 +21,10 @@ describe('GET /api/battlerites', () => {
       })
   })
 
-  it('can query based on champion_id', (done) => {
+  it('can query based on champion_id', done => {
     chai.request(app)
       .get('/api/battlerites?champion_id=1')
-      .end( (err, res) => {
+      .end((err, res) => {
         expect(res).to.have.status(200)
         expect(res.body).to.be.a('array')
         res.body.map(battlerite => {

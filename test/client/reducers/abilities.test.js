@@ -16,7 +16,7 @@ process.env.NODE_ENV = 'test'
 
 describe('abilities reducer', () => {
 
-  it('REQUEST_ABILITIES with initialState', (done) => {
+  it('REQUEST_ABILITIES with initialState', done => {
     const payload = {
       type: actionTypes.REQUEST_ABILITIES
     }

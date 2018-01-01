@@ -15,7 +15,7 @@ process.env.NODE_ENV = 'test'
 
 describe('battlerites reducer', () => {
 
-  it('REQUEST_BATTLERITES with initialState', (done) => {
+  it('REQUEST_BATTLERITES with initialState', done => {
     const payload = {
       type: actionTypes.REQUEST_BATTLERITES
     }

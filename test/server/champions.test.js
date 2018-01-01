@@ -10,10 +10,10 @@ chai.use(chaiHttp)
 
 describe('GET /api/champions', () => {
 
-  it('can get all champions', (done) => {
+  it('can get all champions', done => {
     chai.request(app)
       .get('/api/champions')
-      .end( (err, res) => {
+      .end((err, res) => {
         expect(res).to.have.status(200)
         expect(res.body).to.be.a('array')
         // TODO test res.body here
@@ -21,10 +21,10 @@ describe('GET /api/champions', () => {
       })
   })
 
-  it('can query based on id', (done) => {
+  it('can query based on id', done => {
     chai.request(app)
       .get('/api/champions?id=1')
-      .end( (err, res) => {
+      .end((err, res) => {
         expect(res).to.have.status(200)
         expect(res.body).to.be.a('array')
         res.body.map(champion => {

@@ -15,7 +15,7 @@ process.env.NODE_ENV = 'test'
 
 describe('loadouts reducer', () => {
 
-  it('REQUEST_LOADOUTS with initialState', (done) => {
+  it('REQUEST_LOADOUTS with initialState', done => {
     const payload = {
       type: actionTypes.REQUEST_LOADOUTS
     }
