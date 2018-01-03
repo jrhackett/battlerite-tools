@@ -44,6 +44,46 @@ describe('POST /api/loadouts', () => {
 
 })
 
+describe('PUT /api/loadouts', () => {
+
+  it('can update a simple loadout\'s name', done => {
+    createLoadout(testLoadout, (createErr, createRes) => {
+      chai.request(app)
+        .put('/api/loadouts')
+        .send({ name: 'random new name' })
+        .end((putErr, putRes) => {
+          expect(putRes).to.have.status(200)
+        })
+        done()
+    })
+  })
+
+  it('can update a simple loadout\'s build', done => {
+    createLoadout(testLoadout, (createErr, createRes) => {
+      chai.request(app)
+        .put('/api/loadouts')
+        .send({ build: [2, 3, 4, 5, 6] })
+        .end((putErr, putRes) => {
+          expect(putRes).to.have.status(200)
+        })
+        done()
+    })
+  })
+
+  it('can update a simple loadout\'s champion_id', done => {
+    createLoadout(testLoadout, (createErr, createRes) => {
+      chai.request(app)
+        .put('/api/loadouts')
+        .send({ champion_id: 2 })
+        .end((putErr, putRes) => {
+          expect(putRes).to.have.status(200)
+        })
+        done()
+    })
+  })
+
+})
+
 describe('DELETE /api/loadouts', () => {
 
   it('can create and then delete a simple loadout', done => {

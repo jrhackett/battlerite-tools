@@ -33,9 +33,11 @@ controller.createLoadout = function(req, res) {
 }
 
 controller.updateLoadout = function(req, res) {
-  // TODO filter out values in req.body that shouldn't be there, especially uuid
-  // might want to move this logic into the model
-  Loadout.update(req.body, { where: { uuid: req.body.uuid } })
+  const { uuid, fieldsToReplace } = req.body
+  let update = { ...fieldsToReplace }
+  if('build' in update)
+    update = { ...update, build: update.build.sort((a, b) => a - b).join('-') }
+  Loadout.update(update, { where: { uuid: req.body.uuid } })
     .then(result => {
       res.status(200).send(result)
     })
